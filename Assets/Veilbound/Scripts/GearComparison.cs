@@ -4,7 +4,7 @@ namespace Veilbound {
   public float armour,mass,damage,interval;public float Dps=>interval>0?damage/interval:0;
   public static GearItemMetrics From(CraftedGear item){
    if(item==null)return new GearItemMetrics();
-   if(item.slot==9)return new GearItemMetrics{damage=WeaponRules.Damage(item.item),interval=WeaponRules.Interval(item.item),mass=item.item<0?1.8f:4.5f*Metals.All[WeaponRules.Material(item.item)].weight};
+   if(item.slot==9){var weapon=WeaponCatalog.ResolveLegacy(item.item);return new GearItemMetrics{damage=weapon.Damage,interval=weapon.AttackInterval,mass=weapon.Weight};}
    var definition=item.ArmourDefinition;return new GearItemMetrics{armour=definition?.Armour??0,mass=definition?.Weight??0};
   }
  }

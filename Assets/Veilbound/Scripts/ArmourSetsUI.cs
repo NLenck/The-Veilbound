@@ -4,12 +4,12 @@ namespace Veilbound
 {
     public partial class VeilGame
     {
-        static int EquipmentTier(CraftedGear item) => item.slot == 9 ? WeaponRules.Material(item.item) + 1 : item.ArmourDefinition?.Tier ?? 0;
-        static string EquipmentTypeLabel(CraftedGear item) => item.slot == 9 ? item.rarity.ToString() : ArmourSetBonuses.Name(item.ArmourDefinition?.Type ?? ArmourType.None);
+        static int EquipmentTier(CraftedGear item) => item.slot == 9 ? item.WeaponDefinition?.Tier ?? 0 : item.ArmourDefinition?.Tier ?? 0;
+        static string EquipmentTypeLabel(CraftedGear item) => item.slot == 9 ? item.WeaponDefinition.Grade.ToString() : ArmourSetBonuses.Name(item.ArmourDefinition?.Type ?? ArmourType.None);
 
         Color EquipmentColour(CraftedGear item)
         {
-            if (item.slot == 9) return Rarities.Colour(item.rarity);
+            if (item.slot == 9) return Rarities.Colour(item.WeaponDefinition.Grade);
             var definition = item.ArmourDefinition;
             if (definition?.Type == ArmourType.Heavy) return SmithTint(Metals.Index(item.item));
             return definition?.Type == ArmourType.Leather ? new Color(.72f, .48f, .28f) : new Color(.55f, .72f, .79f);

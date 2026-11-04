@@ -1,0 +1,11 @@
+{
+    "passed": true,
+    "profiles": 12,
+    "damageChecks": 96,
+    "cooldownChecks": 108,
+    "timerChecks": 36,
+    "rageRegression": true,
+    "kitRegression": true,
+    "resourceRegression": true,
+    "saveRoundtrip": true
+}

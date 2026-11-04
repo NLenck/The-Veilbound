@@ -50,7 +50,7 @@ Nine independent slots: **helm, shoulders, chest, gloves, belt, bracers, legs, b
 
 Armour is separate geometry over the connected skinned body: hollow chest shells, shoulder plates, cuffs, gloves, leg guards and boots. It follows the skeleton instead of replacing the body's colour. Each piece provides armour and weight. Four/eight pieces of one type activate cumulative set bonuses: heavy regeneration/health, leather movement/attack speed, and cloth area/XP. Set bonuses are separate from the Mystic’s one enchantment slot at level 1 and two at level 2. Armour has no rarity. See [Equipment model and armour sets](Docs/EquipmentArchitecture.md). Cloth colour applies to cloth equipment.
 
-The greatsword remains a separate weapon slot. Reaping Circle and Oathblades use its equipped model. There are four automatic ability slots, including cleave, plus passives. Runs provide three rerolls, two banishes and one lock.
+The greatsword remains a separate weapon slot. Shared weapon definitions now supply combat stats, weight, recipes and visual references; owned copies keep independent enchantments. See [Weapon architecture](Docs/WeaponArchitecture.md). Reaping Circle and Oathblades use its equipped model. There are four automatic ability slots, including cleave, plus passives. Runs provide three rerolls, two banishes and one lock.
 
 ## Enemies
 

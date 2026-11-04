@@ -13,5 +13,6 @@ namespace Veilbound
         public GearAffix[] affixes;
 
         public ArmourDefinition ArmourDefinition => ArmourCatalog.Find(slot, item);
+        public WeaponDefinition WeaponDefinition => slot == 9 ? WeaponCatalog.Find(item) : null;
     }
 }

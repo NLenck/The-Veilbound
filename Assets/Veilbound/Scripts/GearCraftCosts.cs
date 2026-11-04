@@ -16,9 +16,6 @@ namespace Veilbound {
    if(material==2)return new[]{new ResourceCost(4,fabric,main),new ResourceCost(5,fabric,lining),new ResourceCost(3,FittingMetal(tier),fittings)};
    return new[]{new ResourceCost(5,fabric,main),new ResourceCost(4,fabric,lining),new ResourceCost(3,FittingMetal(tier),fittings)};
   }
-  public static ResourceCost[] Weapon(int metal){
-   int tier=WeaponRules.Material(metal)+1,grip=Metals.GripGrade(WeaponRules.Material(metal)),lining=Lining(9,tier);
-   return new[]{new ResourceCost(3,metal,Main(9,3,tier)),new ResourceCost(4,grip,lining),new ResourceCost(5,grip,lining)};
-  }
+  public static ResourceCost[] Weapon(int metal)=>WeaponCatalog.ResolveLegacy(metal).Recipe?.CopyResources()??Array.Empty<ResourceCost>();
  }
 }

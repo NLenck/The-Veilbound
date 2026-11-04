@@ -11,7 +11,22 @@ namespace Veilbound {
   }
  }
  public static class StarterEquipment {
-  public static Transform CreateEquippedSword(Transform parent,Settlement city){if(city.IsWoodenSword)return CreateSword(parent);var library=Resources.Load<Veilbound.Greatswords.GreatswordVisualLibrary>("WeaponVisuals/GreatswordLibrary");if(library){var visual=library.CreateVisual(parent,city.WeaponItemIndex);if(visual){visual.name=city.WeaponName;return visual;}}var fallback=RoundedArt.Greatsword(parent,city.equippedSword);MetalAppearance.Apply(fallback,city.WeaponMetalIndex);return fallback;}
-  public static Transform CreateSword(Transform parent){var prefab=Resources.Load<GameObject>("StarterEquipment/WoodenGreatsword");if(!prefab)throw new InvalidOperationException("Missing wooden starter sword prefab");return UnityEngine.Object.Instantiate(prefab,parent,false).transform;}
+  public static Transform CreateEquippedSword(Transform parent,Settlement city)
+  {
+   var weapon=city.EquippedWeaponDefinition;
+   if(weapon.PrefabResource!=null)return CreateWeaponPrefab(parent,weapon);
+   var library=Resources.Load<Veilbound.Greatswords.GreatswordVisualLibrary>(weapon.VisualLibraryResource);
+   if(library){var visual=library.CreateVisual(parent,weapon.VisualId);if(visual){visual.name=weapon.Name;return visual;}}
+   var fallback=RoundedArt.Greatsword(parent,city.equippedSword);
+   MetalAppearance.Apply(fallback,weapon.MaterialIndex);
+   return fallback;
+  }
+  public static Transform CreateSword(Transform parent)=>CreateWeaponPrefab(parent,WeaponCatalog.Find(-1));
+  static Transform CreateWeaponPrefab(Transform parent,WeaponDefinition weapon)
+  {
+   var prefab=Resources.Load<GameObject>(weapon.PrefabResource);
+   if(!prefab)throw new InvalidOperationException("Missing weapon prefab: "+weapon.Name);
+   return UnityEngine.Object.Instantiate(prefab,parent,false).transform;
+  }
  }
 }

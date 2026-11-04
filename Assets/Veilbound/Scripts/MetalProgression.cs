@@ -48,8 +48,9 @@ namespace Veilbound {
   public int WeaponMetalIndex {get{EnsureGear();return equippedMetalWeapon>=0&&equippedMetalWeapon<WeaponRules.Count?WeaponRules.Material(equippedMetalWeapon):equippedSword>=2?5:equippedSword==1?4:0;}}
   public bool IsWoodenSword=>equippedMetalWeapon==-2;
   public int WeaponItemIndex=>IsWoodenSword?-1:equippedMetalWeapon>=0&&equippedMetalWeapon<WeaponRules.Count?equippedMetalWeapon:WeaponMetalIndex;
-  public float WeaponDamage=>WeaponRules.Damage(WeaponItemIndex);
-  public string WeaponName=>WeaponRules.Name(WeaponItemIndex);
+  public WeaponDefinition EquippedWeaponDefinition=>WeaponCatalog.ResolveLegacy(WeaponItemIndex);
+  public float WeaponDamage=>EquippedWeaponDefinition.Damage;
+  public string WeaponName=>EquippedWeaponDefinition.Name;
   public float EquipmentArmour=>Loadout.Armour;
   public float EquipmentMass=>Loadout.Weight;
   public ResourceCost[] BarRecipe(int metal) {
@@ -60,7 +61,7 @@ namespace Veilbound {
     case 8:return new[]{new ResourceCost(0,6,2),new ResourceCost(0,4,2)};case 9:return new[]{new ResourceCost(0,7,2),new ResourceCost(3,7,1),new ResourceCost(0,4,2)};default:return new[]{new ResourceCost(0,7,2),new ResourceCost(3,8,1),new ResourceCost(0,4,2)};}
   }
   public ResourceCost[] PlateRecipe(int slot,int metal)=>ArmourCatalog.Find(slot,Metals.Item(metal)).Recipe.CopyResources();
-  public ResourceCost[] WeaponRecipe(int metal)=>GearCraftCosts.Weapon(metal);
+  public ResourceCost[] WeaponRecipe(int metal)=>WeaponCatalog.ResolveLegacy(metal).Recipe?.CopyResources()??Array.Empty<ResourceCost>();
   public bool PayRecipe(ResourceCost[] costs,int count,out string message) {
    EnsureIndustry();EnsureGear();if(count<1){message="Invalid batch size.";return false;}
    foreach(var c in costs)if(ResourceAmount(c.family,c.index)+1e-9<c.amount*count){message="Requires "+RecipeText(costs,count)+".";return false;}
