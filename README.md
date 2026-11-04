@@ -2,6 +2,10 @@
 
 Launch `Builds/Integrated/TheVeilbound.exe`, keeping its data folder and DLLs beside it. To edit, add this project to Unity Hub with **Unity 6000.3.9f1**, open `Assets/Veilbound/Scenes/HollowCourt.unity`, and press Play.
 
+## Code documentation
+
+Start with the [developer code guide](Docs/Code/README.md) for the architecture overview, class explainers, worked usage examples, development tasks and a complete linked C# source index.
+
 ## Folder guide
 
 - `Builds/Integrated`: the current playable Windows game. Launch `TheVeilbound.exe` here.
