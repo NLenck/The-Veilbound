@@ -1,0 +1,11 @@
+{
+  "paid_api_calls": 0,
+  "credits_spent": 0,
+  "original_production_assets_preserved": true,
+  "previous_build_preserved": true,
+  "player_models": 2,
+  "armour_appearances": 20,
+  "enemy_models": 21,
+  "build": "C:\\The Veilbound\\Builds\\Integrated\\TheVeilbound.exe",
+  "build_sha256": "c7e054edf3cd28b374e29139288d6d3cb0077a75f677ebd0dea5ebdd91c53607"
+}

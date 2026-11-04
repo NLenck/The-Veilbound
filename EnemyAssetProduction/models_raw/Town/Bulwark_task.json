@@ -1,0 +1,17 @@
+{
+  "task_id": "8a3696cd-b938-4e6e-b261-1ab40a7bd906",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Bulwark_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 6500
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Bulwark.glb",
+  "model_sha256": "7eecea320307c8eff1e1f37fad1b020140905ab117d14674f380a8ee22a63ed1",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Bulwark_hero.png"
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "tier": "Tin",
+    "item_id": 100,
+    "mesh_family": "Tin",
+    "male_prefab": "Tin_Male_Master",
+    "female_prefab": "Tin_Female_Master",
+    "metal_color": [
+      0.52,
+      0.58,
+      0.63
+    ],
+    "cape_color": "#48505B",
+    "belt_cloth_color": "#6C727A",
+    "cloth_description": "slate and ash"
+  },
+  {
+    "tier": "Copper",
+    "item_id": 101,
+    "mesh_family": "Copper",
+    "male_prefab": "Copper_Male_Master",
+    "female_prefab": "Copper_Female_Master",
+    "metal_color": [
+      0.58,
+      0.23,
+      0.1
+    ],
+    "cape_color": "#244D4A",
+    "belt_cloth_color": "#3C6A60",
+    "cloth_description": "deep teal and sea green"
+  },
+  {
+    "tier": "Bronze",
+    "item_id": 102,
+    "mesh_family": "Copper",
+    "male_prefab": "Bronze_Male_Master",
+    "female_prefab": "Bronze_Female_Master",
+    "metal_color": [
+      0.33,
+      0.19,
+      0.075
+    ],
+    "cape_color": "#61362C",
+    "belt_cloth_color": "#89543A",
+    "cloth_description": "rust and burnt sienna"
+  },
+  {
+    "tier": "Brass",
+    "item_id": 103,
+    "mesh_family": "Copper",
+    "male_prefab": "Brass_Male_Master",
+    "female_prefab": "Brass_Female_Master",
+    "metal_color": [
+      0.65,
+      0.49,
+      0.16
+    ],
+    "cape_color": "#4D305F",
+    "belt_cloth_color": "#79547D",
+    "cloth_description": "plum and muted violet"
+  },
+  {
+    "tier": "Iron",
+    "item_id": 104,
+    "mesh_family": "Tin",
+    "male_prefab": "Iron_Male_Master",
+    "female_prefab": "Iron_Female_Master",
+    "metal_color": [
+      0.24,
+      0.28,
+      0.29
+    ],
+    "cape_color": "#344338",
+    "belt_cloth_color": "#66704D",
+    "cloth_description": "forest and olive"
+  },
+  {
+    "tier": "Steel",
+    "item_id": 105,
+    "mesh_family": "Tin",
+    "male_prefab": "Steel_Male_Master",
+    "female_prefab": "Steel_Female_Master",
+    "metal_color": [
+      0.44,
+      0.49,
+      0.54
+    ],
+    "cape_color": "#263C64",
+    "belt_cloth_color": "#526C8A",
+    "cloth_description": "navy and blue grey"
+  },
+  {
+    "tier": "HardenedSteel",
+    "item_id": 106,
+    "mesh_family": "Tin",
+    "male_prefab": "HardenedSteel_Male_Master",
+    "female_prefab": "HardenedSteel_Female_Master",
+    "metal_color": [
+      0.15,
+      0.19,
+      0.23
+    ],
+    "cape_color": "#512330",
+    "belt_cloth_color": "#813B46",
+    "cloth_description": "oxblood and wine"
+  },
+  {
+    "tier": "Tungsten",
+    "item_id": 108,
+    "mesh_family": "Tin",
+    "male_prefab": "Tungsten_Male_Master",
+    "female_prefab": "Tungsten_Female_Master",
+    "metal_color": [
+      0.24,
+      0.23,
+      0.27
+    ],
+    "cape_color": "#29282E",
+    "belt_cloth_color": "#5A5358",
+    "cloth_description": "charcoal and stone"
+  },
+  {
+    "tier": "Titanium",
+    "item_id": 107,
+    "mesh_family": "Copper",
+    "male_prefab": "Titanium_Male_Master",
+    "female_prefab": "Titanium_Female_Master",
+    "metal_color": [
+      0.61,
+      0.66,
+      0.72
+    ],
+    "cape_color": "#C9C4AE",
+    "belt_cloth_color": "#344D88",
+    "cloth_description": "ivory and royal blue"
+  },
+  {
+    "tier": "Veilcrystal",
+    "item_id": 109,
+    "mesh_family": "Copper",
+    "male_prefab": "Veilcrystal_Male_Master",
+    "female_prefab": "Veilcrystal_Female_Master",
+    "metal_color": [
+      0.5,
+      0.035,
+      0.055
+    ],
+    "cape_color": "#1B171D",
+    "belt_cloth_color": "#1B171D",
+    "cloth_description": "black cape and black belt cloth"
+  }
+]

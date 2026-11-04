@@ -1,0 +1,1 @@
+PASS: two 52-bone players; saved appearances; twenty armour palettes; nine mixed/removable slots; restored bodies; two-hand grips; locomotion and gesture skinning; all 21 enemy meshes and local rigs; Town/Shrine biome spawns and bosses; combat/death; equipment thumbnails; 110-enemy crowd sample.

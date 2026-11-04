@@ -1,0 +1,45 @@
+{
+    "passed": true,
+    "checks": [
+        {
+            "variant": "Male",
+            "tier": "Tin",
+            "slots": 9,
+            "triangles": 7430,
+            "bones": 52,
+            "finite": true,
+            "independentToggle": true,
+            "maxMotion": 0.8724274635314941
+        },
+        {
+            "variant": "Male",
+            "tier": "Copper",
+            "slots": 9,
+            "triangles": 6588,
+            "bones": 52,
+            "finite": true,
+            "independentToggle": true,
+            "maxMotion": 0.8724232316017151
+        },
+        {
+            "variant": "Female",
+            "tier": "Tin",
+            "slots": 9,
+            "triangles": 7430,
+            "bones": 52,
+            "finite": true,
+            "independentToggle": true,
+            "maxMotion": 0.872486412525177
+        },
+        {
+            "variant": "Female",
+            "tier": "Copper",
+            "slots": 9,
+            "triangles": 6588,
+            "bones": 52,
+            "finite": true,
+            "independentToggle": true,
+            "maxMotion": 0.8724826574325562
+        }
+    ]
+}

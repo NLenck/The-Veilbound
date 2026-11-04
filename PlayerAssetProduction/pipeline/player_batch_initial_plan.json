@@ -1,0 +1,34 @@
+{
+  "initial_balance": 450,
+  "hard_credit_cap": 210,
+  "automatic_retries": 0,
+  "max_generation_attempts": 2,
+  "source_sha256": "1d2c6928a90623b9ee1c072532f9af8a176f9ff01df6ad7f946765259be1317b",
+  "generation_model": "v3.1-20260211",
+  "rig_model": "v2.5-20260210",
+  "stages": {
+    "Generation": 50,
+    "Rig": 25,
+    "Animation": 30
+  },
+  "variants": [
+    {
+      "name": "Male",
+      "target_triangles": 20000,
+      "height_m": 1.85
+    },
+    {
+      "name": "Female",
+      "target_triangles": 20000,
+      "height_m": 1.73
+    }
+  ],
+  "animation_presets": [
+    "preset:idle",
+    "preset:walk",
+    "preset:run"
+  ],
+  "animation_in_place": true,
+  "rig_spec": "mixamo",
+  "live_unity_project_modified": false
+}

@@ -1,0 +1,17 @@
+{
+  "task_id": "b8d06921-d510-4885-a7b7-d38649f19409",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Ritual_Orb_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 4500
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Ritual_Orb.glb",
+  "model_sha256": "0099c8ef4fc39a9f5be113fb21d04f3e3c5687ba4177f2fa6406cb17b338c803",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Ritual_Orb_hero.png"
+}

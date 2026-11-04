@@ -1,0 +1,19 @@
+{
+  "task_id": "1180b5b1-e844-4e19-a885-f3cca43f93aa",
+  "type": "image_to_model",
+  "status": "success",
+  "created_at": "2026-10-27T05:38:48.692080Z",
+  "completed_at": "2026-10-27T05:39:33.676796Z",
+  "credits_consumed": 50,
+  "input": {
+    "pbr": false,
+    "texture": true,
+    "export_uv": true,
+    "face_limit": 3000,
+    "model_version": "P1-20260311",
+    "enable_image_autofix": false
+  },
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Forest\\Wolf_hero.png",
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Forest\\Wolf.glb",
+  "model_sha256": "952c083c59b9176804b06d0b57ae6039ee6fa3c036a324144b75d3025c2ea6e8"
+}

@@ -1,0 +1,263 @@
+{
+  "variant": "Female",
+  "original_triangles": 26975,
+  "final_triangles": 27084,
+  "target_triangles": 20000,
+  "nominal_target_exceeded": true,
+  "preserved_source_detail": true,
+  "height_m": 1.73,
+  "bone_count": 52,
+  "bone_mapping": {
+    "tripo::Root": "Root",
+    "tripo::Spine_0": "Hips",
+    "tripo::Spine_1": "Spine",
+    "tripo::Head_0": "Spine1",
+    "tripo::Head_1": "Neck",
+    "tripo::Head_2": "Head",
+    "bone_6": "LeftShoulder",
+    "tripo::0_Right_Limb_0": "LeftArm",
+    "tripo::0_Right_Limb_1": "LeftForeArm",
+    "tripo::0_Right_Limb_2": "LeftHand",
+    "tripo::0_Right_Limb_3": "LeftHandThumb1",
+    "tripo::0_Right_Limb_4": "LeftHandThumb2",
+    "tripo::0_Right_Limb_5": "LeftHandThumb3",
+    "bone_13": "LeftHandIndex1",
+    "bone_14": "LeftHandIndex2",
+    "bone_15": "LeftHandIndex3",
+    "bone_16": "LeftHandMiddle1",
+    "bone_17": "LeftHandMiddle2",
+    "bone_18": "LeftHandMiddle3",
+    "bone_19": "LeftHandRing1",
+    "bone_20": "LeftHandRing2",
+    "bone_21": "LeftHandRing3",
+    "bone_22": "LeftHandPinky1",
+    "bone_23": "LeftHandPinky2",
+    "bone_24": "LeftHandPinky3",
+    "tripo::1_Right_Limb_0": "LeftUpLeg",
+    "tripo::1_Right_Limb_1": "LeftLeg",
+    "tripo::1_Right_Limb_2": "LeftFoot",
+    "tripo::1_Right_Limb_3": "LeftToeBase",
+    "tripo::0_Left_Limb_0": "RightShoulder",
+    "tripo::0_Left_Limb_1": "RightArm",
+    "tripo::0_Left_Limb_2": "RightForeArm",
+    "tripo::0_Left_Limb_3": "RightHand",
+    "tripo::0_Left_Limb_4": "RightHandThumb1",
+    "tripo::0_Left_Limb_5": "RightHandThumb2",
+    "tripo::0_Left_Limb_6": "RightHandThumb3",
+    "bone_32": "RightHandIndex1",
+    "bone_33": "RightHandIndex2",
+    "bone_34": "RightHandIndex3",
+    "bone_35": "RightHandMiddle1",
+    "bone_36": "RightHandMiddle2",
+    "bone_37": "RightHandMiddle3",
+    "bone_38": "RightHandRing1",
+    "bone_39": "RightHandRing2",
+    "bone_40": "RightHandRing3",
+    "bone_41": "RightHandPinky1",
+    "bone_42": "RightHandPinky2",
+    "bone_43": "RightHandPinky3",
+    "tripo::1_Left_Limb_0": "RightUpLeg",
+    "tripo::1_Left_Limb_1": "RightLeg",
+    "tripo::1_Left_Limb_2": "RightFoot",
+    "tripo::1_Left_Limb_3": "RightToeBase"
+  },
+  "removed_unmaterialed_helpers": [
+    "Icosphere"
+  ],
+  "reparented_upper_legs_to_hips": true,
+  "unweighted_vertices": 0,
+  "bad_weight_sums": 0,
+  "materials": [
+    "tripo_material_a29ef39f-0dc2-473c-89d1-b13f758c3e17",
+    "Veil_Fissure_Emission",
+    "Socket_Pupil_Emission"
+  ],
+  "textures": [
+    {
+      "path": "C:\\The Veilbound\\PlayerAssetProduction\\models_unity\\Female\\textures\\Female_BaseColor.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "role": "BaseColor"
+    },
+    {
+      "path": "C:\\The Veilbound\\PlayerAssetProduction\\models_unity\\Female\\textures\\Female_Normal.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "role": "Normal"
+    },
+    {
+      "path": "C:\\The Veilbound\\PlayerAssetProduction\\models_unity\\Female\\textures\\Female_ORM.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "role": "ORM"
+    },
+    {
+      "path": "C:\\The Veilbound\\PlayerAssetProduction\\models_unity\\Female\\textures\\Female_MetallicSmoothness.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "role": "MetallicSmoothness"
+    },
+    {
+      "path": "C:\\The Veilbound\\PlayerAssetProduction\\models_unity\\Female\\textures\\Female_Occlusion.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "role": "Occlusion"
+    }
+  ],
+  "local_veil_iris_positions": [
+    [
+      0.04338042438030243,
+      -0.00603428715839982,
+      0.390999972820282
+    ],
+    [
+      0.043040916323661804,
+      0.03198457881808281,
+      0.3909999430179596
+    ]
+  ],
+  "local_veil_fissure_segments": 8,
+  "animations": {
+    "Idle": {
+      "frames": 91,
+      "duration_seconds": 3.0,
+      "authored_locally": true,
+      "in_place": true,
+      "intended_speed_mps": 0,
+      "ankle_height_range_armature_units": [
+        -0.4309854805469513,
+        -0.4303775429725647
+      ]
+    },
+    "Walk": {
+      "frames": 28,
+      "duration_seconds": 0.9,
+      "authored_locally": true,
+      "in_place": true,
+      "intended_speed_mps": 1.2,
+      "ankle_height_range_armature_units": [
+        -0.43408453464508057,
+        -0.373113214969635
+      ]
+    },
+    "Run": {
+      "frames": 20,
+      "duration_seconds": 0.6333333333333333,
+      "authored_locally": true,
+      "in_place": true,
+      "intended_speed_mps": 3.6,
+      "ankle_height_range_armature_units": [
+        -0.4351899027824402,
+        -0.3039531111717224
+      ]
+    }
+  },
+  "motion_frames": {
+    "Walk": {
+      "paths": [
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\000.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\001.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\002.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\003.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\004.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\005.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\006.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\007.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\008.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\009.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\010.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\011.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\012.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\013.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\014.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\015.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\016.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Walk_frames\\017.png"
+      ],
+      "duration_seconds": 0.9,
+      "frame_duration_ms": 50.0
+    },
+    "Run": {
+      "paths": [
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Run_frames\\000.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Run_frames\\001.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Run_frames\\002.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Run_frames\\003.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Run_frames\\004.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Run_frames\\005.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Run_frames\\006.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Run_frames\\007.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Run_frames\\008.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Run_frames\\009.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Run_frames\\010.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Run_frames\\011.png",
+        "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\Run_frames\\012.png"
+      ],
+      "duration_seconds": 0.6333333333333333,
+      "frame_duration_ms": 48.717948717948715
+    }
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\front.png",
+    "side": "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\side.png",
+    "three_quarter": "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\three_quarter.png",
+    "back": "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\back.png",
+    "head_detail": "C:\\The Veilbound\\PlayerAssetProduction\\previews\\Female\\head_detail.png"
+  },
+  "limitations": [
+    "Locomotion is an authored prototype; final in-game foot-speed, equipment fitting and attack poses need review.",
+    "Base clothing is part of the generated surface, not a complete interchangeable equipment system.",
+    "No live Unity character, saves, input or combat code was changed."
+  ],
+  "skinned_mesh_count": 1,
+  "fbx_scale_mode": "FBX_SCALE_UNITS",
+  "skin_details_consolidated": true,
+  "unit_transforms_baked": true,
+  "art_revision": 3,
+  "art_corrections": {
+    "male_hair_faces_removed": 0,
+    "hair_patch_faces": 0,
+    "back_faces_uv_reprojected": 0,
+    "expression_vertices_adjusted": 1889,
+    "eye_emission_strength": 0.65,
+    "iris_size_factor": 0.82,
+    "flattened_eye_depth": true,
+    "additional_api_credits": 0,
+    "eye_treatment": "Old overlay rings removed; two surface-fitted 2.8 mm glowing pupils, measured from eye openings.",
+    "microgap_faces_filled": 4
+  },
+  "socket_pupils": [
+    {
+      "render_pixel": [
+        590,
+        576
+      ],
+      "rest_position": [
+        -0.0046133361756801605,
+        -0.0746043398976326,
+        1.5508054494857788
+      ]
+    },
+    {
+      "render_pixel": [
+        737,
+        575
+      ],
+      "rest_position": [
+        0.06320460140705109,
+        -0.07250439375638962,
+        1.5512831211090088
+      ]
+    }
+  ]
+}

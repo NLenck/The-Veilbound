@@ -1,0 +1,582 @@
+[
+  {
+    "gender": "Male",
+    "tier": "Tin",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Male\\Tin_Male.glb",
+    "triangles": 7624,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      133,
+      148,
+      161
+    ],
+    "cape_rgb": [
+      72,
+      80,
+      91
+    ],
+    "belt_rgb": [
+      108,
+      114,
+      122
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Male",
+    "tier": "Copper",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Male\\Copper_Male.glb",
+    "triangles": 7492,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      148,
+      59,
+      26
+    ],
+    "cape_rgb": [
+      36,
+      77,
+      74
+    ],
+    "belt_rgb": [
+      60,
+      106,
+      96
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Male",
+    "tier": "Bronze",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Male\\Bronze_Male.glb",
+    "triangles": 7492,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      84,
+      48,
+      19
+    ],
+    "cape_rgb": [
+      97,
+      54,
+      44
+    ],
+    "belt_rgb": [
+      137,
+      84,
+      58
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Male",
+    "tier": "Brass",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Male\\Brass_Male.glb",
+    "triangles": 7492,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      166,
+      125,
+      41
+    ],
+    "cape_rgb": [
+      77,
+      48,
+      95
+    ],
+    "belt_rgb": [
+      121,
+      84,
+      125
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Male",
+    "tier": "Iron",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Male\\Iron_Male.glb",
+    "triangles": 7624,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      61,
+      71,
+      74
+    ],
+    "cape_rgb": [
+      52,
+      67,
+      56
+    ],
+    "belt_rgb": [
+      102,
+      112,
+      77
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Male",
+    "tier": "Steel",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Male\\Steel_Male.glb",
+    "triangles": 7624,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      112,
+      125,
+      138
+    ],
+    "cape_rgb": [
+      38,
+      60,
+      100
+    ],
+    "belt_rgb": [
+      82,
+      108,
+      138
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Male",
+    "tier": "HardenedSteel",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Male\\HardenedSteel_Male.glb",
+    "triangles": 7624,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      38,
+      48,
+      59
+    ],
+    "cape_rgb": [
+      81,
+      35,
+      48
+    ],
+    "belt_rgb": [
+      129,
+      59,
+      70
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Male",
+    "tier": "Tungsten",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Male\\Tungsten_Male.glb",
+    "triangles": 7624,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      61,
+      59,
+      69
+    ],
+    "cape_rgb": [
+      41,
+      40,
+      46
+    ],
+    "belt_rgb": [
+      90,
+      83,
+      88
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Male",
+    "tier": "Titanium",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Male\\Titanium_Male.glb",
+    "triangles": 7492,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      156,
+      168,
+      184
+    ],
+    "cape_rgb": [
+      201,
+      196,
+      174
+    ],
+    "belt_rgb": [
+      52,
+      77,
+      136
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Male",
+    "tier": "Veilcrystal",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Male\\Veilcrystal_Male.glb",
+    "triangles": 7492,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      128,
+      9,
+      14
+    ],
+    "cape_rgb": [
+      27,
+      23,
+      29
+    ],
+    "belt_rgb": [
+      27,
+      23,
+      29
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Female",
+    "tier": "Tin",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Female\\Tin_Female.glb",
+    "triangles": 7624,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      133,
+      148,
+      161
+    ],
+    "cape_rgb": [
+      72,
+      80,
+      91
+    ],
+    "belt_rgb": [
+      108,
+      114,
+      122
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Female",
+    "tier": "Copper",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Female\\Copper_Female.glb",
+    "triangles": 7492,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      148,
+      59,
+      26
+    ],
+    "cape_rgb": [
+      36,
+      77,
+      74
+    ],
+    "belt_rgb": [
+      60,
+      106,
+      96
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Female",
+    "tier": "Bronze",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Female\\Bronze_Female.glb",
+    "triangles": 7492,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      84,
+      48,
+      19
+    ],
+    "cape_rgb": [
+      97,
+      54,
+      44
+    ],
+    "belt_rgb": [
+      137,
+      84,
+      58
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Female",
+    "tier": "Brass",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Female\\Brass_Female.glb",
+    "triangles": 7492,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      166,
+      125,
+      41
+    ],
+    "cape_rgb": [
+      77,
+      48,
+      95
+    ],
+    "belt_rgb": [
+      121,
+      84,
+      125
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Female",
+    "tier": "Iron",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Female\\Iron_Female.glb",
+    "triangles": 7624,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      61,
+      71,
+      74
+    ],
+    "cape_rgb": [
+      52,
+      67,
+      56
+    ],
+    "belt_rgb": [
+      102,
+      112,
+      77
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Female",
+    "tier": "Steel",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Female\\Steel_Female.glb",
+    "triangles": 7624,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      112,
+      125,
+      138
+    ],
+    "cape_rgb": [
+      38,
+      60,
+      100
+    ],
+    "belt_rgb": [
+      82,
+      108,
+      138
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Female",
+    "tier": "HardenedSteel",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Female\\HardenedSteel_Female.glb",
+    "triangles": 7624,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      38,
+      48,
+      59
+    ],
+    "cape_rgb": [
+      81,
+      35,
+      48
+    ],
+    "belt_rgb": [
+      129,
+      59,
+      70
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Female",
+    "tier": "Tungsten",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Female\\Tungsten_Female.glb",
+    "triangles": 7624,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      61,
+      59,
+      69
+    ],
+    "cape_rgb": [
+      41,
+      40,
+      46
+    ],
+    "belt_rgb": [
+      90,
+      83,
+      88
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Female",
+    "tier": "Titanium",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Female\\Titanium_Female.glb",
+    "triangles": 7492,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      156,
+      168,
+      184
+    ],
+    "cape_rgb": [
+      201,
+      196,
+      174
+    ],
+    "belt_rgb": [
+      52,
+      77,
+      136
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "gender": "Female",
+    "tier": "Veilcrystal",
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\Mastered\\exports\\tiers\\Female\\Veilcrystal_Female.glb",
+    "triangles": 7492,
+    "bones": 52,
+    "materials": 1,
+    "metal_rgb": [
+      128,
+      9,
+      14
+    ],
+    "cape_rgb": [
+      27,
+      23,
+      29
+    ],
+    "belt_rgb": [
+      27,
+      23,
+      29
+    ],
+    "visor_rgb": [
+      5,
+      5,
+      5
+    ],
+    "passed": true
+  }
+]

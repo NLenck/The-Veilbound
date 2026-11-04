@@ -1,0 +1,99 @@
+{
+  "unit": "Ghoul",
+  "biome": "Town",
+  "source": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Ghoul.glb",
+  "raw": {
+    "mesh_count": 1,
+    "vertices": 5367,
+    "triangles": 3185,
+    "material_slots": 1,
+    "boundary_edges": 5328,
+    "nonmanifold_edges": 1,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "tripo_node_b8838043-9b5b-4660-8c57-e5c9bb8ce39d": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 1121,
+    "inconsistent_normal_edges": 3,
+    "dimensions_m": [
+      0.99805,
+      0.53711,
+      0.63086
+    ],
+    "bounds_min": [
+      -0.49902,
+      -0.26855,
+      -0.31543
+    ],
+    "bounds_max": [
+      0.49902,
+      0.26855,
+      0.31543
+    ]
+  },
+  "final": {
+    "mesh_count": 1,
+    "vertices": 1636,
+    "triangles": 3185,
+    "material_slots": 1,
+    "boundary_edges": 75,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "Veilbound_Town_Ghoul": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 7,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      1.19195,
+      2.21486,
+      1.4
+    ],
+    "bounds_min": [
+      -0.59598,
+      -1.10743,
+      0.0
+    ],
+    "bounds_max": [
+      0.59598,
+      1.10743,
+      1.4
+    ],
+    "target_triangles": 3200,
+    "budget_pass": true,
+    "atlas_baked": false,
+    "faceted_shading": true,
+    "provisional_height_m": 1.4,
+    "decimation_used": false,
+    "rigged": false,
+    "split_overshared_edges": 6,
+    "textures": [
+      "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\textures\\Ghoul\\Ghoul_00.png"
+    ]
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Ghoul_front.png",
+    "side": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Ghoul_side.png",
+    "three_quarter": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Ghoul_three_quarter.png",
+    "back": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Ghoul_back.png"
+  },
+  "limitations": [
+    "No automatic self-intersection or full UV-overlap proof; visual review required.",
+    "Height is a provisional production scale, not an existing Unity prefab measurement.",
+    "No retopology or decimation was applied; P1 generated directly at the requested low-poly budget."
+  ]
+}

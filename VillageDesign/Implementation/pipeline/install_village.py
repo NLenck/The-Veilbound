@@ -1,0 +1,32 @@
+from pathlib import Path
+import shutil
+R=Path(r'C:\The Veilbound');W=Path(__file__).parent;B=R/'VillageDesign/Implementation/Backup';B.mkdir(parents=True,exist_ok=True)
+def edit(rel,old,new):
+ p=R/rel;s=p.read_text(encoding='utf-8-sig');assert old in s,(rel,old)
+ dest=B/rel;dest.parent.mkdir(parents=True,exist_ok=True)
+ if not dest.exists():shutil.copy2(p,dest)
+ p.write_text(s.replace(old,new),encoding='utf-8')
+S='Assets/Veilbound/Scripts/'
+p=R/S/'RuinedTownArena.cs';dest=B/S/'RuinedTownArena.cs';dest.parent.mkdir(parents=True,exist_ok=True)
+if not dest.exists():shutil.copy2(p,dest)
+shutil.copy2(W/'RuinedTownArena.cs',p)
+edit(S+'ArenaCollision.cs','public const float PlayerBoundary=42;','public const float PlayerBoundary=42;\n        public float Radius=Boundary,PlayerRadius=PlayerBoundary;')
+edit(S+'ArenaCollision.cs','p.magnitude>Boundary-radius','p.magnitude>Radius-radius')
+edit(S+'ArenaCollision.cs','float boundary=Boundary','float boundary=-1')
+edit(S+'ArenaCollision.cs','p.y=0;\n            for(int pass','p.y=0;if(boundary<0)boundary=Radius;\n            for(int pass')
+edit(S+'ArenaNavigation.cs','const int N=137;const float Cell=.75f,Origin=-51;','readonly int N;const float Cell=.75f;readonly float Origin;')
+edit(S+'ArenaNavigation.cs','this.collision=collision;','this.collision=collision;N=Mathf.CeilToInt((collision.Radius+1)*2/Cell)+1;Origin=-(N-1)*Cell*.5f;')
+edit(S+'VeilGame.cs','ArenaCollision.PlayerBoundary);','collision.PlayerRadius);')
+edit(S+'EnemyCombat.cs','r=ArenaCollision.Boundary-radius-.16f','r=collision.Radius-radius-.16f')
+edit(S+'VeilFogEffect.cs','Camera view;Material material;','Camera view;Material material;public float playerRadius=42,spawnRadius=50;\n        public void ConfigureBounds(ArenaCollision c){playerRadius=c.PlayerRadius;spawnRadius=c.Radius;}')
+edit(S+'VeilFogEffect.cs','ArenaCollision.PlayerBoundary+.6f,ArenaCollision.Boundary+.5f','playerRadius+.6f,spawnRadius+.5f')
+edit(S+'VeilBoundary.cs','public VeilBoundary(Transform parent)','public VeilBoundary(Transform parent,float playerRadius=ArenaCollision.PlayerBoundary)')
+edit(S+'VeilBoundary.cs','(ArenaCollision.PlayerBoundary+5)','(playerRadius+5)')
+edit(S+'ExpeditionMaps.cs','collision.obstacles.Clear();collision.walls.Clear();','collision.obstacles.Clear();collision.walls.Clear();collision.Radius=ArenaCollision.Boundary;collision.PlayerRadius=ArenaCollision.PlayerBoundary;')
+edit(S+'ExpeditionMaps.cs','veil=new VeilBoundary(arena);navigation=new ArenaNavigation(collision);activeMap=selectedMap;','veil=new VeilBoundary(arena,collision.PlayerRadius);cameraRig.GetComponent<VeilFogEffect>().ConfigureBounds(collision);navigation=new ArenaNavigation(collision);activeMap=selectedMap;')
+edit(S+'RuinedTownSmoke.cs','RuinedTownArena.Rooms.Count==12','RuinedTownArena.Rooms.Count==8')
+edit(S+'RuinedTownSmoke.cs','twelve','eight')
+edit(S+'RuinedTownSmoke.cs','ArenaCollision.PlayerBoundary);','collision.PlayerRadius);')
+# A pulled-back overview can see past 75m; normal gameplay rays are unaffected.
+edit('Assets/Veilbound/Resources/VeilVolume.shader','lerp(_View.z,_View.w,depth),75','lerp(_View.z,_View.w,depth),200')
+print('VILLAGE_INSTALLED_WITH_MAP_SPECIFIC_RADII')

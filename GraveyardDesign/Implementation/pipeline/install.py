@@ -1,0 +1,20 @@
+from pathlib import Path
+import shutil
+R=Path(r'C:\The Veilbound');W=Path(__file__).parent;B=R/'GraveyardDesign/Implementation/Backup';B.mkdir(parents=True,exist_ok=True)
+def edit(name,old,new):
+ p=R/'Assets/Veilbound/Scripts'/name;s=p.read_text(encoding='utf-8-sig');assert old in s,(name,old)
+ if not (B/name).exists():shutil.copy2(p,B/name)
+ p.write_text(s.replace(old,new),encoding='utf-8')
+shutil.copy2(W/'GraveyardArena.cs',R/'Assets/Veilbound/Scripts/GraveyardArena.cs')
+edit('WorldArt.cs','SanctuaryArena.Build(root,collision);','GraveyardArena.Build(root,collision);')
+edit('ExpeditionMaps.cs','"Sanctuary Ruins"','"Graveyard"')
+edit('ExpeditionMaps.cs','"The Hollow Court"','"Graveyard"')
+edit('ExpeditionMaps.cs','"Sanctuary Ruins or The Fallen Borough / revealed when you enter"','"Graveyard or The Fallen Borough / revealed when you enter"')
+edit('ExpeditionMaps.cs','if(activeMap!=1)return;foreach(var room in RuinedTownArena.Rooms)','foreach(var room in activeMap==1?RuinedTownArena.Rooms:GraveyardArena.Rooms)')
+edit('VeilGame.cs','arena=WorldArt.Group("The Hollow Court");','arena=WorldArt.Group("Graveyard");')
+edit('RandomMapSmoke.cs','activeMap==0?collision.walls.Count==0:','activeMap==0?collision.walls.Count==8:')
+edit('RuinedTownSmoke.cs','int oldProps=collision.obstacles.Count,oldRenderers=','int oldWalls=collision.walls.Count,oldProps=collision.obstacles.Count,oldRenderers=')
+edit('RuinedTownSmoke.cs','activeMap==0&&collision.walls.Count==0&&','activeMap==0&&collision.walls.Count==oldWalls&&')
+edit('RuinedTownSmoke.cs','The sanctuary remains the default starting map','Graveyard remains the default starting map')
+edit('RuinedTownSmoke.cs','Returning to the sanctuary restores the original layout without town collision or duplicate geometry','Returning to Graveyard restores its own walls and props without village geometry')
+print('GRAVEYARD_LAYOUT_AND_DISPLAY_NAME_INSTALLED')

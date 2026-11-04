@@ -1,0 +1,99 @@
+{
+  "unit": "Gargoyle",
+  "biome": "Shrine",
+  "source": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Gargoyle.glb",
+  "raw": {
+    "mesh_count": 1,
+    "vertices": 9698,
+    "triangles": 6702,
+    "material_slots": 1,
+    "boundary_edges": 9406,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "tripo_node_8843547c-f0fe-4fdb-86fd-e242b86066d6": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 1660,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      0.61914,
+      0.99805,
+      0.70508
+    ],
+    "bounds_min": [
+      -0.30957,
+      -0.49902,
+      -0.35254
+    ],
+    "bounds_max": [
+      0.30957,
+      0.49902,
+      0.35254
+    ]
+  },
+  "final": {
+    "mesh_count": 1,
+    "vertices": 3504,
+    "triangles": 6702,
+    "material_slots": 1,
+    "boundary_edges": 90,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "Veilbound_Shrine_Gargoyle": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 59,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      3.39723,
+      2.10748,
+      2.4
+    ],
+    "bounds_min": [
+      -1.69861,
+      -1.05374,
+      0.0
+    ],
+    "bounds_max": [
+      1.69861,
+      1.05374,
+      2.4
+    ],
+    "target_triangles": 7000,
+    "budget_pass": true,
+    "atlas_baked": false,
+    "faceted_shading": true,
+    "provisional_height_m": 2.4,
+    "decimation_used": false,
+    "rigged": false,
+    "split_overshared_edges": 24,
+    "textures": [
+      "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\textures\\Gargoyle\\Gargoyle_00.png"
+    ]
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Gargoyle_front.png",
+    "side": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Gargoyle_side.png",
+    "three_quarter": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Gargoyle_three_quarter.png",
+    "back": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Gargoyle_back.png"
+  },
+  "limitations": [
+    "No automatic self-intersection or full UV-overlap proof; visual review required.",
+    "Height is a provisional production scale, not an existing Unity prefab measurement.",
+    "No retopology or decimation was applied; P1 generated directly at the requested low-poly budget."
+  ]
+}

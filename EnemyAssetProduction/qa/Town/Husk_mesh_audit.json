@@ -1,0 +1,99 @@
+{
+  "unit": "Husk",
+  "biome": "Town",
+  "source": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Husk.glb",
+  "raw": {
+    "mesh_count": 1,
+    "vertices": 4534,
+    "triangles": 2762,
+    "material_slots": 1,
+    "boundary_edges": 4502,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "tripo_node_124f6bc4-0ff6-4b63-a54a-9651f3ff8ba9": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 907,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      0.38867,
+      0.50195,
+      0.99805
+    ],
+    "bounds_min": [
+      -0.19434,
+      -0.25098,
+      -0.49902
+    ],
+    "bounds_max": [
+      0.19434,
+      0.25098,
+      0.49902
+    ]
+  },
+  "final": {
+    "mesh_count": 1,
+    "vertices": 1538,
+    "triangles": 2762,
+    "material_slots": 1,
+    "boundary_edges": 178,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "Veilbound_Town_Husk": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 36,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      1.00587,
+      0.77886,
+      2.0
+    ],
+    "bounds_min": [
+      -0.50294,
+      -0.38943,
+      0.0
+    ],
+    "bounds_max": [
+      0.50294,
+      0.38943,
+      2.0
+    ],
+    "target_triangles": 3000,
+    "budget_pass": true,
+    "atlas_baked": false,
+    "faceted_shading": true,
+    "provisional_height_m": 2.0,
+    "decimation_used": false,
+    "rigged": false,
+    "split_overshared_edges": 6,
+    "textures": [
+      "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\textures\\Husk\\Husk_00.png"
+    ]
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Husk_front.png",
+    "side": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Husk_side.png",
+    "three_quarter": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Husk_three_quarter.png",
+    "back": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Husk_back.png"
+  },
+  "limitations": [
+    "No automatic self-intersection or full UV-overlap proof; visual review required.",
+    "Height is a provisional production scale, not an existing Unity prefab measurement.",
+    "No retopology or decimation was applied; P1 generated directly at the requested low-poly budget."
+  ]
+}

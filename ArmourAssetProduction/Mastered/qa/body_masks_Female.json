@@ -1,0 +1,17 @@
+{
+  "variant": "Female",
+  "channel": "UV2.x=any-mask/512; UV2.y=all-required-mask/512",
+  "mask_counts": {
+    "0": 6406,
+    "1": 1321,
+    "2": 2141,
+    "3": 2656,
+    "4": 7557,
+    "5": 1637,
+    "6": 8041,
+    "7": 2963,
+    "8": 0
+  },
+  "faces": 27084,
+  "all_required_mask_faces": 0
+}

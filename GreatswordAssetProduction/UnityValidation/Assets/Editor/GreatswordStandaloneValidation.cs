@@ -1,0 +1,8 @@
+#if UNITY_EDITOR
+using System;using System.IO;using System.Linq;using UnityEditor;using UnityEngine;using Veilbound.Greatswords;
+public static class GreatswordStandaloneValidation {
+ public static void Run(){var library=AssetDatabase.LoadAssetAtPath<GreatswordVisualLibrary>("Assets/VeilboundGreatswords/Generated/GreatswordVisualLibrary.asset");if(!library||library.swords.Length!=10)throw new Exception("Missing standalone sword library");var materials=library.swords.Select(e=>e.prefab.GetComponentInChildren<MeshRenderer>().sharedMaterial).Distinct().ToArray();if(materials.Length!=1)throw new Exception("Swords must share one material");
+ foreach(var entry in library.swords){var go=UnityEngine.Object.Instantiate(entry.prefab);try{var v=go.GetComponent<GreatswordVariant>();var meshes=go.GetComponentsInChildren<MeshFilter>();if(!v||meshes.Length!=1||meshes[0].sharedMesh.triangles.Length/3!=entry.triangles)throw new Exception("Incomplete standalone sword: "+entry.tier);if(Vector3.Distance(v.mainHand.localPosition,new Vector3(0,.035f,.015f))>.0001f||Vector3.Distance(v.offHand.localPosition,new Vector3(0,.035f,.17f))>.0001f)throw new Exception("Grip mismatch");if(go.GetComponentsInChildren<MonoBehaviour>().Any(x=>!x))throw new Exception("Missing script dependency");}finally{UnityEngine.Object.DestroyImmediate(go);}}
+ if(!materials[0].mainTexture||!materials[0].GetTexture("_EmissionMap")||!materials[0].GetTexture("_MetallicGlossMap"))throw new Exception("Missing atlas dependency");File.WriteAllText("STANDALONE_PACKAGE_VALIDATION.json","{\"passed\":true,\"swords\":10,\"shared_materials\":1,\"missing_dependencies\":0}");Debug.Log("GREATSWORDS_STANDALONE_PACKAGE_PASS");}
+}
+#endif

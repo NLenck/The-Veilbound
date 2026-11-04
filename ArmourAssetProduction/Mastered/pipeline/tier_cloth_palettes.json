@@ -1,0 +1,52 @@
+{
+  "Tin": {
+    "cape": "#48505B",
+    "belt_cloth": "#6C727A",
+    "cloth_name": "slate and ash"
+  },
+  "Copper": {
+    "cape": "#244D4A",
+    "belt_cloth": "#3C6A60",
+    "cloth_name": "deep teal and sea green"
+  },
+  "Bronze": {
+    "cape": "#61362C",
+    "belt_cloth": "#89543A",
+    "cloth_name": "rust and burnt sienna"
+  },
+  "Brass": {
+    "cape": "#4D305F",
+    "belt_cloth": "#79547D",
+    "cloth_name": "plum and muted violet"
+  },
+  "Iron": {
+    "cape": "#344338",
+    "belt_cloth": "#66704D",
+    "cloth_name": "forest and olive"
+  },
+  "Steel": {
+    "cape": "#263C64",
+    "belt_cloth": "#526C8A",
+    "cloth_name": "navy and blue grey"
+  },
+  "HardenedSteel": {
+    "cape": "#512330",
+    "belt_cloth": "#813B46",
+    "cloth_name": "oxblood and wine"
+  },
+  "Tungsten": {
+    "cape": "#29282E",
+    "belt_cloth": "#5A5358",
+    "cloth_name": "charcoal and stone"
+  },
+  "Titanium": {
+    "cape": "#C9C4AE",
+    "belt_cloth": "#344D88",
+    "cloth_name": "ivory and royal blue"
+  },
+  "Veilcrystal": {
+    "cape": "#1B171D",
+    "belt_cloth": "#1B171D",
+    "cloth_name": "black cape and black belt cloth"
+  }
+}

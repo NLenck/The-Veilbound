@@ -1,0 +1,99 @@
+{
+  "unit": "Ash_Wraith",
+  "biome": "Shrine",
+  "source": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Ash_Wraith.glb",
+  "raw": {
+    "mesh_count": 1,
+    "vertices": 6603,
+    "triangles": 4460,
+    "material_slots": 1,
+    "boundary_edges": 6439,
+    "nonmanifold_edges": 1,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "tripo_node_ff2255eb-3537-4d98-9b32-04c899f0cd98": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 1168,
+    "inconsistent_normal_edges": 8,
+    "dimensions_m": [
+      0.82617,
+      0.67773,
+      0.99805
+    ],
+    "bounds_min": [
+      -0.41309,
+      -0.33887,
+      -0.49902
+    ],
+    "bounds_max": [
+      0.41309,
+      0.33887,
+      0.49902
+    ]
+  },
+  "final": {
+    "mesh_count": 1,
+    "vertices": 2349,
+    "triangles": 4460,
+    "material_slots": 1,
+    "boundary_edges": 146,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "Veilbound_Shrine_Ash_Wraith": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 30,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      1.56184,
+      1.90391,
+      2.3
+    ],
+    "bounds_min": [
+      -0.78092,
+      -0.95196,
+      0.0
+    ],
+    "bounds_max": [
+      0.78092,
+      0.95196,
+      2.3
+    ],
+    "target_triangles": 4500,
+    "budget_pass": true,
+    "atlas_baked": false,
+    "faceted_shading": true,
+    "provisional_height_m": 2.3,
+    "decimation_used": false,
+    "rigged": false,
+    "split_overshared_edges": 23,
+    "textures": [
+      "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\textures\\Ash_Wraith\\Ash_Wraith_00.png"
+    ]
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Ash_Wraith_front.png",
+    "side": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Ash_Wraith_side.png",
+    "three_quarter": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Ash_Wraith_three_quarter.png",
+    "back": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Ash_Wraith_back.png"
+  },
+  "limitations": [
+    "No automatic self-intersection or full UV-overlap proof; visual review required.",
+    "Height is a provisional production scale, not an existing Unity prefab measurement.",
+    "No retopology or decimation was applied; P1 generated directly at the requested low-poly budget."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "submit": false,
+  "tiers": [
+    "Tin",
+    "Copper",
+    "Bronze",
+    "Brass",
+    "Iron"
+  ],
+  "parameters": {
+    "face_limit": 40000,
+    "generate_parts": true,
+    "texture": false,
+    "pbr": false
+  },
+  "estimated_credits": 40,
+  "reference_ready": true,
+  "gate": "Requires user approval after prototype report; five-set generation untested."
+}

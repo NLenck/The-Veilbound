@@ -1,0 +1,89 @@
+{
+    "passed": true,
+    "swords": 10,
+    "checks": [
+        {
+            "name": "Tin",
+            "triangles": 2910,
+            "materials": 1,
+            "bladeTip": 1.71999990940094,
+            "pommel": -0.30857139825820925,
+            "passed": true
+        },
+        {
+            "name": "Copper",
+            "triangles": 2338,
+            "materials": 1,
+            "bladeTip": 1.71999990940094,
+            "pommel": -0.30857139825820925,
+            "passed": true
+        },
+        {
+            "name": "Bronze",
+            "triangles": 2586,
+            "materials": 1,
+            "bladeTip": 1.71999990940094,
+            "pommel": -0.30857139825820925,
+            "passed": true
+        },
+        {
+            "name": "Brass",
+            "triangles": 2770,
+            "materials": 1,
+            "bladeTip": 1.71999990940094,
+            "pommel": -0.30857139825820925,
+            "passed": true
+        },
+        {
+            "name": "Iron",
+            "triangles": 2358,
+            "materials": 1,
+            "bladeTip": 1.71999990940094,
+            "pommel": -0.30857139825820925,
+            "passed": true
+        },
+        {
+            "name": "Steel",
+            "triangles": 2614,
+            "materials": 1,
+            "bladeTip": 1.71999990940094,
+            "pommel": -0.30857139825820925,
+            "passed": true
+        },
+        {
+            "name": "HardenedSteel",
+            "triangles": 3206,
+            "materials": 1,
+            "bladeTip": 1.71999990940094,
+            "pommel": -0.30857139825820925,
+            "passed": true
+        },
+        {
+            "name": "Tungsten",
+            "triangles": 3616,
+            "materials": 1,
+            "bladeTip": 1.71999990940094,
+            "pommel": -0.30857139825820925,
+            "passed": true
+        },
+        {
+            "name": "Titanium",
+            "triangles": 3218,
+            "materials": 1,
+            "bladeTip": 1.71999990940094,
+            "pommel": -0.30857139825820925,
+            "passed": true
+        },
+        {
+            "name": "Veilcrystal",
+            "triangles": 3112,
+            "materials": 1,
+            "bladeTip": 1.71999990940094,
+            "pommel": -0.30857139825820925,
+            "passed": true
+        }
+    ],
+    "maleGripError": 0.0000017863106904769666,
+    "femaleGripError": 0.005941974930465221,
+    "liveFactoryUnchanged": true
+}

@@ -1,0 +1,101 @@
+{
+  "unit": "Ritual_Orb",
+  "biome": "Shrine",
+  "source": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Ritual_Orb.glb",
+  "raw": {
+    "mesh_count": 1,
+    "vertices": 5913,
+    "triangles": 3997,
+    "material_slots": 1,
+    "boundary_edges": 5676,
+    "nonmanifold_edges": 3,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "tripo_node_b8d06921-d510-4885-a7b7-d38649f19409": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 1112,
+    "inconsistent_normal_edges": 4,
+    "dimensions_m": [
+      0.92383,
+      0.99805,
+      0.99805
+    ],
+    "bounds_min": [
+      -0.46191,
+      -0.49902,
+      -0.49902
+    ],
+    "bounds_max": [
+      0.46191,
+      0.49902,
+      0.49902
+    ]
+  },
+  "final": {
+    "mesh_count": 1,
+    "vertices": 2159,
+    "triangles": 3836,
+    "material_slots": 1,
+    "boundary_edges": 306,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "Veilbound_Shrine_Ritual_Orb": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 48,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      1.78591,
+      1.66614,
+      1.8
+    ],
+    "bounds_min": [
+      -0.88591,
+      -0.83307,
+      0.0
+    ],
+    "bounds_max": [
+      0.9,
+      0.83307,
+      1.8
+    ],
+    "target_triangles": 4500,
+    "budget_pass": true,
+    "atlas_baked": false,
+    "faceted_shading": true,
+    "provisional_height_m": 1.8,
+    "decimation_used": false,
+    "rigged": false,
+    "split_overshared_edges": 5,
+    "removed_debris_faces": 161,
+    "removed_debris_components": 2,
+    "textures": [
+      "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\textures\\Ritual_Orb\\Ritual_Orb_00.png"
+    ]
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Ritual_Orb_front.png",
+    "side": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Ritual_Orb_side.png",
+    "three_quarter": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Ritual_Orb_three_quarter.png",
+    "back": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Ritual_Orb_back.png"
+  },
+  "limitations": [
+    "No automatic self-intersection or full UV-overlap proof; visual review required.",
+    "Height is a provisional production scale, not an existing Unity prefab measurement.",
+    "No retopology or decimation was applied; P1 generated directly at the requested low-poly budget."
+  ]
+}

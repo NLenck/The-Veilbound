@@ -1,0 +1,101 @@
+{
+  "unit": "High_Priest",
+  "biome": "Shrine",
+  "source": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\High_Priest.glb",
+  "raw": {
+    "mesh_count": 1,
+    "vertices": 11593,
+    "triangles": 8049,
+    "material_slots": 1,
+    "boundary_edges": 11261,
+    "nonmanifold_edges": 2,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "tripo_node_f0e53e5f-0998-471c-97a6-34116fa0852a": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 1965,
+    "inconsistent_normal_edges": 7,
+    "dimensions_m": [
+      0.68945,
+      0.63086,
+      0.99805
+    ],
+    "bounds_min": [
+      -0.34473,
+      -0.31543,
+      -0.49902
+    ],
+    "bounds_max": [
+      0.34473,
+      0.31543,
+      0.49902
+    ]
+  },
+  "final": {
+    "mesh_count": 1,
+    "vertices": 4236,
+    "triangles": 8049,
+    "material_slots": 1,
+    "boundary_edges": 403,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "Veilbound_Shrine_High_Priest": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 20,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      1.89628,
+      2.07241,
+      3.0
+    ],
+    "bounds_min": [
+      -0.94814,
+      -1.0362,
+      0.0
+    ],
+    "bounds_max": [
+      0.94814,
+      1.0362,
+      3.0
+    ],
+    "target_triangles": 8500,
+    "budget_pass": true,
+    "atlas_baked": false,
+    "faceted_shading": true,
+    "provisional_height_m": 3.0,
+    "decimation_used": false,
+    "rigged": false,
+    "split_overshared_edges": 21,
+    "removed_debris_faces": 0,
+    "removed_debris_components": 0,
+    "textures": [
+      "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\textures\\High_Priest\\High_Priest_00.png"
+    ]
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\High_Priest_front.png",
+    "side": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\High_Priest_side.png",
+    "three_quarter": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\High_Priest_three_quarter.png",
+    "back": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\High_Priest_back.png"
+  },
+  "limitations": [
+    "No automatic self-intersection or full UV-overlap proof; visual review required.",
+    "Height is a provisional production scale, not an existing Unity prefab measurement.",
+    "No retopology or decimation was applied; P1 generated directly at the requested low-poly budget."
+  ]
+}

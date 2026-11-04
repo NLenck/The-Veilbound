@@ -1,0 +1,17 @@
+{
+  "task_id": "be7c8d1b-a74b-4a4e-99d7-962fe8435a45",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Shrine_Guardian_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 7000
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Shrine_Guardian.glb",
+  "model_sha256": "294958a2594776382af7c8519c423c1fc19ab5bf11230b2927d912b62a06c6b1",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Shrine_Guardian_hero.png"
+}

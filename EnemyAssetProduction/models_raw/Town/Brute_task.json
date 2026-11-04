@@ -1,0 +1,17 @@
+{
+  "task_id": "538760b1-cd87-4d5c-b66c-5144295c9125",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Brute_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 6500
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Brute.glb",
+  "model_sha256": "5ac23b6c75a0a1f705589864c0d22e787137aeda7e1cfb70335f37edecc6d3f9",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Brute_hero.png"
+}

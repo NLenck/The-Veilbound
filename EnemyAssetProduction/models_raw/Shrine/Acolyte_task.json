@@ -1,0 +1,17 @@
+{
+  "task_id": "f2ad3fd9-6c8d-41e8-82cc-882f80b1fc3c",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Acolyte_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 3200
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Acolyte.glb",
+  "model_sha256": "a5a38bc0a3d3c7a1a502d02049bf71805329bf788ef2178f3e6a8b5362d2fd0f",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Acolyte_hero.png"
+}

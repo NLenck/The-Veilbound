@@ -1,0 +1,17 @@
+{
+  "task_id": "0b5bdd1e-76c7-4700-b0ee-585a5fb24076",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Blade_Sentinel_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 6500
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Blade_Sentinel.glb",
+  "model_sha256": "2ce64a126c17c5a9ed64dc0233c40af009efc2a04c556bed08bb8f63da84aad4",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Blade_Sentinel_hero.png"
+}

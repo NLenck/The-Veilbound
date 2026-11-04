@@ -1,0 +1,41 @@
+{
+  "initial_balance": 450,
+  "initial_estimate": 210,
+  "revised_cap": 150,
+  "actual_total": 150,
+  "remaining": 300,
+  "frozen": 0,
+  "tasks": [
+    {
+      "variant": "Male",
+      "stage": "Generation",
+      "task_id": "2fd9bd72-d0b2-48cf-bb13-d07270b646bc",
+      "credits": 50
+    },
+    {
+      "variant": "Male",
+      "stage": "Rig",
+      "task_id": "c2031a9d-0a02-4f6e-afe2-43aa3620ba11",
+      "credits": 25
+    },
+    {
+      "variant": "Female",
+      "stage": "Generation",
+      "task_id": "a29ef39f-0dc2-473c-89d1-b13f758c3e17",
+      "credits": 50
+    },
+    {
+      "variant": "Female",
+      "stage": "Rig",
+      "task_id": "5d522963-d7d5-474e-a51c-ad3404576208",
+      "credits": 25
+    },
+    {
+      "variant": "Male",
+      "stage": "Failed idle retarget",
+      "task_id": "2c991b47-a10c-4f79-bb80-f56cc75e21b3",
+      "credits": 0,
+      "status": "failed; hold refunded; no retry"
+    }
+  ]
+}

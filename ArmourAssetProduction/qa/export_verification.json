@@ -1,0 +1,742 @@
+[
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Belt.glb",
+    "triangles": 1710,
+    "expected_triangles": 1710,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Bracer_L.glb",
+    "triangles": 178,
+    "expected_triangles": 178,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Bracer_R.glb",
+    "triangles": 192,
+    "expected_triangles": 192,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Cape.glb",
+    "triangles": 462,
+    "expected_triangles": 462,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Chest.glb",
+    "triangles": 1110,
+    "expected_triangles": 1110,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Exploded.glb",
+    "triangles": 6588,
+    "expected_triangles": 6588,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Foot_L.glb",
+    "triangles": 388,
+    "expected_triangles": 388,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Foot_R.glb",
+    "triangles": 386,
+    "expected_triangles": 386,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Hand_L.glb",
+    "triangles": 136,
+    "expected_triangles": 136,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Hand_R.glb",
+    "triangles": 134,
+    "expected_triangles": 134,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Head.glb",
+    "triangles": 424,
+    "expected_triangles": 424,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Leg_L.glb",
+    "triangles": 302,
+    "expected_triangles": 302,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Leg_R.glb",
+    "triangles": 402,
+    "expected_triangles": 402,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Shoulder_L.glb",
+    "triangles": 402,
+    "expected_triangles": 402,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Copper\\Copper_Shoulder_R.glb",
+    "triangles": 362,
+    "expected_triangles": 362,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Belt.glb",
+    "triangles": 1380,
+    "expected_triangles": 1380,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Bracer_L.glb",
+    "triangles": 214,
+    "expected_triangles": 214,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Bracer_R.glb",
+    "triangles": 184,
+    "expected_triangles": 184,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Cape.glb",
+    "triangles": 1772,
+    "expected_triangles": 1772,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Chest.glb",
+    "triangles": 1068,
+    "expected_triangles": 1068,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Exploded.glb",
+    "triangles": 7430,
+    "expected_triangles": 7430,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Foot_L.glb",
+    "triangles": 378,
+    "expected_triangles": 378,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Foot_R.glb",
+    "triangles": 332,
+    "expected_triangles": 332,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Hand_L.glb",
+    "triangles": 144,
+    "expected_triangles": 144,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Hand_R.glb",
+    "triangles": 98,
+    "expected_triangles": 98,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Head.glb",
+    "triangles": 396,
+    "expected_triangles": 396,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Leg_L.glb",
+    "triangles": 424,
+    "expected_triangles": 424,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Leg_R.glb",
+    "triangles": 310,
+    "expected_triangles": 310,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Shoulder_L.glb",
+    "triangles": 364,
+    "expected_triangles": 364,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\exploded\\Tin\\Tin_Shoulder_R.glb",
+    "triangles": 366,
+    "expected_triangles": 366,
+    "bones": 0,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Copper\\Copper_Female_AllSlots.fbx",
+    "triangles": 6588,
+    "expected_triangles": 6588,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Copper\\Copper_Female_AllSlots.glb",
+    "triangles": 6588,
+    "expected_triangles": 6588,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Copper\\Copper_Female_Belt.fbx",
+    "triangles": 1710,
+    "expected_triangles": 1710,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Copper\\Copper_Female_Bracers.fbx",
+    "triangles": 370,
+    "expected_triangles": 370,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Copper\\Copper_Female_Cape.fbx",
+    "triangles": 462,
+    "expected_triangles": 462,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Copper\\Copper_Female_Chest.fbx",
+    "triangles": 1110,
+    "expected_triangles": 1110,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Copper\\Copper_Female_Feet.fbx",
+    "triangles": 774,
+    "expected_triangles": 774,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Copper\\Copper_Female_Hands.fbx",
+    "triangles": 270,
+    "expected_triangles": 270,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Copper\\Copper_Female_Head.fbx",
+    "triangles": 424,
+    "expected_triangles": 424,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Copper\\Copper_Female_Legs.fbx",
+    "triangles": 704,
+    "expected_triangles": 704,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Copper\\Copper_Female_Shoulders.fbx",
+    "triangles": 764,
+    "expected_triangles": 764,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Tin\\Tin_Female_AllSlots.fbx",
+    "triangles": 7430,
+    "expected_triangles": 7430,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Tin\\Tin_Female_AllSlots.glb",
+    "triangles": 7430,
+    "expected_triangles": 7430,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Tin\\Tin_Female_Belt.fbx",
+    "triangles": 1380,
+    "expected_triangles": 1380,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Tin\\Tin_Female_Bracers.fbx",
+    "triangles": 398,
+    "expected_triangles": 398,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Tin\\Tin_Female_Cape.fbx",
+    "triangles": 1772,
+    "expected_triangles": 1772,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Tin\\Tin_Female_Chest.fbx",
+    "triangles": 1068,
+    "expected_triangles": 1068,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Tin\\Tin_Female_Feet.fbx",
+    "triangles": 710,
+    "expected_triangles": 710,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Tin\\Tin_Female_Hands.fbx",
+    "triangles": 242,
+    "expected_triangles": 242,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Tin\\Tin_Female_Head.fbx",
+    "triangles": 396,
+    "expected_triangles": 396,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Tin\\Tin_Female_Legs.fbx",
+    "triangles": 734,
+    "expected_triangles": 734,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Female\\Tin\\Tin_Female_Shoulders.fbx",
+    "triangles": 730,
+    "expected_triangles": 730,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Copper\\Copper_Male_AllSlots.fbx",
+    "triangles": 6588,
+    "expected_triangles": 6588,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Copper\\Copper_Male_AllSlots.glb",
+    "triangles": 6588,
+    "expected_triangles": 6588,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Copper\\Copper_Male_Belt.fbx",
+    "triangles": 1710,
+    "expected_triangles": 1710,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Copper\\Copper_Male_Bracers.fbx",
+    "triangles": 370,
+    "expected_triangles": 370,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Copper\\Copper_Male_Cape.fbx",
+    "triangles": 462,
+    "expected_triangles": 462,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Copper\\Copper_Male_Chest.fbx",
+    "triangles": 1110,
+    "expected_triangles": 1110,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Copper\\Copper_Male_Feet.fbx",
+    "triangles": 774,
+    "expected_triangles": 774,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Copper\\Copper_Male_Hands.fbx",
+    "triangles": 270,
+    "expected_triangles": 270,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Copper\\Copper_Male_Head.fbx",
+    "triangles": 424,
+    "expected_triangles": 424,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Copper\\Copper_Male_Legs.fbx",
+    "triangles": 704,
+    "expected_triangles": 704,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Copper\\Copper_Male_Shoulders.fbx",
+    "triangles": 764,
+    "expected_triangles": 764,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Tin\\Tin_Male_AllSlots.fbx",
+    "triangles": 7430,
+    "expected_triangles": 7430,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Tin\\Tin_Male_AllSlots.glb",
+    "triangles": 7430,
+    "expected_triangles": 7430,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Tin\\Tin_Male_Belt.fbx",
+    "triangles": 1380,
+    "expected_triangles": 1380,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Tin\\Tin_Male_Bracers.fbx",
+    "triangles": 398,
+    "expected_triangles": 398,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Tin\\Tin_Male_Cape.fbx",
+    "triangles": 1772,
+    "expected_triangles": 1772,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Tin\\Tin_Male_Chest.fbx",
+    "triangles": 1068,
+    "expected_triangles": 1068,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Tin\\Tin_Male_Feet.fbx",
+    "triangles": 710,
+    "expected_triangles": 710,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Tin\\Tin_Male_Hands.fbx",
+    "triangles": 242,
+    "expected_triangles": 242,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Tin\\Tin_Male_Head.fbx",
+    "triangles": 396,
+    "expected_triangles": 396,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Tin\\Tin_Male_Legs.fbx",
+    "triangles": 734,
+    "expected_triangles": 734,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  },
+  {
+    "file": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\fitted\\Male\\Tin\\Tin_Male_Shoulders.fbx",
+    "triangles": 730,
+    "expected_triangles": 730,
+    "bones": 52,
+    "nonfinite_vertices": 0,
+    "unweighted_vertices": 0,
+    "uv_present": true,
+    "passed": true
+  }
+]

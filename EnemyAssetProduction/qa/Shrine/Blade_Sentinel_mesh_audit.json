@@ -1,0 +1,99 @@
+{
+  "unit": "Blade_Sentinel",
+  "biome": "Shrine",
+  "source": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Blade_Sentinel.glb",
+  "raw": {
+    "mesh_count": 1,
+    "vertices": 9748,
+    "triangles": 6429,
+    "material_slots": 1,
+    "boundary_edges": 9516,
+    "nonmanifold_edges": 1,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "tripo_node_0b5bdd1e-76c7-4700-b0ee-585a5fb24076": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 1787,
+    "inconsistent_normal_edges": 1,
+    "dimensions_m": [
+      0.52539,
+      0.99805,
+      0.99805
+    ],
+    "bounds_min": [
+      -0.2627,
+      -0.49902,
+      -0.49902
+    ],
+    "bounds_max": [
+      0.2627,
+      0.49902,
+      0.49902
+    ]
+  },
+  "final": {
+    "mesh_count": 1,
+    "vertices": 3377,
+    "triangles": 6429,
+    "material_slots": 1,
+    "boundary_edges": 193,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "Veilbound_Shrine_Blade_Sentinel": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 53,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      2.6,
+      1.36869,
+      2.6
+    ],
+    "bounds_min": [
+      -1.3,
+      -0.68434,
+      0.0
+    ],
+    "bounds_max": [
+      1.3,
+      0.68434,
+      2.6
+    ],
+    "target_triangles": 6500,
+    "budget_pass": true,
+    "atlas_baked": false,
+    "faceted_shading": true,
+    "provisional_height_m": 2.6,
+    "decimation_used": false,
+    "rigged": false,
+    "split_overshared_edges": 45,
+    "textures": [
+      "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\textures\\Blade_Sentinel\\Blade_Sentinel_00.png"
+    ]
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Blade_Sentinel_front.png",
+    "side": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Blade_Sentinel_side.png",
+    "three_quarter": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Blade_Sentinel_three_quarter.png",
+    "back": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Blade_Sentinel_back.png"
+  },
+  "limitations": [
+    "No automatic self-intersection or full UV-overlap proof; visual review required.",
+    "Height is a provisional production scale, not an existing Unity prefab measurement.",
+    "No retopology or decimation was applied; P1 generated directly at the requested low-poly budget."
+  ]
+}

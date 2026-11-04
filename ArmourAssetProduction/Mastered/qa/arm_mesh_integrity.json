@@ -1,0 +1,114 @@
+[
+  {
+    "variant": "Male",
+    "name": "Tin_UpperArm_L",
+    "volume": 0.0006947495492075407,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Male",
+    "name": "Tin_Elbow_L",
+    "volume": 0.0020201163935581776,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Male",
+    "name": "Tin_UpperArm_R",
+    "volume": 0.0006371957291087054,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Male",
+    "name": "Tin_Elbow_R",
+    "volume": 0.002020116147847971,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Male",
+    "name": "Copper_UpperArm_L",
+    "volume": 0.0006947495492075407,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Male",
+    "name": "Copper_Elbow_L",
+    "volume": 0.0020201163935581776,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Male",
+    "name": "Copper_UpperArm_R",
+    "volume": 0.0006371957291087054,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Male",
+    "name": "Copper_Elbow_R",
+    "volume": 0.002020116147847971,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Female",
+    "name": "Tin_UpperArm_L",
+    "volume": 0.000636997072939405,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Female",
+    "name": "Tin_Elbow_L",
+    "volume": 0.0018913292537179045,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Female",
+    "name": "Tin_UpperArm_R",
+    "volume": 0.0006423081559812248,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Female",
+    "name": "Tin_Elbow_R",
+    "volume": 0.0018913285160188638,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Female",
+    "name": "Copper_UpperArm_L",
+    "volume": 0.000636997072939405,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Female",
+    "name": "Copper_Elbow_L",
+    "volume": 0.0018913292537179045,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Female",
+    "name": "Copper_UpperArm_R",
+    "volume": 0.0006423081559812248,
+    "boundary_edges": 0,
+    "passed": true
+  },
+  {
+    "variant": "Female",
+    "name": "Copper_Elbow_R",
+    "volume": 0.0018913285160188638,
+    "boundary_edges": 0,
+    "passed": true
+  }
+]

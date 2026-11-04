@@ -1,0 +1,559 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cde437a9f6be4e44b4b983aeff65f31, type: 3}
+  m_Name: Catalog
+  m_EditorClassIdentifier: Assembly-CSharp::Veilbound.VillageTextureCatalog
+  parts:
+  - path: Faceted ash and sparse moss 0
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: fbfb1f288ebd5c441b1d1c78c1d85562, type: 2}
+    material: {fileID: 2100000, guid: 1e29814e8daa597448d882ef0a70d7cf, type: 2}
+  - path: Faceted ash and sparse moss 1
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 3fec22024a043d946ac401787a37d069, type: 2}
+    material: {fileID: 2100000, guid: a62973e5c8fd3b842b23f018be1afd6d, type: 2}
+  - path: Faceted ash and sparse moss 2
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 5341a494fe0fb1a49a6d97c905853ad2, type: 2}
+    material: {fileID: 2100000, guid: b6674671e15cf4841a5ba5837bd32755, type: 2}
+  - path: Faceted ash and sparse moss 3
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 05d7a46dfd8d3ac4ab19c5bc8ef309a5, type: 2}
+    material: {fileID: 2100000, guid: 517cbdabfd584e44d8a6419b35920b1a, type: 2}
+  - path: Faceted ash and sparse moss 4
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 57e706bed40aa7a469e2aa890c321fce, type: 2}
+    material: {fileID: 2100000, guid: faade562ae0531b478eeb6db26966136, type: 2}
+  - path: House northwest upper/Broken low-poly floor
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: fb0dabd0f66ad0043a19203e91e36446, type: 2}
+    material: {fileID: 2100000, guid: bc873f0943250294fb799f7dc9ef07ac, type: 2}
+  - path: House northwest upper/Crumbled cutaway stone 0
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: e904230220a304941ac02acec9187100, type: 2}
+    material: {fileID: 2100000, guid: baafd9f10aad2344fad9c147e62c9bac, type: 2}
+  - path: House northwest upper/Crumbled cutaway stone 1
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: eee3418eb433f884f88628de148c11d7, type: 2}
+    material: {fileID: 2100000, guid: 10034ed40240aa242ac3df9d406bc430, type: 2}
+  - path: House northwest upper/Crumbled cutaway stone 2
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 53f5417b25e7ee742bd3a85d9b6f1e07, type: 2}
+    material: {fileID: 2100000, guid: b61b18217b84402429f9711def31ca51, type: 2}
+  - path: House northwest upper/Crumbled cutaway stone 3
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 02474541be104d246bd620187b753a59, type: 2}
+    material: {fileID: 2100000, guid: 743e4080b41293043a82feed4148de18, type: 2}
+  - path: House northwest upper/Low rubble at breach sides
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 579a8a956a159274e90e144fe4b3a7b3, type: 2}
+    material: {fileID: 2100000, guid: c29abf7214c2a7744ab96f05641a9356, type: 2}
+  - path: House northwest upper/Charred surviving roof timbers
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 1187d7c6b00a15f499578b7c565250c4, type: 2}
+    material: {fileID: 2100000, guid: ed28f563c422eb64e9d1dd1018dc908a, type: 2}
+  - path: House northwest upper/Ruined domestic furniture
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 8f05afa78e55fcf43937c6764ea6fb2e, type: 2}
+    material: {fileID: 2100000, guid: a6f62d92d325dff46b9a9e87316b51f9, type: 2}
+  - path: House northwest upper/Weathered interior accents
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: d87bcb5778091774f861ca99f331e0d9, type: 2}
+    material: {fileID: 2100000, guid: 55e246f0400b34246b7161f36271ee27, type: 2}
+  - path: House northwest upper/Broken soot-dark hearth
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: a20faa806c9030145926a34f0d9c6b45, type: 2}
+    material: {fileID: 2100000, guid: 2c76f2cc8ebc7f042aff30729f88d7da, type: 2}
+  - path: House northwest lower/Broken low-poly floor
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 1b5eb7753c81de945b3b57579adee5b7, type: 2}
+    material: {fileID: 2100000, guid: 5f1006497fd6c9344a5284f933b50013, type: 2}
+  - path: House northwest lower/Crumbled cutaway stone 0
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 1d150384a7d809d4ab7f2b92ebf88a72, type: 2}
+    material: {fileID: 2100000, guid: 94510e78a7cef2c4289ea5981ab247e3, type: 2}
+  - path: House northwest lower/Crumbled cutaway stone 1
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 567f328fa1a68e44e9acf7269f7b0048, type: 2}
+    material: {fileID: 2100000, guid: 97f37890b8bf2d0468ebad95468b9d76, type: 2}
+  - path: House northwest lower/Crumbled cutaway stone 2
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 784d37cd6a59ac144a8daf5e06f4cc8e, type: 2}
+    material: {fileID: 2100000, guid: 7bca85568cf47b044bc838fbe2aff12b, type: 2}
+  - path: House northwest lower/Crumbled cutaway stone 3
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 6f9ad293383f7504ca9640b94fd6a486, type: 2}
+    material: {fileID: 2100000, guid: 6024d108c44443647a84cc0d68336eef, type: 2}
+  - path: House northwest lower/Low rubble at breach sides
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 19f68d2788d91a44a8482f0bcee486b2, type: 2}
+    material: {fileID: 2100000, guid: 1600d02ecf3a1834dbc2b957bd054794, type: 2}
+  - path: House northwest lower/Charred surviving roof timbers
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 8957bce045a204a4a8f8ed915a5484d9, type: 2}
+    material: {fileID: 2100000, guid: fe362945882a66947afb7a5353868825, type: 2}
+  - path: House northwest lower/Ruined domestic furniture
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 0346bca26c4ebd740a68243018e22653, type: 2}
+    material: {fileID: 2100000, guid: 128f7ae9cc1f14b4a9246294d9e39270, type: 2}
+  - path: House northwest lower/Weathered interior accents
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 3cf7e264e512ad546b6be03cc0313be6, type: 2}
+    material: {fileID: 2100000, guid: 2adf7d14d81620c46887be6a2b4d6b2c, type: 2}
+  - path: House northwest lower/Broken soot-dark hearth
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 74154dd3072710a4289b85c12971ec94, type: 2}
+    material: {fileID: 2100000, guid: 8a50d98780adeb146ba258859a7cafc6, type: 2}
+  - path: Ruined Church/Church stone nave floor
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: b2d15454485093a45805383f5e24a7b4, type: 2}
+    material: {fileID: 2100000, guid: 37e383642dae3d84a8efa6f4d122b1b3, type: 2}
+  - path: Ruined Church/Crumbled cutaway stone 0
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: b5d001f7e6766994cb0db46c8740d330, type: 2}
+    material: {fileID: 2100000, guid: 2ddd4bd4a6ce77a46b2719466a4ab599, type: 2}
+  - path: Ruined Church/Crumbled cutaway stone 1
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 808c56752aa327744b769bff1b309eec, type: 2}
+    material: {fileID: 2100000, guid: 40ebd36ef3b5b2743a9b4d58615cd630, type: 2}
+  - path: Ruined Church/Crumbled cutaway stone 2
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: b7c5f8396bccc0f439644b9138356041, type: 2}
+    material: {fileID: 2100000, guid: 867a25dc2d01a2f4bb42fe185e932cb3, type: 2}
+  - path: Ruined Church/Crumbled cutaway stone 3
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 5577aa91f171a0d4684a3337e7bb9583, type: 2}
+    material: {fileID: 2100000, guid: f5a3c83be5977864e9a5eccdca12bcb1, type: 2}
+  - path: Ruined Church/Low rubble at breach sides
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: f8edd2e5a12296c4f8c24e2c4b8deadb, type: 2}
+    material: {fileID: 2100000, guid: 8cbaaf214c9406a4aa247923c9b836ae, type: 2}
+  - path: Ruined Church/Charred surviving roof timbers
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 172b6a52d524c1d4d9c02a81077d22b9, type: 2}
+    material: {fileID: 2100000, guid: 11f687309462a3741800103f210307af, type: 2}
+  - path: Ruined Church/Broken gothic windows and bell gable
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 0afa8b77a697e4e49a74d1ff90f99200, type: 2}
+    material: {fileID: 2100000, guid: e61df70a2cc1d0b48ac72c2d43594132, type: 2}
+  - path: Ruined Church/Broken pews
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 36ae9457adf7bed4f9cc676fb92174d3, type: 2}
+    material: {fileID: 2100000, guid: 110e4256c1536b04c8e1ece96339b16c, type: 2}
+  - path: Ruined Church/Weathered interior accents
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 1007854f9b51d17498a678c042a48218, type: 2}
+    material: {fileID: 2100000, guid: 385b3fd41f905c143bc86a58dcc171cd, type: 2}
+  - path: Ruined Church/Broken soot-dark hearth
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 5f084126cdebdb742a4e79a338663fbe, type: 2}
+    material: {fileID: 2100000, guid: f1018f84308476d478f84904b4850996, type: 2}
+  - path: House northeast/Broken low-poly floor
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 67c5aab0b1e9d7a438e5df569e68cffa, type: 2}
+    material: {fileID: 2100000, guid: d57b111045588034a84e3b6681d3e833, type: 2}
+  - path: House northeast/Crumbled cutaway stone 0
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 9c7e4663d7f27fe41846f32de765a202, type: 2}
+    material: {fileID: 2100000, guid: 5c8df97b16a4557428e57818fac577c6, type: 2}
+  - path: House northeast/Crumbled cutaway stone 1
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 3561ba214ac89c34da55700af1c24855, type: 2}
+    material: {fileID: 2100000, guid: fb51a1c8ee02df849bae52492b2f39ba, type: 2}
+  - path: House northeast/Crumbled cutaway stone 2
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: d68db570e9a22eb46820218d914ab094, type: 2}
+    material: {fileID: 2100000, guid: 443b833618f93514ab85ea625ecbbaba, type: 2}
+  - path: House northeast/Crumbled cutaway stone 3
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: f1877abaf5b622e429558d9ffc379b68, type: 2}
+    material: {fileID: 2100000, guid: e8e91df01460ba4408f9139f13101fa0, type: 2}
+  - path: House northeast/Low rubble at breach sides
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: b4d73628b8f2fe14abdc3924465fe2d5, type: 2}
+    material: {fileID: 2100000, guid: 9b4de4fdfd8ebb34eb73236eedec1a18, type: 2}
+  - path: House northeast/Charred surviving roof timbers
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 0e583b4a6bb9daf47a78ba466d6665ac, type: 2}
+    material: {fileID: 2100000, guid: b67788891dc24cf4c92729fd5e8b6b6c, type: 2}
+  - path: House northeast/Ruined domestic furniture
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 7020da74cd6deb84cb681393dd46bca6, type: 2}
+    material: {fileID: 2100000, guid: c1bcd3a983b768a4da6f603647753a8d, type: 2}
+  - path: House northeast/Weathered interior accents
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 4020865398bf70c48ab03dbd2bee8872, type: 2}
+    material: {fileID: 2100000, guid: b0cc0425a5ca18e458f3ef2955b0b523, type: 2}
+  - path: House northeast/Broken soot-dark hearth
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: ae596d560db245b4b809e8afcf058ecd, type: 2}
+    material: {fileID: 2100000, guid: a7f4be43858ff8d4dbc3006f07c5df92, type: 2}
+  - path: Village Hall/Broken low-poly floor
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 6ba1a432ba4a1804a84c20a2945d5917, type: 2}
+    material: {fileID: 2100000, guid: dde368e5e6542b04796cac62572bf7c1, type: 2}
+  - path: Village Hall/Crumbled cutaway stone 0
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 718a8b3be35ea5247aacf0ef13b6ad7f, type: 2}
+    material: {fileID: 2100000, guid: 24ff85f9c51c61448910479ec4360027, type: 2}
+  - path: Village Hall/Crumbled cutaway stone 1
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 83bf096d1d52ef0449dd097364a6f737, type: 2}
+    material: {fileID: 2100000, guid: baa75fed951d34b49a7c9b8334922916, type: 2}
+  - path: Village Hall/Crumbled cutaway stone 2
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: c5c5056e9fc8e204cb959fb11ced9199, type: 2}
+    material: {fileID: 2100000, guid: a619bfa51d40f27448e720876c504dc4, type: 2}
+  - path: Village Hall/Crumbled cutaway stone 3
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: db39426349d656748b4b56e5e9b19d85, type: 2}
+    material: {fileID: 2100000, guid: d2d876a53d35ba042a85e3e7e763a4c3, type: 2}
+  - path: Village Hall/Low rubble at breach sides
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 40dd2740566725342b21bf19a060d039, type: 2}
+    material: {fileID: 2100000, guid: ebabbf816c5467d4cad5d9f8d2ee8bec, type: 2}
+  - path: Village Hall/Charred surviving roof timbers
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 9f3fb5e541c0e524e80e33b250770c99, type: 2}
+    material: {fileID: 2100000, guid: 0aea7501db06b154e84f01983deee5f1, type: 2}
+  - path: Village Hall/Torn civic banners
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: acdc022b90b4d9e4c9be1b56c5686582, type: 2}
+    material: {fileID: 2100000, guid: c8370c7b4931d914da0ac08027f0f300, type: 2}
+  - path: Village Hall/Civic benches and dais
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 26fba3ae6de2d47448713847f5c5f439, type: 2}
+    material: {fileID: 2100000, guid: 315f0a9e244475747b98ed418691ab51, type: 2}
+  - path: Village Hall/Broken soot-dark hearth
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: bab56f6ccdb9dff42ac236d9b6d7eff8, type: 2}
+    material: {fileID: 2100000, guid: 5636ec1103f00cc438659e9769dd7d7c, type: 2}
+  - path: Abandoned Tavern/Broken low-poly floor
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 689c0ef6572f4e8459c02ce8d9011a7f, type: 2}
+    material: {fileID: 2100000, guid: d7ecbea496b565e44ba3924d9dd3b5ec, type: 2}
+  - path: Abandoned Tavern/Crumbled cutaway stone 0
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: e6fe1462d358d2a4f96ddf82a0509e5e, type: 2}
+    material: {fileID: 2100000, guid: 4822ea75d5c80654ba6cf6c0fc97a6c8, type: 2}
+  - path: Abandoned Tavern/Crumbled cutaway stone 1
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 37e3585d8d8d2d448a7a1b0845828ccf, type: 2}
+    material: {fileID: 2100000, guid: 0339e69de2a723e428c3ad070a066a27, type: 2}
+  - path: Abandoned Tavern/Crumbled cutaway stone 2
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 89ca8bc21e95cde4a94f7ea899340129, type: 2}
+    material: {fileID: 2100000, guid: 437f6bed332fb9f4581f146285b3339a, type: 2}
+  - path: Abandoned Tavern/Crumbled cutaway stone 3
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: c343a70feaf3ad7408daf690442d7ca1, type: 2}
+    material: {fileID: 2100000, guid: 32fbe4a079db7a9408b7953ef472f4e4, type: 2}
+  - path: Abandoned Tavern/Low rubble at breach sides
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 77eadf04839b86f46a3a84c558c8b88b, type: 2}
+    material: {fileID: 2100000, guid: a6a1e95aeb110ba438f510c9a60b17c1, type: 2}
+  - path: Abandoned Tavern/Charred surviving roof timbers
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: b30f6e6f0d746b2439893ce85df79b4c, type: 2}
+    material: {fileID: 2100000, guid: 1ca373c7b13e5764f933aa0558873483, type: 2}
+  - path: Abandoned Tavern/Tavern oak barrel
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 6c3366cc89e69e84f8bc376c73769a67, type: 2}
+    material: {fileID: 2100000, guid: e981bbe9bdce34549a6556d1724f73f0, type: 2}
+  - path: Abandoned Tavern/Barrel dark hoops
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: b68ef083acd9e26479c23e6133cbf40d, type: 2}
+    material: {fileID: 2100000, guid: b3a1ad79ec027ed4f9b9a32d20f5b91d, type: 2}
+  - path: Abandoned Tavern/Tavern oak barrel
+    occurrence: 1
+    mesh: {fileID: 4300000, guid: 5cb5fb73624f3204980cc4eb947e3ff3, type: 2}
+    material: {fileID: 2100000, guid: 672f4f15cc578484699a6c9055f380ef, type: 2}
+  - path: Abandoned Tavern/Barrel dark hoops
+    occurrence: 1
+    mesh: {fileID: 4300000, guid: e808e947776f9494880684a9bd0643d4, type: 2}
+    material: {fileID: 2100000, guid: 2bf363c2bcc371447b7acb81c0df59ce, type: 2}
+  - path: Abandoned Tavern/Tavern oak barrel
+    occurrence: 2
+    mesh: {fileID: 4300000, guid: bc061f744ee01e2429af19273d750f1b, type: 2}
+    material: {fileID: 2100000, guid: 1e02360761c49ae40bb56c3dc3c3edaa, type: 2}
+  - path: Abandoned Tavern/Barrel dark hoops
+    occurrence: 2
+    mesh: {fileID: 4300000, guid: 65b6fe2f810bf3e4685601f0aacca7e2, type: 2}
+    material: {fileID: 2100000, guid: 79d5948414b39a74f95714eaddfaaa89, type: 2}
+  - path: Abandoned Tavern/Ruined tavern bar and tables
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 53f32c9a5d36d7148a8d40c2b63021dd, type: 2}
+    material: {fileID: 2100000, guid: e2c7a37d63be9b64499fef79ca3fab29, type: 2}
+  - path: Abandoned Tavern/Broken soot-dark hearth
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 7cd68c9dfaee3f5468af52a5c336b710, type: 2}
+    material: {fileID: 2100000, guid: 5db82d61df29101408830775d193448c, type: 2}
+  - path: House southeast upper/Broken low-poly floor
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 63421afb41d46c240b8ff827d753d9bd, type: 2}
+    material: {fileID: 2100000, guid: 5adb610c0b5834146b1a994e20253c3e, type: 2}
+  - path: House southeast upper/Crumbled cutaway stone 0
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: f537fe7828e7ba14c873684d5384befe, type: 2}
+    material: {fileID: 2100000, guid: 8625644cc5637b54baecff9370ab290c, type: 2}
+  - path: House southeast upper/Crumbled cutaway stone 1
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 4f87b97de9e95864fb2a0cbdddf940d3, type: 2}
+    material: {fileID: 2100000, guid: 0a91fe68b5f06cb4da0bfbafaec20df2, type: 2}
+  - path: House southeast upper/Crumbled cutaway stone 2
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 6751374a6ac590c4886dadb5f80e148e, type: 2}
+    material: {fileID: 2100000, guid: 753f0c1722913f94582117305af631df, type: 2}
+  - path: House southeast upper/Crumbled cutaway stone 3
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 3cc01c6cba1d8194eb631c77afdf4cbe, type: 2}
+    material: {fileID: 2100000, guid: b527b075f4cc8624a8626ecc56782823, type: 2}
+  - path: House southeast upper/Low rubble at breach sides
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 70b9bcbc53505ba4e9ded8efe2d55596, type: 2}
+    material: {fileID: 2100000, guid: 019c7dd74715b3f4b8661e3c43f3f1ec, type: 2}
+  - path: House southeast upper/Charred surviving roof timbers
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: e722a678baac7ac4b8a5d010bc03e5ac, type: 2}
+    material: {fileID: 2100000, guid: de38304e1c2776d4d82948d0647ceb55, type: 2}
+  - path: House southeast upper/Ruined domestic furniture
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 2c55cfef540021541a9fc7168e01fb8b, type: 2}
+    material: {fileID: 2100000, guid: 85bfcb257fd6ad64daba40fdc21fda48, type: 2}
+  - path: House southeast upper/Weathered interior accents
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: fe07b9d43f2bf9e4092906a9e1017de7, type: 2}
+    material: {fileID: 2100000, guid: ffb89d153e5daec4d861ac2495e26b55, type: 2}
+  - path: House southeast upper/Broken soot-dark hearth
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 2923e24df7ff9bc4a906ce03971d5df3, type: 2}
+    material: {fileID: 2100000, guid: c2831a5047af63943b37ff55ea40a32a, type: 2}
+  - path: House southeast lower/Broken low-poly floor
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 9acabfada0626e64488820d9c82bfc09, type: 2}
+    material: {fileID: 2100000, guid: c6835d05153ad3b49a25c6a705a3ae12, type: 2}
+  - path: House southeast lower/Crumbled cutaway stone 0
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: fce6f0397fcfb6d419e4d2afa000aa0e, type: 2}
+    material: {fileID: 2100000, guid: ab14ad1a70974b9459b58113c98a8267, type: 2}
+  - path: House southeast lower/Crumbled cutaway stone 1
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: c976f9ddbb6be7943817e12df4d2bcef, type: 2}
+    material: {fileID: 2100000, guid: 23b9fd6f4e8458f4483bce6722511577, type: 2}
+  - path: House southeast lower/Crumbled cutaway stone 2
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: b51f2f5c210acb14984ed4147d418842, type: 2}
+    material: {fileID: 2100000, guid: 8dd676cc197ebfb40ac77d2d228ee7b8, type: 2}
+  - path: House southeast lower/Crumbled cutaway stone 3
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 5814ce963e0b46b46a3f112cc53fe104, type: 2}
+    material: {fileID: 2100000, guid: 5ea1327434a29af4ba1bf18e71d44d94, type: 2}
+  - path: House southeast lower/Low rubble at breach sides
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 567e46007c4b4104a940a4ad2c8ebc02, type: 2}
+    material: {fileID: 2100000, guid: 90a1c4315ed965c47be9a4a93ef0d132, type: 2}
+  - path: House southeast lower/Charred surviving roof timbers
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 81ea80bb8c00dbe49bebe7d73372ee5a, type: 2}
+    material: {fileID: 2100000, guid: 4b45487864616aa4eaad91ff5fafc28b, type: 2}
+  - path: House southeast lower/Ruined domestic furniture
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 1b7ebf8543625294aba531b005909584, type: 2}
+    material: {fileID: 2100000, guid: 80e8249a5f0897e4ca878160fe9ff4f8, type: 2}
+  - path: House southeast lower/Weathered interior accents
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: e73926fc54a415d4797a3fd4f010c464, type: 2}
+    material: {fileID: 2100000, guid: 68c42aedfdce9a04bbbe70f5b20fb2b9, type: 2}
+  - path: House southeast lower/Broken soot-dark hearth
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 6077ce2342555b34a8e11224e5e8d0c8, type: 2}
+    material: {fileID: 2100000, guid: 8381519ac0e5b394bad5345a92e38ddc, type: 2}
+  - path: Destroyed house north outskirts/Broken low-poly floor
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: de8b4b9c1341a324da9a2b8d9c609a08, type: 2}
+    material: {fileID: 2100000, guid: cd08d77aec97e374db9a25b038f59384, type: 2}
+  - path: Destroyed house north outskirts/Crumbled cutaway stone 0
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 407007f2f96029c419a39e91a24fee2b, type: 2}
+    material: {fileID: 2100000, guid: 5de2354f9474b4f4093a54dbab5a233c, type: 2}
+  - path: Destroyed house north outskirts/Crumbled cutaway stone 1
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 29c21d746c0f2f241b2f2fa597e8ed5b, type: 2}
+    material: {fileID: 2100000, guid: 8f7482b136b33dd4e85f2a7fd7062b2e, type: 2}
+  - path: Destroyed house north outskirts/Crumbled cutaway stone 2
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 101390eb75da5114f879ae29a97e8fa1, type: 2}
+    material: {fileID: 2100000, guid: f82e5a5a2614c9d4b828d1bc1158d592, type: 2}
+  - path: Destroyed house north outskirts/Crumbled cutaway stone 3
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 78543cb032143a74483f0e3062b742fa, type: 2}
+    material: {fileID: 2100000, guid: 6641a187bfc52e240852f7d35dba1200, type: 2}
+  - path: Destroyed house north outskirts/Low rubble at breach sides
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 06abd562921b612408b2104d36a6837c, type: 2}
+    material: {fileID: 2100000, guid: 8b57702f8b442514c87272d423fc44a9, type: 2}
+  - path: Destroyed house north outskirts/Charred surviving roof timbers
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: e7c2a4aa96d1e5f44bebaaf80f506d15, type: 2}
+    material: {fileID: 2100000, guid: 46ad2601239d87a4aa0777355eb7db15, type: 2}
+  - path: Destroyed house north outskirts/Ruined domestic furniture
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: fa7370329d6501947a520e3a13261a23, type: 2}
+    material: {fileID: 2100000, guid: 0fd180ecd6fe65244876fbcfa5067028, type: 2}
+  - path: Destroyed house north outskirts/Weathered interior accents
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 14a7ae7f68970874a8260957d2597e4f, type: 2}
+    material: {fileID: 2100000, guid: 6f2474f496eedfe419399c7227a2c204, type: 2}
+  - path: Destroyed house north outskirts/Broken soot-dark hearth
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: ccd3c22baab50cf4db3358f363fe9320, type: 2}
+    material: {fileID: 2100000, guid: baacfda7538433c43a9c14898d20e2ca, type: 2}
+  - path: Destroyed house west outskirts/Broken low-poly floor
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: c7706622b70d8df4c87226ed1e1fd343, type: 2}
+    material: {fileID: 2100000, guid: 9ae742eb1cc09e04eb3300241c7b4b40, type: 2}
+  - path: Destroyed house west outskirts/Crumbled cutaway stone 0
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: a186f041a64eed745a98b026e9a311d0, type: 2}
+    material: {fileID: 2100000, guid: 5089786fb46310e498fd57190a7ce5f0, type: 2}
+  - path: Destroyed house west outskirts/Crumbled cutaway stone 1
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 137e76ac46022594285885d10e5c1042, type: 2}
+    material: {fileID: 2100000, guid: d55c85cbaad014e4b9c5322ff38b2d09, type: 2}
+  - path: Destroyed house west outskirts/Crumbled cutaway stone 2
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 6571c99eedf976f4e95a80be346dc87b, type: 2}
+    material: {fileID: 2100000, guid: 11adfc2dc301b9d468e9127d1477139d, type: 2}
+  - path: Destroyed house west outskirts/Crumbled cutaway stone 3
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: fbcb2889a75729d4ea18d1059ca61b44, type: 2}
+    material: {fileID: 2100000, guid: f281e68f3942efa4ca08523379241fbf, type: 2}
+  - path: Destroyed house west outskirts/Low rubble at breach sides
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: b63caa702f6bb6b468a0be5cfc0b154d, type: 2}
+    material: {fileID: 2100000, guid: 9ddfa74a1bd610a47b8486390453d2eb, type: 2}
+  - path: Destroyed house west outskirts/Charred surviving roof timbers
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: dfafdde48630d524a823b8718210513c, type: 2}
+    material: {fileID: 2100000, guid: 5782d504a1c0d4b43a1202e1261b8880, type: 2}
+  - path: Destroyed house west outskirts/Ruined domestic furniture
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: a3d8e148ec9654c4eb00deb708821459, type: 2}
+    material: {fileID: 2100000, guid: e4149a0c40d61704c8a7b72662f7b322, type: 2}
+  - path: Destroyed house west outskirts/Weathered interior accents
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: fbc2601e0d0f6bf4b88d87775834696c, type: 2}
+    material: {fileID: 2100000, guid: e2157255ba385204196340dfaab7dd9b, type: 2}
+  - path: Destroyed house west outskirts/Broken soot-dark hearth
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 11e7557767aebfa4da96fb3fbbddb7f6, type: 2}
+    material: {fileID: 2100000, guid: de87890a87dff544b8de662014b0d2ba, type: 2}
+  - path: Village landscape - rocks and scrub/Batched faceted landscape 0
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 05a4c3990869e1c42ab11b91c71eef1c, type: 2}
+    material: {fileID: 2100000, guid: 3ac6ec517df3c6640bc609b4607f9c9c, type: 2}
+  - path: Village landscape - rocks and scrub/Batched faceted landscape 1
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 12b288e9f67f6994ca3b82f5541de5b9, type: 2}
+    material: {fileID: 2100000, guid: e507ff26986199b4695b607da2dbf175, type: 2}
+  - path: Village landscape - rocks and scrub/Batched faceted landscape 2
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 441470f4ad176db4d9dd2e88d41ca7c5, type: 2}
+    material: {fileID: 2100000, guid: b230084e01f035c469391f9785c0048e, type: 2}
+  - path: Village landscape - rocks and scrub/Batched faceted landscape 3
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 3e4ff2fab505bf347b3d63063028f8d4, type: 2}
+    material: {fileID: 2100000, guid: ab8acc8dd16343f40bbd06cbf40507f1, type: 2}
+  - path: Village landscape - rocks and scrub/Batched faceted landscape 4
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: f48bdac780e5d33479b67c41428966a5, type: 2}
+    material: {fileID: 2100000, guid: 905da78a79cc0db469d3f1da905112c7, type: 2}
+  - path: Village landscape - rocks and scrub/Batched faceted landscape 5
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: cedb6a570ba31cc47860bb1d6b5a3717, type: 2}
+    material: {fileID: 2100000, guid: 24417c550403c7a45b419f2bfb1cc3c0, type: 2}
+  - path: Village landscape - rocks and scrub/Batched faceted landscape 6
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 452f88a8c0b2699488fdc6b284816c42, type: 2}
+    material: {fileID: 2100000, guid: b39fce4a203c8fb4485a8aa8cc1c7e2a, type: 2}
+  - path: Dying grass - ochre earth cover
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 021abaa3ecda05f43b9b47ad10ee577b, type: 2}
+    material: {fileID: 2100000, guid: 86d971d37733ebe45841347f2b51799b, type: 2}
+  - path: Dying grass - faded olive cover
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 28b51f63660b29142a64e841d1658dbc, type: 2}
+    material: {fileID: 2100000, guid: 777554f3698722d4b803df60b256da68, type: 2}
+  - path: Dying grass - bare soil breaks
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 6b75081f8a5c9da4aa8244662ebab127, type: 2}
+    material: {fileID: 2100000, guid: 2b4e3b220234d4a4487c7b3f9ac5d19c, type: 2}
+  - path: Dry bent grass tufts
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 79d1715e3dedde7439b3e05955b28e47, type: 2}
+    material: {fileID: 2100000, guid: a20c061301e6d194896ca2794d2b8ad1, type: 2}
+  - path: Collapsed masonry along building edges
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: b21699aa09224cb45ae841904a244cf9, type: 2}
+    material: {fileID: 2100000, guid: 3f5054814a932cb42a465caa15884463, type: 2}
+  - path: Jagged fractures in old paving
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 5b0546ec98121a94c9caa9702f3e17d0, type: 2}
+    material: {fileID: 2100000, guid: 0e432ae0134e3cc4888f9ebaaac6c6d2, type: 2}
+  - path: Splits and worn grain in timber floors
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: c0b9c4bbc1c42bf49b1dbfec3114687b, type: 2}
+    material: {fileID: 2100000, guid: 04bc6ba479be9f84aabb71a262ac43cd, type: 2}
+  - path: Sparse weeds between paving joints
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: be78232f55e06644a915bc89d989e64e, type: 2}
+    material: {fileID: 2100000, guid: eef4cb93fa7aa5e4a85de5684f263e62, type: 2}
+  - path: Batched low-poly village scenery RGBA(0.262, 0.262, 0.238, 0.820)
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: bf7c3336ca1b2814eae160fbe78ff2fb, type: 2}
+    material: {fileID: 2100000, guid: 4c2e72216903a7a449e88a65c584bb0c, type: 2}
+  - path: Batched low-poly village scenery RGBA(0.285, 0.285, 0.258, 0.890)
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 53f8ed91cd2abcd47a46ace77b909d05, type: 2}
+    material: {fileID: 2100000, guid: 4fb994210cd43d742a2ea8782b7710e9, type: 2}
+  - path: Batched low-poly village scenery RGBA(0.218, 0.218, 0.197, 0.680)
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: a97ac9906e09faf419181952b9f6b3fa, type: 2}
+    material: {fileID: 2100000, guid: d07fc7161e1f4c6408e5dee275b40d6c, type: 2}
+  - path: Batched low-poly village scenery RGBA(0.240, 0.240, 0.218, 0.750)
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 130a49c6f08b03644beecfbbad1bad6b, type: 2}
+    material: {fileID: 2100000, guid: 0b2946745325f304186d5340d449025e, type: 2}
+  - path: Batched low-poly village scenery RGBA(0.141, 0.086, 0.048, 0.640)
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 77a2e97fe3d14e045934676f32236d73, type: 2}
+    material: {fileID: 2100000, guid: 40c6ada45aefc5545bf8e94c2fc2649b, type: 2}
+  - path: Batched low-poly village scenery RGBA(0.250, 0.014, 0.025, 1.000)
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 424b28a2ec83bc543b9171e0414cbaaa, type: 2}
+    material: {fileID: 2100000, guid: 8afebec9fc56670418ea104170a3333c, type: 2}
+  - path: Batched low-poly village scenery RGBA(0.480, 0.025, 0.040, 1.000)
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 22512aa8f846d634bb8f13ac0ddb5898, type: 2}
+    material: {fileID: 2100000, guid: 3c03d1c2c7291e949a12fed4e4deb2be, type: 2}
+  - path: Batched low-poly village scenery RGBA(0.680, 0.032, 0.055, 1.000)
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 9f93632e059bd61418637dc87c3c3899, type: 2}
+    material: {fileID: 2100000, guid: 0b499cee637abd442b0a26e6e3f94d1f, type: 2}
+  - path: Batched low-poly village scenery RGBA(0.176, 0.108, 0.060, 0.800)
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: 4dae28a68d1d3164f986f462c6e8710b, type: 2}
+    material: {fileID: 2100000, guid: b9202418d7745ad43a0e6de6ab352cdd, type: 2}
+  - path: Batched low-poly village scenery RGBA(0.100, 0.085, 0.070, 1.000)
+    occurrence: 0
+    mesh: {fileID: 4300000, guid: d14ce63b0fcbd254a9ef685d097d3879, type: 2}
+    material: {fileID: 2100000, guid: 0b2390e055a61ae469cdd7f36f3e537b, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380cf4ce7c18fee4cbc60b043076a5cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Veilbound.GreatswordMotionSet
+  ready: {fileID: 7400000, guid: 58667b293ebae2f448ef8523dc0f2c44, type: 2}
+  movement:
+  - {fileID: 7400000, guid: 7666ca2beb105aa4bb34316e1dc7bbf8, type: 2}
+  - {fileID: 7400000, guid: 90b807fc64484984999c2573f3d2d3e3, type: 2}
+  - {fileID: 7400000, guid: d6efd186a6bc82e4794c9acce98f1f50, type: 2}
+  - {fileID: 7400000, guid: fad1676ec164953478dd03c828b961ee, type: 2}
+  - {fileID: 7400000, guid: 1387db74d17cd3341bbd99af7aa7d99b, type: 2}
+  - {fileID: 7400000, guid: 337ee57eaf5e000448fb0bcdeef5d828, type: 2}
+  - {fileID: 7400000, guid: 20f140b55b687ee40b52e71808bb30bc, type: 2}
+  - {fileID: 7400000, guid: 39fe8e61185c96d48972e7cfd8a7c294, type: 2}
+  attacks:
+  - {fileID: 7400000, guid: cfddea48bac31ea4487cb73432c84919, type: 2}
+  - {fileID: 7400000, guid: b7beba53691c4724495ecf6a3af0ccdd, type: 2}
+  - {fileID: 7400000, guid: f9d7a1303b407284fbcf3d2a8eafeda1, type: 2}
+  - {fileID: 7400000, guid: a9b1fdf070c8e22499faf307482b84b9, type: 2}
+  blockEnter: {fileID: 7400000, guid: 3c169b6489a7b9343951e63083591937, type: 2}
+  blockHold: {fileID: 7400000, guid: cdcf0bbd4c9d80f4ea32f77a82ba0e97, type: 2}
+  blockExit: {fileID: 7400000, guid: 753d99e3052c9674eb97e4e614bc129f, type: 2}
+  blockImpact: {fileID: 7400000, guid: e9f23b860dc1e5840af760e61d1e5a50, type: 2}

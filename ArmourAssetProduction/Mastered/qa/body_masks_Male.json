@@ -1,0 +1,17 @@
+{
+  "variant": "Male",
+  "channel": "UV2.x=any-mask/512; UV2.y=all-required-mask/512",
+  "mask_counts": {
+    "0": 4582,
+    "1": 3324,
+    "2": 2482,
+    "3": 1571,
+    "4": 7491,
+    "5": 1059,
+    "6": 10827,
+    "7": 2901,
+    "8": 0
+  },
+  "faces": 30352,
+  "all_required_mask_faces": 0
+}

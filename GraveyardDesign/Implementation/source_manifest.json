@@ -1,0 +1,34 @@
+[
+  {
+    "path": "GraveyardDesign\\Implementation\\pipeline\\ExpeditionMaps.cs",
+    "sha256": "ed0a1fff728bd4cb181424185c8e0000ad0e42de33d6c31bc5a2d5df96d7b11e"
+  },
+  {
+    "path": "GraveyardDesign\\Implementation\\pipeline\\GraveyardArena.cs",
+    "sha256": "5a83a81bfaca9d2a03bed5a1fe94ca6dec87f66b47a60759c98b537ed42b88ba"
+  },
+  {
+    "path": "GraveyardDesign\\Implementation\\pipeline\\GraveyardReview.cs",
+    "sha256": "72b5f19fa82d4ac5c1d4692a7e4ded98cd722780531f3b68d53dba4015665b25"
+  },
+  {
+    "path": "GraveyardDesign\\Implementation\\pipeline\\GraveyardValidation.cs",
+    "sha256": "554e68808591b4a35530cc64f960109160cc1f637bf735a57a1c36019876e409"
+  },
+  {
+    "path": "GraveyardDesign\\Implementation\\pipeline\\RandomMapSmoke.cs",
+    "sha256": "c239c5ad819ff2cfd134750dfc50b9f9d198b020d5acb6373ec72fe755272487"
+  },
+  {
+    "path": "GraveyardDesign\\Implementation\\pipeline\\RuinedTownSmoke.cs",
+    "sha256": "6afc5fc0e38407f3fd3b07c9cd9ccb706fb2fa9d6d013bd7dad34ce99f81c39d"
+  },
+  {
+    "path": "GraveyardDesign\\Implementation\\pipeline\\VeilGame.cs",
+    "sha256": "6cb0aeb4a7f58f0b52149b6116441f7cec3d184f4731660ae393f59e6b8aaf13"
+  },
+  {
+    "path": "GraveyardDesign\\Implementation\\pipeline\\WorldArt.cs",
+    "sha256": "96f26df0726cda950638ada9adf47c7ef10f919987df49a90a5145ea14c5ce98"
+  }
+]

@@ -1,0 +1,49 @@
+﻿using System;
+using System.IO;
+using System.Collections;
+using UnityEngine;
+namespace Veilbound {
+ public partial class VeilGame {
+  void CheckMetalProgression() {
+   var sample=new Settlement{mine=3,weaver=3,huntersLodge=3};sample.EnsureGear();sample.EnsureIndustry();Array.Clear(sample.mineEffort,0,8);sample.iron=0;
+   sample.EnsureMineOrders();sample.mineOrders.Clear();Require(sample.QueueMining(0,3,out _)&&sample.QueueMining(1,3,out _)&&sample.QueueMining(3,10,out _),"Mine accepts serial work orders");
+   sample.Tick(1440,1);Require(sample.ResourceAmount(0,0)==3&&sample.ResourceAmount(0,1)==3&&sample.iron==2,"Mixed orders deliver whole units in sequence");
+   Require(!sample.QueueMining(7,1,out _),"Locked ores cannot be queued");
+   double remaining=sample.mineOrders[0].remainingWork;sample=JsonUtility.FromJson<Settlement>(JsonUtility.ToJson(sample));sample.EnsureGear();sample.EnsureIndustry();Require(Math.Abs(sample.mineOrders[0].remainingWork-remaining)<1e-8,"Mining progress survives saving");
+   Array.Clear(sample.huntEffort,0,5);Array.Clear(sample.textileEffort,0,5);sample.Allocate(1,2,1);sample.Allocate(2,2,1);double hides=sample.ResourceAmount(1,2),silk=sample.ResourceAmount(2,2);sample.Tick(1440,1);Require(Math.Abs(sample.ResourceAmount(1,2)-hides-.25*Settlement.PassiveProductionMultiplier)<1e-8&&Math.Abs(sample.ResourceAmount(2,2)-silk-.25*Settlement.PassiveProductionMultiplier)<1e-8,"Hunting and textiles use the same fractional allocation model");
+   var crafter=new Settlement{blacksmith=9};crafter.EnsureGear();crafter.EnsureIndustry();double tin=crafter.ResourceAmount(0,0),copper=crafter.ResourceAmount(0,1);Require(!crafter.MakeBars(2,1,out _)&&crafter.ResourceAmount(0,0)==tin&&crafter.ResourceAmount(0,1)==copper,"Unfunded alloy recipes consume nothing");
+   crafter.AddResource(3,0,1);crafter.AddResource(3,1,2);Require(crafter.MakeBars(2,1,out _)&&crafter.metalBars[2]==0&&crafter.ResourceAmount(3,0)==0&&crafter.ResourceAmount(3,1)==0,"Bronze reserves copper bars and tin bars without instant output");crafter.TickSmithOrders(crafter.SmithQueueHours());Require(crafter.metalBars[2]==1,"Bronze completes after refining work");
+   for(int f=0;f<3;f++)for(int i=0;i<Settlement.ResourceNames[f].Length;i++)crafter.AddResource(f,i,10000);for(int i=0;i<10;i++)crafter.metalBars[i]+=10000;
+   for(int i=0;i<5;i++){crafter.AddResource(4,i,10000);crafter.AddResource(5,i,10000);}
+   Array.Clear(crafter.ownedMetalWeapons,0,10);for(int metal=0;metal<10;metal++){
+    Require(crafter.MakeBars(metal,1,out _),"Every metal bar/alloy recipe can be made: "+Metals.All[metal].name);crafter.TickSmithOrders(crafter.SmithQueueHours());
+    for(int slot=0;slot<8;slot++)Require(crafter.CraftPlate(slot,metal,out _)&&crafter.EquipRoll(crafter.lastCraftedRollId)&&crafter.OwnsPlate(slot,metal)&&crafter.Item(slot)==Metals.Item(metal),"Each material crafts into each real plate slot");
+    Require(crafter.CraftMetalWeapon(metal,out _)&&crafter.EquipRoll(crafter.lastCraftedRollId)&&crafter.WeaponMetalIndex==metal,"Each metal has a forgeable greatsword");
+    Require(crafter.WeaponRecipe(metal)[1].index==Math.Max(0,(int)Metals.All[metal].rarity-1),"Weapon grip leather is a rarity lower than its metal");
+   }
+   Require(Metals.All[7].rarity==Metals.All[8].rarity&&Metals.All[7].armour<Metals.All[8].armour&&Metals.All[7].weight<Metals.All[8].weight,"Titanium and tungsten share rarity but trade protection against mass");
+   for(int s=0;s<8;s++)crafter.equippedGear[s]=107;crafter.equippedMetalWeapon=7;float titaniumSpeed=crafter.GearSpeed;for(int s=0;s<8;s++)crafter.equippedGear[s]=108;crafter.equippedMetalWeapon=8;Require(titaniumSpeed>crafter.GearSpeed,"The mass trade-off reaches actual movement speed");
+   Array.Clear(crafter.equippedGear,0,9);float unarmouredMass=crafter.EquipmentMass;for(int s=0;s<8;s++)crafter.equippedGear[s]=21;Require(Mathf.Abs(crafter.EquipmentMass-unarmouredMass-2)<.001f&&Mathf.Abs(crafter.GearBonus("speed")-2)<.001f,"Leather clothing has two kilograms of armour and a small intrinsic mobility bonus");
+   var legacy=new Settlement{armour=2,equippedArmour=2,sword=2,iron=35.5};legacy.EnsureGear();Require(legacy.Item(2)==32&&legacy.OwnsPlate(2,2)&&legacy.OwnsPlate(2,5)&&legacy.iron==35.5,"Legacy plate ownership and fractional stock survive migration");
+   var saved=JsonUtility.FromJson<Settlement>(JsonUtility.ToJson(crafter));saved.EnsureGear();Require(saved.ownedMetalWeapons[9]&&saved.OwnsPlate(2,9)&&saved.metalBars[2]==crafter.metalBars[2],"New material ownership and bars roundtrip through the real save format");
+   Debug.Log("VEILBOUND_METAL_PROGRESSION_LOGIC_PASS");
+  }
+  IEnumerator MetalProgressionReview(string folder) {
+   Directory.CreateDirectory(folder);CheckMetalProgression();ReturnHome();FundTestCity();city.blacksmith=9;city.mine=7;city.huntersLodge=5;city.weaver=5;city.tailor=2;city.leatherworker=2;city.EnsureGear();city.EnsureIndustry();
+   for(int family=0;family<3;family++)for(int i=0;i<Settlement.ResourceNames[family].Length;i++)city.AddResource(family,i,48);for(int i=0;i<10;i++){city.metalBars[i]=80;city.ownedMetalWeapons[i]=true;}
+   tab=1;gearMaterial=3;gearSlot=2;
+   for(int metal=0;metal<10;metal++){
+    selectedMetal=metal;for(int slot=0;slot<8;slot++){city.ownedPlate[slot*10+metal]=true;city.equippedGear[slot]=Metals.Item(metal);}city.equippedMetalWeapon=metal;city.equippedSword=0;RebuildHero();yield return new WaitForSecondsRealtime(.18f);
+    Require(cachedEquipmentHero==hero,"Paper doll and item thumbnails update for each metal");
+    var visual=hero.root.GetComponent<BronzeHeroVisual>();foreach(var part in visual.parts)if(part.name.StartsWith("TRIM -"))Require(part.sharedMaterials[0].color.b>=part.sharedMaterials[0].color.r,"Silver trim stays silver across material recolours");
+    yield return CardScreenshot(Path.Combine(folder,(metal+1).ToString("00")+"-"+Metals.All[metal].name.ToLowerInvariant().Replace(' ','-')+".png"));
+   }
+   tab=2;industryPage=0;industrySource=0;Array.Clear(city.mineEffort,0,8);city.Allocate(0,0,3);city.Allocate(0,1,3);city.Allocate(0,3,10);yield return new WaitForSecondsRealtime(.2f);yield return CardScreenshot(Path.Combine(folder,"11-mine-allocation.png"));
+   industrySource=1;Array.Clear(city.huntEffort,0,5);city.Allocate(1,0,6);city.Allocate(1,2,8);yield return CardScreenshot(Path.Combine(folder,"12-hunters-lodge.png"));industrySource=2;yield return CardScreenshot(Path.Combine(folder,"13-textile-supply.png"));
+   industryPage=1;selectedMetal=3;yield return CardScreenshot(Path.Combine(folder,"14-brass-blacksmith.png"));industryPage=2;yield return CardScreenshot(Path.Combine(folder,"15-stockpile.png"));
+   File.WriteAllText(Path.Combine(folder,"PASS.txt"),"PASS: mixed capacity allocation; exact fractional rates and save roundtrip; locked ores and capacity limits; all three producers; atomic alloy costs; all ten metal recipes; eighty slot/material plate combinations; ten weapon recipes; lower-rarity leather grips; titanium/tungsten armour-mass tradeoff and actual speed; no leather garment movement penalty; legacy ownership migration; static paper-doll recolours and silver trim.\n");Debug.Log("VEILBOUND_METAL_PROGRESSION_PASS");tab=0;ReturnHome();
+  }
+ }
+}
+
+

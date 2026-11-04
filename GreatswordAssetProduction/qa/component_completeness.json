@@ -1,0 +1,119 @@
+{
+  "swords": [
+    {
+      "sword": "GS_Tin",
+      "blade": true,
+      "guard_width_m": 0.5774171948432922,
+      "grip_width_m": 0.04772750288248062,
+      "pommel_width_m": 0.2671412229537964,
+      "blade_width_m": 0.2787819653749466,
+      "blade_thickness_m": 0.05530557967722416,
+      "complete": true,
+      "normal_winding_errors": 0
+    },
+    {
+      "sword": "GS_Copper",
+      "blade": true,
+      "guard_width_m": 0.5536975264549255,
+      "grip_width_m": 0.05132078379392624,
+      "pommel_width_m": 0.2335839420557022,
+      "blade_width_m": 0.27406325936317444,
+      "blade_thickness_m": 0.05611729994416237,
+      "complete": true,
+      "normal_winding_errors": 0
+    },
+    {
+      "sword": "GS_Bronze",
+      "blade": true,
+      "guard_width_m": 0.6304430663585663,
+      "grip_width_m": 0.05018254555761814,
+      "pommel_width_m": 0.2616298496723175,
+      "blade_width_m": 0.26088903844356537,
+      "blade_thickness_m": 0.05680218152701855,
+      "complete": true,
+      "normal_winding_errors": 0
+    },
+    {
+      "sword": "GS_Brass",
+      "blade": true,
+      "guard_width_m": 0.574590414762497,
+      "grip_width_m": 0.04393179155886173,
+      "pommel_width_m": 0.25164296478033066,
+      "blade_width_m": 0.32854315638542175,
+      "blade_thickness_m": 0.08305025845766068,
+      "complete": true,
+      "normal_winding_errors": 0
+    },
+    {
+      "sword": "GS_Iron",
+      "blade": true,
+      "guard_width_m": 0.5723802149295807,
+      "grip_width_m": 0.03906544204801321,
+      "pommel_width_m": 0.24255802482366562,
+      "blade_width_m": 0.3455170542001724,
+      "blade_thickness_m": 0.06281326711177826,
+      "complete": true,
+      "normal_winding_errors": 0
+    },
+    {
+      "sword": "GS_Steel",
+      "blade": true,
+      "guard_width_m": 0.6059095561504364,
+      "grip_width_m": 0.04088518023490906,
+      "pommel_width_m": 0.25223060697317123,
+      "blade_width_m": 0.2952480912208557,
+      "blade_thickness_m": 0.06345905177295208,
+      "complete": true,
+      "normal_winding_errors": 0
+    },
+    {
+      "sword": "GS_HardenedSteel",
+      "blade": true,
+      "guard_width_m": 0.7021642923355103,
+      "grip_width_m": 0.048733921721577644,
+      "pommel_width_m": 0.24540585279464722,
+      "blade_width_m": 0.3503486216068268,
+      "blade_thickness_m": 0.08500732854008675,
+      "complete": true,
+      "normal_winding_errors": 0
+    },
+    {
+      "sword": "GS_Tungsten",
+      "blade": true,
+      "guard_width_m": 0.7138590216636658,
+      "grip_width_m": 0.04670620337128639,
+      "pommel_width_m": 0.2324410006403923,
+      "blade_width_m": 0.4021136909723282,
+      "blade_thickness_m": 0.13468076288700104,
+      "complete": true,
+      "normal_winding_errors": 0
+    },
+    {
+      "sword": "GS_Titanium",
+      "blade": true,
+      "guard_width_m": 0.6165013313293457,
+      "grip_width_m": 0.04994284361600876,
+      "pommel_width_m": 0.17744723707437515,
+      "blade_width_m": 0.267020121216774,
+      "blade_thickness_m": 0.08154171705245972,
+      "complete": true,
+      "normal_winding_errors": 0
+    },
+    {
+      "sword": "GS_Veilcrystal",
+      "blade": true,
+      "guard_width_m": 0.6071300208568573,
+      "grip_width_m": 0.039059149101376534,
+      "pommel_width_m": 0.12741297483444214,
+      "blade_width_m": 0.3582528680562973,
+      "blade_thickness_m": 0.08714261278510094,
+      "complete": true,
+      "normal_winding_errors": 0
+    }
+  ],
+  "heavy_silhouette": {
+    "tungsten_to_titanium_blade_width": 1.5059302989600611,
+    "tungsten_to_titanium_blade_thickness": 1.6516792600817372
+  },
+  "passed": true
+}

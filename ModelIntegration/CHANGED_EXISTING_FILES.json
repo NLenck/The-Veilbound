@@ -1,0 +1,13 @@
+[
+  "Assets\\Veilbound\\Scripts\\CharacterRosterUI.cs",
+  "Assets\\Veilbound\\Scripts\\CharacterSaves.cs",
+  "Assets\\Veilbound\\Scripts\\EnemyCombat.cs",
+  "Assets\\Veilbound\\Scripts\\EquipmentPaperDoll.cs",
+  "Assets\\Veilbound\\Scripts\\HeroRig.cs",
+  "Assets\\Veilbound\\Scripts\\HuskRig.cs",
+  "Assets\\Veilbound\\Scripts\\LoadoutInventory.cs",
+  "Assets\\Veilbound\\Scripts\\MonsterVisual.cs",
+  "Assets\\Veilbound\\Scripts\\VeilGame.cs",
+  "README.md",
+  "Docs/Validation.md"
+]

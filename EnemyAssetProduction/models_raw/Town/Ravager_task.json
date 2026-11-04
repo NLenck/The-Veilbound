@@ -1,0 +1,17 @@
+{
+  "task_id": "47fbbece-a308-4d75-9004-2ebf869b9f3a",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Ravager_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 4500
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Ravager.glb",
+  "model_sha256": "a1fea79e3f5b689202fdf2278f513e7feeacff48e8f0eed49fd52abe8d2e503a",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Ravager_hero.png"
+}

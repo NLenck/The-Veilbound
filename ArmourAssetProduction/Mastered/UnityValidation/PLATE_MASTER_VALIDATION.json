@@ -1,0 +1,61 @@
+{
+    "passed": true,
+    "tierCount": 10,
+    "materials": 10,
+    "variants": [
+        {
+            "variant": "Male",
+            "bodyTriangles": 30352,
+            "maskedBodyTriangles": 570,
+            "masterMeshes": 20,
+            "prefabs": 10,
+            "masksRestore": true,
+            "slotToggles": true,
+            "mixedTier": true,
+            "uv2": true,
+            "waistTuck": true
+        },
+        {
+            "variant": "Female",
+            "bodyTriangles": 27084,
+            "maskedBodyTriangles": 112,
+            "masterMeshes": 20,
+            "prefabs": 10,
+            "masksRestore": true,
+            "slotToggles": true,
+            "mixedTier": true,
+            "uv2": true,
+            "waistTuck": true
+        }
+    ],
+    "motion": [
+        {
+            "variant": "Male",
+            "family": "Tin",
+            "finite": true,
+            "maxMotion": 0.8746117949485779,
+            "clips": 3
+        },
+        {
+            "variant": "Male",
+            "family": "Copper",
+            "finite": true,
+            "maxMotion": 0.8746074438095093,
+            "clips": 3
+        },
+        {
+            "variant": "Female",
+            "family": "Tin",
+            "finite": true,
+            "maxMotion": 0.8785749673843384,
+            "clips": 3
+        },
+        {
+            "variant": "Female",
+            "family": "Copper",
+            "finite": true,
+            "maxMotion": 0.8785709738731384,
+            "clips": 3
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+PASS: Graveyard naming and default map; quiet 27-marker layout; player spawn; all shrine enemies and doubled bosses reachable; actual boss cathedral traversal; indoor cutaway; random village/Graveyard switching; 42/50m bounds and matching Veil; actual-game renders.

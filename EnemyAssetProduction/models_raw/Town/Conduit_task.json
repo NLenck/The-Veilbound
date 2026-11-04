@@ -1,0 +1,17 @@
+{
+  "task_id": "f7b30c88-8bcf-4ec7-b293-08604f88a253",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Conduit_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 6500
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Conduit.glb",
+  "model_sha256": "703ca7c480ac2301a87159e75e5cda3413f85c5b7746c56357f459c2584d2639",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Conduit_hero.png"
+}

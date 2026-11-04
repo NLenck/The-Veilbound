@@ -1,0 +1,9 @@
+# Player art revision 03
+
+The old estimated-position iris rings and black pupil overlays are removed. Two 2.8 mm shallow red glowing pupil patches per character are fitted to measured eye openings in the uncovered 1200-pixel orthographic diagnostic renders. Each patch follows the actual posed mesh surface, is converted back into rest space and inherits barycentric skin weights. Front-face normals, two pupils, removal of old overlays and alignment below 0.1 pixel all pass. Blender and Unity pupil emission use a 0.65 multiplier; no bloom halo is baked into textures.
+
+Mouth corners and outer lids received a small neutralizing adjustment; both faces remain stern. The male rear tail was replaced using the clean opposite posterior surface, aligned to the torso centre and the head offset. New boundary strips are stitched locally. This is an approximate local repair: the rear hair/neck transition and some seam shading still need manual art refinement. Small residual boundary loops were closed. The final welded audit has no boundary edges, but retains one nonmanifold edge and one negligible-area face per variant; do not label the meshes certified watertight.
+
+No new API calls or credit spend. Last verified Developer balance remains 300. Raw generated GLB, raw rig, reference images and live Unity project were not modified. Revision 01 snapshots retain the prior processed files.
+
+Reproduction order: correct_player_art.py Male; correct_player_art.py Female; fit_socket_pupils.py Male; fit_socket_pupils.py Female; close_player_microgaps.py; render_player_revision.py Male/Female; reexport_player.py; verify_player_exports.py; verify_socket_pupils.py; package_player.py. Rebuild Generated only in the isolated UnityValidation project, run PlayerValidation.Run, export its validated package, then finalize_player.py. The scripts use explicit production paths and must not target the live Unity Assets folder.

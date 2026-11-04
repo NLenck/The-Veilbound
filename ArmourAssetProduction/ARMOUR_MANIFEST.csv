@@ -1,0 +1,5 @@
+tier,variant,status,independent_slots,source_objects,raw_triangles,export_triangles,runtime_armour_renderers,shared_armour_materials,rig_bones,unweighted_vertices,max_motion_body_penetration_fraction,missing_coverage,credits_for_shared_two_tier_geometry
+Tin,Male,SEPARABLE_FITTING_DRAFT_NOT_GAME_READY,9,14,7432,7430,9,1,52,0,0.16261032361594008,upper-thigh plates,40
+Tin,Female,SEPARABLE_FITTING_DRAFT_NOT_GAME_READY,9,14,7432,7430,9,1,52,0,0.1265044129446376,upper-thigh plates,40
+Copper,Male,SEPARABLE_FITTING_DRAFT_NOT_GAME_READY,9,14,7672,6588,9,1,52,0,0.1996987951807229,upper-thigh plates,40
+Copper,Female,SEPARABLE_FITTING_DRAFT_NOT_GAME_READY,9,14,7672,6588,9,1,52,0,0.1496987951807229,upper-thigh plates,40

@@ -1,0 +1,82 @@
+[
+  {
+    "path": "CODEX_PROMPT.md",
+    "bytes": 8846,
+    "sha256": "3de338f44fa5eaa6f6acd6f27b84f5a7694b5691af60e7216fc77411ae14d8bd"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1396,
+    "sha256": "1c62511ed7c34d6cf47488eda08e836f2f7aed4e4690b94ca745265c7ff4d1e2"
+  },
+  {
+    "path": "references\\all_10_swords_concept_sheet.png",
+    "bytes": 2057444,
+    "sha256": "6dfed96e0d2fed18256632209f3a6fe24fe4f147d134caaa0a6fa8e43404c7e0"
+  },
+  {
+    "path": "references\\all_10_swords_tripo_input.png",
+    "bytes": 690604,
+    "sha256": "4719c8cb16eaf91b7aa37a6d379fc4ad7c7c3f18e8277cd7f788354c70fe2a17"
+  },
+  {
+    "path": "references\\original_8_swords_user_reference.png",
+    "bytes": 2619511,
+    "sha256": "755e25b8cf85d559c72d71b65b59fdeca6844884bbaf7bd2670764b1ee7dece6"
+  },
+  {
+    "path": "references\\tin_greatsword_full.png",
+    "bytes": 1651323,
+    "sha256": "7fecaf317b7df54a828e5657efc7ff63d03264424cd1eca2eb22e892697c82af"
+  },
+  {
+    "path": "references\\individual_fallback\\01_Tin.png",
+    "bytes": 68793,
+    "sha256": "a666cc2cae6c44d636c44a9be98a64070bad735e9515f5e19f101ab24ec93d07"
+  },
+  {
+    "path": "references\\individual_fallback\\02_Copper.png",
+    "bytes": 66955,
+    "sha256": "13884275de18a0f873a7945cd54f39704a72a1e48b49edd1a8d1fbb7e509b1b6"
+  },
+  {
+    "path": "references\\individual_fallback\\03_Bronze.png",
+    "bytes": 66377,
+    "sha256": "47050c97e4850b39b1df978be8eddda682c0dadd4c0e5e1a481e06dd5c2168b7"
+  },
+  {
+    "path": "references\\individual_fallback\\04_Brass.png",
+    "bytes": 67069,
+    "sha256": "0d167a4fbb6070f24491a8d3edf2bcbe860192a952bc543f0e1d2654f13819d9"
+  },
+  {
+    "path": "references\\individual_fallback\\05_Iron.png",
+    "bytes": 69790,
+    "sha256": "6de5d6928c6d577e919d1f8298d8886e510222c26834f5fc37781296885fbb59"
+  },
+  {
+    "path": "references\\individual_fallback\\06_Steel.png",
+    "bytes": 65644,
+    "sha256": "4b435563afd59ebb91ed34b3ac908bcf8c00fc802176e22ed832aa47148e8392"
+  },
+  {
+    "path": "references\\individual_fallback\\07_Hardened_Steel.png",
+    "bytes": 76136,
+    "sha256": "112bb919e47a571c72afb9e7283cff33dd884d959931a15a19298cd928d46a6e"
+  },
+  {
+    "path": "references\\individual_fallback\\08_Tungsten.png",
+    "bytes": 76835,
+    "sha256": "f2e5622199e603e85bc18105d42be9412deaace55f6a26ce239f92f15eecc3c1"
+  },
+  {
+    "path": "references\\individual_fallback\\09_Titanium.png",
+    "bytes": 74459,
+    "sha256": "3c6217ebe94b3c62320354a0a1fe14c5e8bf26d777f612a11de394c044ee9be1"
+  },
+  {
+    "path": "references\\individual_fallback\\10_Veilcrystal.png",
+    "bytes": 82703,
+    "sha256": "cbb5f842a47051ca1ef308cef39618180849d67dae2dbe074e39a7e623959a97"
+  }
+]

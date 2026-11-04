@@ -1,0 +1,11 @@
+{
+    "passed": true,
+    "appearanceSave": true,
+    "combat": true,
+    "bodyRestore": true,
+    "players": 2,
+    "armourLooks": 20,
+    "enemies": 21,
+    "maps": 2,
+    "crowdFps": 60.11330314353826
+}

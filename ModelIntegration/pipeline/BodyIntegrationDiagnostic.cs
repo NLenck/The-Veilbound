@@ -1,0 +1,15 @@
+#if UNITY_EDITOR
+using System;using System.IO;using System.Linq;using System.Collections.Generic;using UnityEngine;using UnityEditor;
+namespace Veilbound.Editor {public static class BodyIntegrationDiagnostic {
+ static void Dump(SkinnedMeshRenderer skin,string path){var m=new Mesh();skin.BakeMesh(m);File.WriteAllLines(path,m.vertices.Select(p=>skin.transform.TransformPoint(p)).Select(p=>p.x.ToString("R",System.Globalization.CultureInfo.InvariantCulture)+","+p.y.ToString("R",System.Globalization.CultureInfo.InvariantCulture)+","+p.z.ToString("R",System.Globalization.CultureInfo.InvariantCulture)));UnityEngine.Object.DestroyImmediate(m);}
+ static Vector3Int Key(Vector3 v)=>new Vector3Int(Mathf.RoundToInt(v.x*10000),Mathf.RoundToInt(v.y*10000),Mathf.RoundToInt(v.z*10000));
+ static Dictionary<string,float> W(SkinnedMeshRenderer skin,BoneWeight w){var d=new Dictionary<string,float>();void Add(int i,float weight){if(weight<=0)return;string name=skin.bones[i].name;d[name]=(d.TryGetValue(name,out var v)?v:0)+weight;}Add(w.boneIndex0,w.weight0);Add(w.boneIndex1,w.weight1);Add(w.boneIndex2,w.weight2);Add(w.boneIndex3,w.weight3);return d;}
+ public static void Run(){var lines=new List<string>();foreach(bool female in new[]{false,true}){string sex=female?"Female":"Male",prefix="ModelIntegration/"+sex;var c=new Settlement{female=female,bronzeHeroVersion=1};c.EnsureGear();var rig=new HeroRig(null,c);var v=rig.root.GetComponent<ProductionHeroVisual>();for(int slot=0;slot<9;slot++)v.equipment.SetSlotEnabled(slot,false);rig.NeutralPose(0);Dump(rig.skin,prefix+"_native_baked.csv");var original=(GameObject)PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<GameObject>("Assets/VeilbornePlayer/Generated/"+sex+"_Review.prefab"));original.GetComponent<Animator>().enabled=false;var skin=original.GetComponentInChildren<SkinnedMeshRenderer>();Dump(skin,prefix+"_original_rest_baked.csv");ProductionModelCatalog.Current.Player(female).idle.SampleAnimation(original,0);Dump(skin,prefix+"_original_idle_baked.csv");
+ var points=skin.sharedMesh.vertices;var weights=skin.sharedMesh.boneWeights;var lookup=new Dictionary<Vector3Int,int>();for(int i=0;i<points.Length;i++)lookup[Key(skin.transform.TransformPoint(points[i]))]=i;
+ var np=rig.skin.sharedMesh.vertices;var nw=rig.skin.sharedMesh.boneWeights;float max=0;int mismatch=0,checkedCount=0;
+ for(int i=0;i<np.Length;i++)if(lookup.TryGetValue(Key(rig.skin.transform.TransformPoint(np[i])),out int old)){var a=W(skin,weights[old]);var b=W(rig.skin,nw[i]);float delta=a.Keys.Union(b.Keys).Sum(k=>Mathf.Abs((a.TryGetValue(k,out var av)?av:0)-(b.TryGetValue(k,out var bv)?bv:0)));max=Mathf.Max(max,delta);if(delta>.001f)mismatch++;checkedCount++;}
+ lines.Add(sex+" weight differences "+mismatch+" / "+checkedCount+" max "+max);foreach(var bone in v.facade.bones)lines.Add(bone.name+" scale "+bone.localScale);
+ rig.Release();UnityEngine.Object.DestroyImmediate(rig.root.gameObject);UnityEngine.Object.DestroyImmediate(original);}
+ File.WriteAllLines("ModelIntegration/body_skin_diagnostic.txt",lines);Debug.Log("BODY_SKIN_DIAGNOSTIC_COMPLETE");}
+}}
+#endif

@@ -1,0 +1,19 @@
+tier,slot,expected_objects,actual_objects,triangles,separable,coverage_note
+Tin,Head,1,1,396,True,Independent component; fitting and motion acceptance separate.
+Tin,Shoulder,2,2,730,True,Independent component; fitting and motion acceptance separate.
+Tin,Chest,1,1,1068,True,Independent component; fitting and motion acceptance separate.
+Tin,Bracer,2,2,398,True,Independent component; fitting and motion acceptance separate.
+Tin,Hand,2,2,242,True,Independent component; fitting and motion acceptance separate.
+Tin,Belt,1,1,1380,True,Independent component; fitting and motion acceptance separate.
+Tin,Leg,2,2,734,True,Knee/shin only; upper-thigh coverage missing from reference/generated legs.
+Tin,Foot,2,2,710,True,Independent component; fitting and motion acceptance separate.
+Tin,Cape,1,1,1772,True,Independent component; fitting and motion acceptance separate.
+Copper,Head,1,1,424,True,Independent component; fitting and motion acceptance separate.
+Copper,Shoulder,2,2,764,True,Independent component; fitting and motion acceptance separate.
+Copper,Chest,1,1,1110,True,Independent component; fitting and motion acceptance separate.
+Copper,Bracer,2,2,370,True,Independent component; fitting and motion acceptance separate.
+Copper,Hand,2,2,270,True,Independent component; fitting and motion acceptance separate.
+Copper,Belt,1,1,1710,True,Independent component; fitting and motion acceptance separate.
+Copper,Leg,2,2,704,True,Knee/shin only; upper-thigh coverage missing from reference/generated legs.
+Copper,Foot,2,2,774,True,Independent component; fitting and motion acceptance separate.
+Copper,Cape,1,1,1542,True,Independent component; fitting and motion acceptance separate.

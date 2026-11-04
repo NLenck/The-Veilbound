@@ -1,0 +1,17 @@
+{
+  "task_id": "a586bea8-ff22-4c60-800a-a032dbc0fcc7",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Lamenter_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 4500
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Lamenter.glb",
+  "model_sha256": "010637b00446cfa5641572d87308abd51b1c989d5c0ce1a35dd21431258d4c0e",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Lamenter_hero.png"
+}

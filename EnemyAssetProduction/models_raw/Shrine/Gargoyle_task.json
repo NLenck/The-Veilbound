@@ -1,0 +1,19 @@
+{
+  "task_id": "8843547c-f0fe-4fdb-86fd-e242b86066d6",
+  "type": "image_to_model",
+  "status": "success",
+  "created_at": "2026-10-27T05:40:17.118338Z",
+  "completed_at": "2026-10-27T05:41:06.478801Z",
+  "credits_consumed": 50,
+  "input": {
+    "pbr": false,
+    "texture": true,
+    "export_uv": true,
+    "face_limit": 7000,
+    "model_version": "P1-20260311",
+    "enable_image_autofix": false
+  },
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Gargoyle_hero.png",
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Gargoyle.glb",
+  "model_sha256": "1e512068f8164309d22f91f9f5221b5c53af3350e0d772c0488a34fe542d164b"
+}

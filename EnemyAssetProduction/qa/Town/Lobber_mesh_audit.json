@@ -1,0 +1,99 @@
+{
+  "unit": "Lobber",
+  "biome": "Town",
+  "source": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Lobber.glb",
+  "raw": {
+    "mesh_count": 1,
+    "vertices": 6037,
+    "triangles": 3902,
+    "material_slots": 1,
+    "boundary_edges": 5925,
+    "nonmanifold_edges": 3,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "tripo_node_8354ca02-5e95-4f30-970a-23dd81d4b87e": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 1130,
+    "inconsistent_normal_edges": 4,
+    "dimensions_m": [
+      0.74805,
+      0.51367,
+      0.99805
+    ],
+    "bounds_min": [
+      -0.37402,
+      -0.25684,
+      -0.49902
+    ],
+    "bounds_max": [
+      0.37402,
+      0.25684,
+      0.49902
+    ]
+  },
+  "final": {
+    "mesh_count": 1,
+    "vertices": 2104,
+    "triangles": 3902,
+    "material_slots": 1,
+    "boundary_edges": 256,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "Veilbound_Town_Lobber": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 21,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      1.08082,
+      1.57397,
+      2.1
+    ],
+    "bounds_min": [
+      -0.54041,
+      -0.78699,
+      0.0
+    ],
+    "bounds_max": [
+      0.54041,
+      0.78699,
+      2.1
+    ],
+    "target_triangles": 4000,
+    "budget_pass": true,
+    "atlas_baked": false,
+    "faceted_shading": true,
+    "provisional_height_m": 2.1,
+    "decimation_used": false,
+    "rigged": false,
+    "split_overshared_edges": 22,
+    "textures": [
+      "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\textures\\Lobber\\Lobber_00.png"
+    ]
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Lobber_front.png",
+    "side": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Lobber_side.png",
+    "three_quarter": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Lobber_three_quarter.png",
+    "back": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Lobber_back.png"
+  },
+  "limitations": [
+    "No automatic self-intersection or full UV-overlap proof; visual review required.",
+    "Height is a provisional production scale, not an existing Unity prefab measurement.",
+    "No retopology or decimation was applied; P1 generated directly at the requested low-poly budget."
+  ]
+}

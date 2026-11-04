@@ -1,0 +1,17 @@
+{
+  "task_id": "f0e53e5f-0998-471c-97a6-34116fa0852a",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\High_Priest_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 8500
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\High_Priest.glb",
+  "model_sha256": "27c94011f9603cf07abf36f69353f94711b153894abcd9f5c306aa340ce03e6a",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\High_Priest_hero.png"
+}

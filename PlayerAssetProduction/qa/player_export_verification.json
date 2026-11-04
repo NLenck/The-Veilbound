@@ -1,0 +1,90 @@
+[
+  {
+    "variant": "Male",
+    "file": "C:\\The Veilbound\\PlayerAssetProduction\\models_unity\\Male\\Male_Rigged.fbx",
+    "triangles": 30352,
+    "bone_count": 52,
+    "actions": [],
+    "animations_ok": true,
+    "unweighted_vertices": 0,
+    "nonfinite_vertices": 0,
+    "textures_resolve": true,
+    "passed": true
+  },
+  {
+    "variant": "Male",
+    "file": "C:\\The Veilbound\\PlayerAssetProduction\\models_unity\\Male\\Male_Locomotion.fbx",
+    "triangles": 30352,
+    "bone_count": 52,
+    "actions": [
+      "Male_Humanoid|Male_Humanoid|Idle",
+      "Male_Humanoid|Male_Humanoid|Run",
+      "Male_Humanoid|Male_Humanoid|Walk"
+    ],
+    "animations_ok": true,
+    "unweighted_vertices": 0,
+    "nonfinite_vertices": 0,
+    "textures_resolve": true,
+    "passed": true
+  },
+  {
+    "variant": "Male",
+    "file": "C:\\The Veilbound\\PlayerAssetProduction\\models_unity\\Male\\Male_Locomotion.glb",
+    "triangles": 30352,
+    "bone_count": 52,
+    "actions": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "animations_ok": true,
+    "unweighted_vertices": 0,
+    "nonfinite_vertices": 0,
+    "textures_resolve": true,
+    "passed": true
+  },
+  {
+    "variant": "Female",
+    "file": "C:\\The Veilbound\\PlayerAssetProduction\\models_unity\\Female\\Female_Rigged.fbx",
+    "triangles": 27084,
+    "bone_count": 52,
+    "actions": [],
+    "animations_ok": true,
+    "unweighted_vertices": 0,
+    "nonfinite_vertices": 0,
+    "textures_resolve": true,
+    "passed": true
+  },
+  {
+    "variant": "Female",
+    "file": "C:\\The Veilbound\\PlayerAssetProduction\\models_unity\\Female\\Female_Locomotion.fbx",
+    "triangles": 27084,
+    "bone_count": 52,
+    "actions": [
+      "Female_Humanoid|Female_Humanoid|Idle",
+      "Female_Humanoid|Female_Humanoid|Run",
+      "Female_Humanoid|Female_Humanoid|Walk"
+    ],
+    "animations_ok": true,
+    "unweighted_vertices": 0,
+    "nonfinite_vertices": 0,
+    "textures_resolve": true,
+    "passed": true
+  },
+  {
+    "variant": "Female",
+    "file": "C:\\The Veilbound\\PlayerAssetProduction\\models_unity\\Female\\Female_Locomotion.glb",
+    "triangles": 27084,
+    "bone_count": 52,
+    "actions": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "animations_ok": true,
+    "unweighted_vertices": 0,
+    "nonfinite_vertices": 0,
+    "textures_resolve": true,
+    "passed": true
+  }
+]

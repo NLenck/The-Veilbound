@@ -1,0 +1,17 @@
+{
+  "task_id": "bcf559c7-8a46-402d-b9e2-df20e95b08d9",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Veil_Angel_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 10500
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Veil_Angel.glb",
+  "model_sha256": "c89a4a938f4a66d1299a045a9b5a0e1aae676d4148dea4dc16980f7f7f9f25f7",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Veil_Angel_hero.png"
+}

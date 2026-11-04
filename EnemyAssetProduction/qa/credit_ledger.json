@@ -1,0 +1,31 @@
+{
+  "initial_balance": 1500,
+  "hard_cap": 300,
+  "actual_total": 150,
+  "remaining_balance": 1350,
+  "frozen": 0,
+  "tasks": [
+    {
+      "biome": "Town",
+      "unit": "Husk",
+      "step": "image_to_model",
+      "task_id": "124f6bc4-0ff6-4b63-a54a-9651f3ff8ba9",
+      "credits": 50
+    },
+    {
+      "biome": "Forest",
+      "unit": "Wolf",
+      "step": "image_to_model",
+      "task_id": "1180b5b1-e844-4e19-a885-f3cca43f93aa",
+      "credits": 50
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Gargoyle",
+      "step": "image_to_model",
+      "task_id": "8843547c-f0fe-4fdb-86fd-e242b86066d6",
+      "credits": 50
+    }
+  ],
+  "reference_hashes_verified": 40
+}

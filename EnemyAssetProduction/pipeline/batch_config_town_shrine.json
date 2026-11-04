@@ -1,0 +1,321 @@
+{
+  "batch": "Town_Shrine",
+  "initial_balance": 1350,
+  "hard_credit_cap": 900,
+  "max_generations": 18,
+  "auto_retries": 0,
+  "rigging": false,
+  "animation": false,
+  "reference_root": "C:\\The Veilbound\\Veilbound_40_Enemy_Reference_Pack",
+  "output_root": "C:\\The Veilbound\\EnemyAssetProduction",
+  "jobs": [
+    {
+      "biome": "Town",
+      "unit": "Lobber",
+      "crop": [
+        0,
+        0,
+        735,
+        1340
+      ],
+      "target_triangles": 4000,
+      "max_triangles": 5000,
+      "height_m": 2.1,
+      "production_class": "uncommon",
+      "features": "Raised crystal projectile, lean humanoid, shoulder growths and ragged skirt.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Lobber_hero.png"
+    },
+    {
+      "biome": "Town",
+      "unit": "Brute",
+      "crop": [
+        0,
+        0,
+        1122,
+        895
+      ],
+      "target_triangles": 6500,
+      "max_triangles": 8000,
+      "height_m": 2.6,
+      "production_class": "heavy",
+      "features": "Huge asymmetrical crystal forearm, hunched shoulders, muscular humanoid.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Brute_hero.png"
+    },
+    {
+      "biome": "Town",
+      "unit": "Ghoul",
+      "crop": [
+        0,
+        0,
+        1122,
+        860
+      ],
+      "target_triangles": 3200,
+      "max_triangles": 3500,
+      "height_m": 1.4,
+      "production_class": "common",
+      "features": "Human face and long human arms on all fours; not a dog; dorsal crystals.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Ghoul_hero.png"
+    },
+    {
+      "biome": "Town",
+      "unit": "Burster",
+      "crop": [
+        0,
+        0,
+        780,
+        1380
+      ],
+      "target_triangles": 4500,
+      "max_triangles": 5000,
+      "height_m": 2.3,
+      "production_class": "uncommon",
+      "features": "Bloated humanoid with exposed red crystal belly and crystal hands.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Burster_hero.png"
+    },
+    {
+      "biome": "Town",
+      "unit": "Shrieker",
+      "crop": [
+        0,
+        0,
+        725,
+        1380
+      ],
+      "target_triangles": 3200,
+      "max_triangles": 3500,
+      "height_m": 2.2,
+      "production_class": "common",
+      "features": "Long neck, open screaming mouth, thin humanoid and crystal forearms.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Shrieker_hero.png",
+      "yaw_deg": "-180"
+    },
+    {
+      "biome": "Town",
+      "unit": "Bulwark",
+      "crop": [
+        0,
+        0,
+        765,
+        1380
+      ],
+      "target_triangles": 6500,
+      "max_triangles": 8000,
+      "height_m": 2.6,
+      "production_class": "heavy",
+      "features": "Broad hunched torso and heavy asymmetrical red crystal arm; no added shield.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Bulwark_hero.png"
+    },
+    {
+      "biome": "Town",
+      "unit": "Impaler",
+      "crop": [
+        0,
+        0,
+        735,
+        1380
+      ],
+      "target_triangles": 4500,
+      "max_triangles": 5000,
+      "height_m": 2.3,
+      "production_class": "uncommon",
+      "features": "Very long red crystal blades growing from both forearms, spiked head.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Impaler_hero.png"
+    },
+    {
+      "biome": "Town",
+      "unit": "Ravager",
+      "crop": [
+        0,
+        0,
+        750,
+        1380
+      ],
+      "target_triangles": 4500,
+      "max_triangles": 5000,
+      "height_m": 2.2,
+      "production_class": "uncommon",
+      "features": "Long red crystal claws and head/back crest on lean humanoid.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Ravager_hero.png"
+    },
+    {
+      "biome": "Town",
+      "unit": "Conduit",
+      "crop": [
+        0,
+        0,
+        760,
+        1380
+      ],
+      "target_triangles": 6500,
+      "max_triangles": 8000,
+      "height_m": 2.7,
+      "production_class": "heavy",
+      "features": "Branching crystal staff, tall robed humanoid and oversized crystal arm.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Conduit_hero.png"
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Acolyte",
+      "crop": [
+        0,
+        50,
+        750,
+        1240
+      ],
+      "target_triangles": 3200,
+      "max_triangles": 3500,
+      "height_m": 2.0,
+      "production_class": "common",
+      "features": "Hooded faceless armoured figure, crystal crown, eyes and single red sword.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Acolyte_hero.png"
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Cinder_Priest",
+      "crop": [
+        0,
+        0,
+        1122,
+        805
+      ],
+      "target_triangles": 4500,
+      "max_triangles": 5000,
+      "height_m": 2.5,
+      "production_class": "uncommon",
+      "features": "Hood, long angular robes and a tall three-pronged red crystal staff.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Cinder_Priest_hero.png"
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Ash_Wraith",
+      "crop": [
+        0,
+        0,
+        710,
+        1220
+      ],
+      "target_triangles": 4500,
+      "max_triangles": 5000,
+      "height_m": 2.3,
+      "production_class": "uncommon",
+      "features": "Floating shredded robe, hollow hood, red crystal shoulder shards and long claws.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Ash_Wraith_hero.png"
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Shrine_Guardian",
+      "crop": [
+        0,
+        0,
+        1122,
+        879
+      ],
+      "target_triangles": 7000,
+      "max_triangles": 8000,
+      "height_m": 2.7,
+      "production_class": "heavy",
+      "features": "Armoured guardian carrying a long axe and large red-inlaid shield.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Shrine_Guardian_hero.png"
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Blade_Sentinel",
+      "crop": [
+        0,
+        0,
+        1122,
+        790
+      ],
+      "target_triangles": 6500,
+      "max_triangles": 8000,
+      "height_m": 2.6,
+      "production_class": "heavy",
+      "features": "Slender armoured humanoid with two long red crystal swords and crystal crest.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Blade_Sentinel_hero.png"
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Ritual_Orb",
+      "crop": [
+        0,
+        0,
+        1122,
+        850
+      ],
+      "target_triangles": 4500,
+      "max_triangles": 5000,
+      "height_m": 1.8,
+      "production_class": "uncommon",
+      "features": "Open floating stone ring, central star and many detached red crystals; no humanoid.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Ritual_Orb_hero.png",
+      "remove_flat_x_boundary_debris": true
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Lamenter",
+      "crop": [
+        0,
+        0,
+        740,
+        1250
+      ],
+      "target_triangles": 4500,
+      "max_triangles": 5000,
+      "height_m": 2.5,
+      "production_class": "uncommon",
+      "features": "Elongated floating hooded wraith, red eyes, long claws and ragged robe.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Lamenter_hero.png"
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Veil_Angel",
+      "crop": [
+        0,
+        0,
+        1122,
+        890
+      ],
+      "target_triangles": 10500,
+      "max_triangles": 12000,
+      "height_m": 3.0,
+      "production_class": "elite",
+      "features": "Wide layered feather-like stone wings, crystal crown, two red forearm blades and pointed floating lower body.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Veil_Angel_hero.png"
+    },
+    {
+      "biome": "Shrine",
+      "unit": "High_Priest",
+      "crop": [
+        0,
+        0,
+        740,
+        1285
+      ],
+      "target_triangles": 8500,
+      "max_triangles": 12000,
+      "height_m": 3.0,
+      "production_class": "elite",
+      "features": "Tall crowned masked priest, ornate robes, cape and red crystal staff.",
+      "estimated_credits": 50,
+      "input": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\High_Priest_hero.png"
+    }
+  ]
+}

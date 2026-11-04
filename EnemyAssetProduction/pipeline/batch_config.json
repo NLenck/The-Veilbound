@@ -1,0 +1,48 @@
+{
+  "reference_root": "C:\\The Veilbound\\Veilbound_40_Enemy_Reference_Pack",
+  "output_root": "C:\\The Veilbound\\EnemyAssetProduction",
+  "initial_balance": 1500,
+  "hard_credit_cap": 300,
+  "max_generations": 3,
+  "auto_retries": 0,
+  "rigging": false,
+  "animation": false,
+  "jobs": [
+    {
+      "biome": "Town",
+      "unit": "Husk",
+      "crop": [
+        0,
+        0,
+        755,
+        1360
+      ],
+      "target_triangles": 3000,
+      "height_m": 2.0
+    },
+    {
+      "biome": "Forest",
+      "unit": "Wolf",
+      "crop": [
+        0,
+        300,
+        720,
+        1100
+      ],
+      "target_triangles": 3000,
+      "height_m": 1.25
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Gargoyle",
+      "crop": [
+        0,
+        0,
+        1122,
+        845
+      ],
+      "target_triangles": 7000,
+      "height_m": 2.4
+    }
+  ]
+}

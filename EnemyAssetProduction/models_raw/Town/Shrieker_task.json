@@ -1,0 +1,17 @@
+{
+  "task_id": "747ce409-6f43-4045-96fb-41732ac8e189",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Shrieker_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 3200
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Shrieker.glb",
+  "model_sha256": "ee2e260e1c7f658dd48bfeb6a8b7042fd67a4a954be7ec23a2a0888a391e6e1c",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Shrieker_hero.png"
+}

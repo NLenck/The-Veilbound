@@ -1,0 +1,31 @@
+from pathlib import Path
+import shutil
+R=Path(r'C:\The Veilbound'); backup=R/'StarterGearUpdate/Backup';backup.mkdir(parents=True,exist_ok=True)
+def edit(rel,old,new):
+ p=R/rel;s=p.read_text(encoding='utf-8-sig');assert old in s,(rel,old)
+ target=backup/rel;target.parent.mkdir(parents=True,exist_ok=True)
+ if not target.exists():shutil.copy2(p,target)
+ p.write_text(s.replace(old,new),encoding='utf-8')
+S='Assets/Veilbound/Scripts/'
+edit(S+'CharacterRosterUI.cs','c.EnsureGear();BronzeHeroVisual.EquipStarterSet(c);','c.InitializeWoodenStarter();')
+edit(S+'MetalProgression.cs','public float WeaponDamage=>Metals.All[WeaponMetalIndex].weapon;','public bool IsWoodenSword=>equippedMetalWeapon==-2;\n  public int WeaponItemIndex=>IsWoodenSword?-1:WeaponMetalIndex;\n  public float WeaponDamage=>IsWoodenSword?18:Metals.All[WeaponMetalIndex].weapon;')
+edit(S+'MetalProgression.cs','public string WeaponName=>Metals.All[WeaponMetalIndex].name+" greatsword";','public string WeaponName=>IsWoodenSword?"Wooden greatsword":Metals.All[WeaponMetalIndex].name+" greatsword";')
+edit(S+'MetalProgression.cs','float n=4.5f*Metals.All[WeaponMetalIndex].weight;','float n=IsWoodenSword?1.8f:4.5f*Metals.All[WeaponMetalIndex].weight;')
+edit(S+'GearRolls.cs','gear.slot==9?Metals.All[gear.item].name+" greatsword"','gear.slot==9?(gear.item<0?"Wooden greatsword":Metals.All[gear.item].name+" greatsword")')
+edit(S+'GearRolls.cs','ImportGear(9,WeaponMetalIndex).id','ImportGear(9,WeaponItemIndex).id')
+edit(S+'GearRolls.cs','slot==9?WeaponMetalIndex:equippedGear[slot]','slot==9?WeaponItemIndex:equippedGear[slot]')
+edit(S+'GearRolls.cs','equippedMetalWeapon=g.item;equippedSword=0;','equippedMetalWeapon=g.item<0?-2:g.item;equippedSword=0;')
+edit(S+'LoadoutInventory.cs','snapshot.equippedMetalWeapon=item.item','snapshot.equippedMetalWeapon=item.item<0?-2:item.item')
+edit(S+'IndustryUI.cs','equipped=city.WeaponMetalIndex==selectedMetal','equipped=!city.IsWoodenSword&&city.WeaponMetalIndex==selectedMetal')
+edit(S+'GearRollUI.cs','float mass=metal>=0?','float mass=item.slot==9&&item.item<0?1.8f:metal>=0?')
+edit(S+'GearRollUI.cs','Metals.All[item.item].weapon.ToString("0.#")','(item.item<0?18:Metals.All[item.item].weapon).ToString("0.#")')
+edit(S+'HeroRig.cs','RoundedArt.Greatsword(swordPivot,city.equippedSword);MetalAppearance.Apply(swordPivot,city.WeaponMetalIndex);','if(city.IsWoodenSword)StarterEquipment.CreateSword(swordPivot);else {RoundedArt.Greatsword(swordPivot,city.equippedSword);MetalAppearance.Apply(swordPivot,city.WeaponMetalIndex);}')
+edit(S+'SpinningWeapons.cs','var sword=RoundedArt.Greatsword(parent,city.equippedSword);sword.localPosition=offset;MetalAppearance.Apply(sword,city.WeaponMetalIndex);','var sword=city.IsWoodenSword?StarterEquipment.CreateSword(parent):RoundedArt.Greatsword(parent,city.equippedSword);sword.localPosition=offset;if(!city.IsWoodenSword)MetalAppearance.Apply(sword,city.WeaponMetalIndex);')
+edit(S+'CharacterRosterSmoke.cs','bLoaded.blacksmith==1','bLoaded.blacksmith==0&&bLoaded.IsWoodenSword&&Array.TrueForAll(bLoaded.equippedGear,x=>x==0)')
+# Prevent the old automatic starter grant for genuinely new towns; legacy progress remains intact.
+edit(S+'BronzeHeroVisual.cs','city.EnsureGear();if(city.bronzeHeroVersion>=1)return;','city.EnsureGear();if(city.bronzeHeroVersion>=1)return;\n   if(city.armour==0&&city.sword==0&&Array.TrueForAll(city.equippedGear,x=>x==0)){city.InitializeWoodenStarter();return;}')
+edit(S+'MetalAppearance.cs','if(metal==2&&preserveBronze)return;','if(metal==2&&preserveBronze){material.SetFloat("_Glossiness",.20f);return;}')
+edit(S+'MetalAppearance.cs','metal==9?.6f:.42f','metal==9?.24f:.20f')
+edit('Assets/Veilbound/Editor/GreatswordImport.cs','SetFloat("_GlossMapScale",1)','SetFloat("_GlossMapScale",.45f)')
+edit('Assets/VeilboundPlateMasters/Editor/BuildPlateMasters.cs','SetFloat("_GlossMapScale",1)','SetFloat("_GlossMapScale",.45f)')
+print('STARTER_AND_FINISH_SOURCE_UPDATED')

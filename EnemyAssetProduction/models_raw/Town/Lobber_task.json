@@ -1,0 +1,17 @@
+{
+  "task_id": "8354ca02-5e95-4f30-970a-23dd81d4b87e",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Lobber_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 4000
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Lobber.glb",
+  "model_sha256": "c39e08f3441b9361f9a2d9efcc597b786fdbd984350510fb3eb4f3074c9b1827",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Lobber_hero.png"
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "biome": "Town",
+    "unit": "Husk",
+    "format": "fbx",
+    "triangles": 2762,
+    "dimensions_m": [
+      1.0058708190917969,
+      0.7788649797439575,
+      2.000000021361423
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Husk.fbx"
+  },
+  {
+    "biome": "Town",
+    "unit": "Husk",
+    "format": "glb",
+    "triangles": 2762,
+    "dimensions_m": [
+      1.0058708190917969,
+      0.7788649797439575,
+      2.0
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Husk.glb"
+  },
+  {
+    "biome": "Forest",
+    "unit": "Wolf",
+    "format": "fbx",
+    "triangles": 3047,
+    "dimensions_m": [
+      0.8199708461761475,
+      1.8622449040412903,
+      1.2500000786697854
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Forest\\Wolf.fbx"
+  },
+  {
+    "biome": "Forest",
+    "unit": "Wolf",
+    "format": "glb",
+    "triangles": 3047,
+    "dimensions_m": [
+      0.8199708461761475,
+      1.8622448444366455,
+      1.25
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Forest\\Wolf.glb"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Gargoyle",
+    "format": "fbx",
+    "triangles": 6702,
+    "dimensions_m": [
+      3.3972299098968506,
+      2.107479453086853,
+      2.3999999973442456
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Gargoyle.fbx"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Gargoyle",
+    "format": "glb",
+    "triangles": 6702,
+    "dimensions_m": [
+      3.3972299098968506,
+      2.1074793338775635,
+      2.4000000953674316
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Gargoyle.glb"
+  }
+]

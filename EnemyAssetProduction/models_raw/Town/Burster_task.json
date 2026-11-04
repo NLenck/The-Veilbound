@@ -1,0 +1,17 @@
+{
+  "task_id": "b9d7bf4e-728c-4c3c-b1f8-6c8e2cd17bcd",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Burster_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 4500
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Burster.glb",
+  "model_sha256": "3555917bb0a378e73a8011e750f771ea0c30404dc46f893dbc73e1b9eef1fe31",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Burster_hero.png"
+}

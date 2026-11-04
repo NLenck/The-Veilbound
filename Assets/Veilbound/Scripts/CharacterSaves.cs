@@ -1,0 +1,74 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using UnityEngine;
+namespace Veilbound {
+ [Serializable] public sealed class CharacterInventory {
+  public int armour,sword,equippedArmour,equippedSword,colour,bronzeHeroVersion,metalVersion,gearRollVersion,nextGearRollId,lastCraftedRollId;
+  public int equippedMetalWeapon;public int[] ownedGear,equippedGear,equippedRollIds;public bool[] ownedPlate,ownedMetalWeapons;public List<CraftedGear> craftedGear;
+  public static CharacterInventory Capture(Settlement c)=>new CharacterInventory{armour=c.armour,sword=c.sword,equippedArmour=c.equippedArmour,equippedSword=c.equippedSword,colour=c.colour,bronzeHeroVersion=c.bronzeHeroVersion,metalVersion=c.metalVersion,gearRollVersion=c.gearRollVersion,nextGearRollId=c.nextGearRollId,lastCraftedRollId=c.lastCraftedRollId,equippedMetalWeapon=c.equippedMetalWeapon,ownedGear=c.ownedGear,equippedGear=c.equippedGear,equippedRollIds=c.equippedRollIds,ownedPlate=c.ownedPlate,ownedMetalWeapons=c.ownedMetalWeapons,craftedGear=c.craftedGear};
+  public void Apply(Settlement c){c.armour=armour;c.sword=sword;c.equippedArmour=equippedArmour;c.equippedSword=equippedSword;c.colour=colour;c.bronzeHeroVersion=bronzeHeroVersion;c.metalVersion=metalVersion;c.gearRollVersion=gearRollVersion;c.nextGearRollId=nextGearRollId;c.lastCraftedRollId=lastCraftedRollId;c.equippedMetalWeapon=equippedMetalWeapon;c.ownedGear=ownedGear;c.equippedGear=equippedGear;c.equippedRollIds=equippedRollIds;c.ownedPlate=ownedPlate;c.ownedMetalWeapons=ownedMetalWeapons;c.craftedGear=craftedGear;}
+  public static void Strip(Settlement c){c.armour=c.sword=c.equippedArmour=c.equippedSword=c.colour=c.bronzeHeroVersion=c.metalVersion=c.gearRollVersion=c.nextGearRollId=c.lastCraftedRollId=0;c.equippedMetalWeapon=-1;c.ownedGear=c.equippedGear=c.equippedRollIds=null;c.ownedPlate=c.ownedMetalWeapons=null;c.craftedGear=null;}
+ }
+ [Serializable] public sealed class SavedCharacter {
+  public int version=1;public long revision;public string id,name;public bool female;public Virtue virtue=Virtue.Rage;public int clearedTier,victories,bestDepth;public CharacterInventory inventory;
+  public void Capture(Settlement c){c.EnsureExpeditionModifiers();bestDepth=c.expeditionBestDepth;female=c.female;virtue=c.virtue;clearedTier=c.clearedTier;victories=c.victories;inventory=CharacterInventory.Capture(c);}
+  public void Apply(Settlement c){c.female=female;inventory.Apply(c);c.virtue=virtue;c.clearedTier=clearedTier;c.victories=victories;c.EnsureGear();c.EnsureGearRolls();c.EnsureIndustry();}
+  public static SavedCharacter From(string name,Settlement c){var s=new SavedCharacter{id=Guid.NewGuid().ToString("N"),name=name};s.Capture(c);return s;}
+ }
+ [Serializable] public sealed class CharacterSummary {public string id,name;public Virtue virtue;public int highestTier,bestDepth,progressVersion;}
+ [Serializable] public sealed class CharacterRoster {public int version=1;public string activeId;public List<CharacterSummary> characters=new List<CharacterSummary>();public void Update(SavedCharacter c){var row=characters.Find(x=>x.id==c.id);if(row==null){row=new CharacterSummary{id=c.id};characters.Add(row);}row.name=c.name;row.virtue=c.virtue;row.highestTier=c.clearedTier+1;row.bestDepth=c.bestDepth;row.progressVersion=1;activeId=c.id;}}
+ [Serializable] public sealed class LostKnowledgeEntry {public string id;public int rank;}
+ [Serializable] public sealed class LostKnowledgeSave {public int version=1;public List<LostKnowledgeEntry> discoveries=new List<LostKnowledgeEntry>();}
+ [Serializable] public sealed class SavedTown {public int version=1;public string characterId;public long revision;public Settlement town;}
+ [Serializable] sealed class CharacterSaveJournal {public string id,character,town,index;}
+ [Serializable] sealed class CharacterDeleteJournal {public string id,index;}
+ public sealed class CharacterSaveStore {
+  public readonly string root;readonly Action<string> checkpoint;string IndexPath=>Path.Combine(root,"index.json");string JournalPath=>Path.Combine(root,"pending-slot.json");string DeleteJournalPath=>Path.Combine(root,"pending-delete.json");string KnowledgePath=>Path.Combine(root,"lost-knowledges.json");
+  public CharacterSaveStore(string path,Action<string> checkpoint=null){root=Path.GetFullPath(path);this.checkpoint=checkpoint;Directory.CreateDirectory(root);}
+  public bool HasRoster=>File.Exists(IndexPath)||File.Exists(IndexPath+".bak");
+  public string SlotPath(string id,string name){if(!Guid.TryParseExact(id,"N",out _))throw new InvalidDataException("Invalid character identity.");return Path.Combine(root,id,name);}
+  static void Atomic(string path,string data,bool backup=true){Directory.CreateDirectory(Path.GetDirectoryName(path));if(File.Exists(path)&&File.ReadAllText(path)==data)return;string temp=path+".tmp";File.WriteAllText(temp,data);if(File.Exists(path))File.Replace(temp,path,backup?path+".bak":null);else File.Move(temp,path);}
+  static T Decode<T>(string json,Func<T,bool> valid) where T:class {T item=JsonUtility.FromJson<T>(json);if(item==null||!valid(item))throw new InvalidDataException("Invalid "+typeof(T).Name+" data.");return item;}
+  static bool ValidCharacter(SavedCharacter c)=>c.version==1&&Guid.TryParseExact(c.id,"N",out _)&&!string.IsNullOrWhiteSpace(c.name)&&Enum.IsDefined(typeof(Virtue),c.virtue)&&c.virtue!=Virtue.None&&c.clearedTier>=0&&c.victories>=0&&c.inventory!=null&&c.inventory.equippedGear!=null&&c.inventory.equippedGear.Length==9&&c.inventory.ownedGear!=null&&c.inventory.ownedGear.Length==27&&c.inventory.ownedPlate!=null&&c.inventory.ownedPlate.Length==90&&c.inventory.ownedMetalWeapons!=null&&c.inventory.ownedMetalWeapons.Length>=10&&c.inventory.equippedRollIds!=null&&c.inventory.equippedRollIds.Length==10&&c.inventory.craftedGear!=null;
+  static bool ValidTown(SavedTown c)=>c.version==1&&c.revision>0&&Guid.TryParseExact(c.characterId,"N",out _)&&c.town!=null&&c.town.version==1;
+  static bool ValidRoster(CharacterRoster r){if(r.version!=1||r.characters==null)return false;var ids=new HashSet<string>();foreach(var c in r.characters)if(c==null||!Guid.TryParseExact(c.id,"N",out _)||!ids.Add(c.id)||string.IsNullOrWhiteSpace(c.name))return false;return string.IsNullOrEmpty(r.activeId)||ids.Contains(r.activeId);}
+  static T ReadWithBackup<T>(string path,Func<T,bool> valid) where T:class {Exception problem=null;foreach(string candidate in new[]{path,path+".bak"})if(File.Exists(candidate)){try{return Decode(File.ReadAllText(candidate),valid);}catch(Exception e){problem=e;}}throw new InvalidDataException("No readable save at "+path,problem);}
+  public void Recover(){RecoverSlot();RecoverDeletion();}
+  void RecoverSlot(){if(!File.Exists(JournalPath))return;var j=Decode<CharacterSaveJournal>(File.ReadAllText(JournalPath),x=>x!=null);var c=Decode<SavedCharacter>(j.character,ValidCharacter);var t=Decode<SavedTown>(j.town,ValidTown);var roster=Decode<CharacterRoster>(j.index,ValidRoster);if(c.id!=j.id||t.characterId!=j.id||t.revision!=c.revision||!roster.characters.Exists(x=>x.id==j.id))throw new InvalidDataException("Incomplete character-save transaction.");Commit(j);}
+  void Commit(CharacterSaveJournal j){string character=SlotPath(j.id,"character.json"),town=SlotPath(j.id,"settlement.json");try{string oldC=File.ReadAllText(character),oldT=File.ReadAllText(town);var c=Decode<SavedCharacter>(oldC,ValidCharacter);var t=Decode<SavedTown>(oldT,ValidTown);if(c.id==j.id&&t.characterId==j.id&&c.revision==t.revision&&(oldC!=j.character||oldT!=j.town)){Atomic(character+".bak",oldC,false);Atomic(town+".bak",oldT,false);}}catch(Exception){/* A missing/invalid current pair must never replace an existing valid backup pair. */}
+   Atomic(character,j.character,false);checkpoint?.Invoke("character");Atomic(town,j.town,false);checkpoint?.Invoke("town");Atomic(IndexPath,j.index);File.Delete(JournalPath);
+  }
+  public CharacterRoster LoadRoster(){Recover();if(HasRoster)return ReadWithBackup<CharacterRoster>(IndexPath,ValidRoster);foreach(string folder in Directory.GetDirectories(root))if(Guid.TryParseExact(Path.GetFileName(folder),"N",out _))throw new InvalidDataException("Character folders exist but the character index is missing.");return new CharacterRoster();}
+  public LostKnowledgeSave LoadKnowledges(){if(!File.Exists(KnowledgePath)&&!File.Exists(KnowledgePath+".bak")){var empty=new LostKnowledgeSave();SaveKnowledges(empty);return empty;}return ReadWithBackup<LostKnowledgeSave>(KnowledgePath,k=>k.version==1&&k.discoveries!=null);}
+  public void SaveKnowledges(LostKnowledgeSave knowledge){Atomic(KnowledgePath,JsonUtility.ToJson(knowledge,true));}
+  public static string TownJson(Settlement current,string id,long revision){var town=JsonUtility.FromJson<Settlement>(JsonUtility.ToJson(current));CharacterInventory.Strip(town);town.female=false;town.virtue=Virtue.None;town.clearedTier=town.victories=0;return JsonUtility.ToJson(new SavedTown{characterId=id,revision=revision,town=town},true);}
+  public void Save(SavedCharacter c,Settlement town,CharacterRoster roster){Recover();if(File.Exists(SlotPath(c.id,"deleted.json")))throw new InvalidDataException("This character has been deleted.");c.Capture(town);c.revision++;roster.Update(c);var j=new CharacterSaveJournal{id=c.id,character=JsonUtility.ToJson(c,true),town=TownJson(town,c.id,c.revision),index=JsonUtility.ToJson(roster,true)};Decode<SavedCharacter>(j.character,ValidCharacter);Atomic(JournalPath,JsonUtility.ToJson(j,true));Commit(j);}
+  public void Load(string id,out SavedCharacter character,out Settlement town){Recover();if(File.Exists(SlotPath(id,"deleted.json")))throw new InvalidDataException("This character has been deleted.");Exception error=null;foreach(string suffix in new[]{"",".bak"}){try{character=Decode<SavedCharacter>(File.ReadAllText(SlotPath(id,"character.json")+suffix),ValidCharacter);var savedTown=Decode<SavedTown>(File.ReadAllText(SlotPath(id,"settlement.json")+suffix),ValidTown);if(character.id!=id||savedTown.characterId!=id||character.revision!=savedTown.revision)throw new InvalidDataException("Character and town save revisions do not match.");town=savedTown.town;character.Apply(town);return;}catch(Exception e){error=e;}}throw new InvalidDataException("Could not restore character and settlement together.",error);}
+  void RecoverDeletion(){
+   if(!File.Exists(DeleteJournalPath))return;
+   var deletion=Decode<CharacterDeleteJournal>(File.ReadAllText(DeleteJournalPath),d=>d!=null&&Guid.TryParseExact(d.id,"N",out _));
+   var next=Decode<CharacterRoster>(deletion.index,ValidRoster);
+   if(next.characters.Exists(c=>c.id==deletion.id))throw new InvalidDataException("Invalid character-delete transaction.");
+   CommitDeletion(deletion);
+  }
+  void CommitDeletion(CharacterDeleteJournal deletion){
+   // The durable marker blocks stale references and backups from reviving a deleted slot.
+   Atomic(SlotPath(deletion.id,"deleted.json"),JsonUtility.ToJson(new CharacterDeleteJournal{id=deletion.id}),false);checkpoint?.Invoke("delete-marker");
+   Atomic(IndexPath,deletion.index,false);Atomic(IndexPath+".bak",deletion.index,false);checkpoint?.Invoke("delete-index");
+   foreach(string name in new[]{"character.json","settlement.json"})foreach(string suffix in new[]{"",".bak",".tmp"}){
+    string file=SlotPath(deletion.id,name)+suffix;if(File.Exists(file))File.Delete(file);
+   }
+   checkpoint?.Invoke("delete-files");File.Delete(DeleteJournalPath);
+  }
+  public CharacterRoster Delete(string id){
+   SlotPath(id,"deleted.json");Recover();var next=LoadRoster();int at=next.characters.FindIndex(c=>c.id==id);
+   if(at<0)throw new InvalidDataException("Character is not in the roster.");
+   next.characters.RemoveAt(at);
+   if(next.activeId==id)next.activeId=next.characters.Count==0?"":next.characters[Math.Min(at,next.characters.Count-1)].id;
+   var deletion=new CharacterDeleteJournal{id=id,index=JsonUtility.ToJson(next,true)};
+   Atomic(DeleteJournalPath,JsonUtility.ToJson(deletion,true),false);CommitDeletion(deletion);return next;
+  }
+
+ }
+}

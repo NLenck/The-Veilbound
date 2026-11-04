@@ -1,0 +1,99 @@
+{
+  "unit": "Burster",
+  "biome": "Town",
+  "source": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Burster.glb",
+  "raw": {
+    "mesh_count": 1,
+    "vertices": 7244,
+    "triangles": 4351,
+    "material_slots": 1,
+    "boundary_edges": 7131,
+    "nonmanifold_edges": 14,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "tripo_node_b9d7bf4e-728c-4c3c-b1f8-6c8e2cd17bcd": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 1528,
+    "inconsistent_normal_edges": 8,
+    "dimensions_m": [
+      0.43164,
+      0.75977,
+      0.99805
+    ],
+    "bounds_min": [
+      -0.21777,
+      -0.37988,
+      -0.49902
+    ],
+    "bounds_max": [
+      0.21387,
+      0.37988,
+      0.49902
+    ]
+  },
+  "final": {
+    "mesh_count": 1,
+    "vertices": 2605,
+    "triangles": 4351,
+    "material_slots": 1,
+    "boundary_edges": 593,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "Veilbound_Town_Burster": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 103,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      1.75088,
+      0.99472,
+      2.3
+    ],
+    "bounds_min": [
+      -0.87544,
+      -0.49736,
+      0.0
+    ],
+    "bounds_max": [
+      0.87544,
+      0.49736,
+      2.3
+    ],
+    "target_triangles": 4500,
+    "budget_pass": true,
+    "atlas_baked": false,
+    "faceted_shading": true,
+    "provisional_height_m": 2.3,
+    "decimation_used": false,
+    "rigged": false,
+    "split_overshared_edges": 157,
+    "textures": [
+      "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\textures\\Burster\\Burster_00.png"
+    ]
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Burster_front.png",
+    "side": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Burster_side.png",
+    "three_quarter": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Burster_three_quarter.png",
+    "back": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Burster_back.png"
+  },
+  "limitations": [
+    "No automatic self-intersection or full UV-overlap proof; visual review required.",
+    "Height is a provisional production scale, not an existing Unity prefab measurement.",
+    "No retopology or decimation was applied; P1 generated directly at the requested low-poly budget."
+  ]
+}

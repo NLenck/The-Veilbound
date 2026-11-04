@@ -1,0 +1,44 @@
+type,id,gender,biome,triangles,bones,equipment_slots,unity_asset,source,motion
+player,Male,Male,,30352,52,9,Assets/VeilboundPlateMasters/Generated/Tin_Male_Master.prefab,PlayerAssetProduction/models_unity/Male,Generic idle/walk/run + combat IK
+player,Female,Female,,27084,52,9,Assets/VeilboundPlateMasters/Generated/Tin_Female_Master.prefab,PlayerAssetProduction/models_unity/Female,Generic idle/walk/run + combat IK
+enemy,Town/Husk,,Town,2762,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Town_Husk.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Town\Husk.fbx,biped
+enemy,Town/Lobber,,Town,3902,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Town_Lobber.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Town\Lobber.fbx,biped
+enemy,Town/Brute,,Town,6310,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Town_Brute.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Town\Brute.fbx,biped
+enemy,Town/Ghoul,,Town,3185,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Town_Ghoul.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Town\Ghoul.fbx,quadruped
+enemy,Town/Burster,,Town,4351,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Town_Burster.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Town\Burster.fbx,biped
+enemy,Town/Shrieker,,Town,3074,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Town_Shrieker.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Town\Shrieker.fbx,biped
+enemy,Town/Bulwark,,Town,6456,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Town_Bulwark.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Town\Bulwark.fbx,biped
+enemy,Town/Impaler,,Town,4520,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Town_Impaler.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Town\Impaler.fbx,biped
+enemy,Town/Ravager,,Town,4562,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Town_Ravager.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Town\Ravager.fbx,biped
+enemy,Town/Conduit,,Town,6219,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Town_Conduit.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Town\Conduit.fbx,biped
+enemy,Shrine/Acolyte,,Shrine,3337,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Shrine_Acolyte.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Shrine\Acolyte.fbx,biped
+enemy,Shrine/Cinder_Priest,,Shrine,4464,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Shrine_Cinder_Priest.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Shrine\Cinder_Priest.fbx,biped
+enemy,Shrine/Ash_Wraith,,Shrine,4460,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Shrine_Ash_Wraith.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Shrine\Ash_Wraith.fbx,floating
+enemy,Shrine/Shrine_Guardian,,Shrine,6931,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Shrine_Shrine_Guardian.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Shrine\Shrine_Guardian.fbx,biped
+enemy,Shrine/Blade_Sentinel,,Shrine,6429,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Shrine_Blade_Sentinel.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Shrine\Blade_Sentinel.fbx,biped
+enemy,Shrine/Ritual_Orb,,Shrine,3836,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Shrine_Ritual_Orb.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Shrine\Ritual_Orb.fbx,floating
+enemy,Shrine/Lamenter,,Shrine,4578,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Shrine_Lamenter.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Shrine\Lamenter.fbx,floating
+enemy,Shrine/Gargoyle,,Shrine,6702,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Shrine_Gargoyle.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Shrine\Gargoyle.fbx,quadruped
+enemy,Shrine/Veil_Angel,,Shrine,10087,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Shrine_Veil_Angel.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Shrine\Veil_Angel.fbx,floating
+enemy,Shrine/High_Priest,,Shrine,8049,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Shrine_High_Priest.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Shrine\High_Priest.fbx,biped
+enemy,Forest/Wolf,,Forest,3047,17,,Assets/Veilbound/Resources/ProductionModels/Enemies/Forest_Wolf.prefab,C:\The Veilbound\EnemyAssetProduction\models_unity\Forest\Wolf.fbx,quadruped
+armour,Tin_Male,Male,,7624,52,9,Assets/VeilboundPlateMasters/Generated/Tin_Male_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Tin_Female,Female,,7624,52,9,Assets/VeilboundPlateMasters/Generated/Tin_Female_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Copper_Male,Male,,7492,52,9,Assets/VeilboundPlateMasters/Generated/Copper_Male_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Copper_Female,Female,,7492,52,9,Assets/VeilboundPlateMasters/Generated/Copper_Female_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Bronze_Male,Male,,7492,52,9,Assets/VeilboundPlateMasters/Generated/Bronze_Male_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Bronze_Female,Female,,7492,52,9,Assets/VeilboundPlateMasters/Generated/Bronze_Female_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Brass_Male,Male,,7492,52,9,Assets/VeilboundPlateMasters/Generated/Brass_Male_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Brass_Female,Female,,7492,52,9,Assets/VeilboundPlateMasters/Generated/Brass_Female_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Iron_Male,Male,,7624,52,9,Assets/VeilboundPlateMasters/Generated/Iron_Male_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Iron_Female,Female,,7624,52,9,Assets/VeilboundPlateMasters/Generated/Iron_Female_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Steel_Male,Male,,7624,52,9,Assets/VeilboundPlateMasters/Generated/Steel_Male_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Steel_Female,Female,,7624,52,9,Assets/VeilboundPlateMasters/Generated/Steel_Female_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,HardenedSteel_Male,Male,,7624,52,9,Assets/VeilboundPlateMasters/Generated/HardenedSteel_Male_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,HardenedSteel_Female,Female,,7624,52,9,Assets/VeilboundPlateMasters/Generated/HardenedSteel_Female_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Tungsten_Male,Male,,7624,52,9,Assets/VeilboundPlateMasters/Generated/Tungsten_Male_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Tungsten_Female,Female,,7624,52,9,Assets/VeilboundPlateMasters/Generated/Tungsten_Female_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Titanium_Male,Male,,7492,52,9,Assets/VeilboundPlateMasters/Generated/Titanium_Male_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Titanium_Female,Female,,7492,52,9,Assets/VeilboundPlateMasters/Generated/Titanium_Female_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Veilcrystal_Male,Male,,7492,52,9,Assets/VeilboundPlateMasters/Generated/Veilcrystal_Male_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig
+armour,Veilcrystal_Female,Female,,7492,52,9,Assets/VeilboundPlateMasters/Generated/Veilcrystal_Female_Master.prefab,ArmourAssetProduction/Mastered,Skinned to selected player rig

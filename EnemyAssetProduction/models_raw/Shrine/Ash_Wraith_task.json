@@ -1,0 +1,17 @@
+{
+  "task_id": "ff2255eb-3537-4d98-9b32-04c899f0cd98",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Ash_Wraith_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 4500
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Ash_Wraith.glb",
+  "model_sha256": "05f7d47694853ad424ce119d4172b1faa93d1378faaf9a44d4fe727a422aa591",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Ash_Wraith_hero.png"
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "swords": 10,
+  "exports": 20,
+  "references_unchanged": 16,
+  "live_runtime_files_unchanged": 6,
+  "standalone_package": true,
+  "credits_spent": 40,
+  "balance_remaining": 220
+}

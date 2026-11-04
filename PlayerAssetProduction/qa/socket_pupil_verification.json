@@ -1,0 +1,30 @@
+[
+  {
+    "variant": "Male",
+    "pupil_count": 2,
+    "landmark_error_pixels": [
+      0.04250658676997541,
+      0.03886470168875283
+    ],
+    "old_overlay_materials_present": false,
+    "pupil_front_normals": true,
+    "base_boundary_edges_after_weld": 0,
+    "base_nonmanifold_edges_after_weld": 1,
+    "base_degenerate_faces": 1,
+    "passed": true
+  },
+  {
+    "variant": "Female",
+    "pupil_count": 2,
+    "landmark_error_pixels": [
+      0.021342703535534396,
+      0.09663937402091219
+    ],
+    "old_overlay_materials_present": false,
+    "pupil_front_normals": true,
+    "base_boundary_edges_after_weld": 0,
+    "base_nonmanifold_edges_after_weld": 1,
+    "base_degenerate_faces": 1,
+    "passed": true
+  }
+]

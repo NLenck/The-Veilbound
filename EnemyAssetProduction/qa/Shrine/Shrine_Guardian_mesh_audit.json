@@ -1,0 +1,99 @@
+{
+  "unit": "Shrine_Guardian",
+  "biome": "Shrine",
+  "source": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Shrine_Guardian.glb",
+  "raw": {
+    "mesh_count": 1,
+    "vertices": 10971,
+    "triangles": 6931,
+    "material_slots": 1,
+    "boundary_edges": 10733,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "tripo_node_be7c8d1b-a74b-4a4e-99d7-962fe8435a45": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 2169,
+    "inconsistent_normal_edges": 5,
+    "dimensions_m": [
+      0.97852,
+      0.97461,
+      0.99805
+    ],
+    "bounds_min": [
+      -0.48926,
+      -0.4873,
+      -0.49902
+    ],
+    "bounds_max": [
+      0.48926,
+      0.4873,
+      0.49902
+    ]
+  },
+  "final": {
+    "mesh_count": 1,
+    "vertices": 3552,
+    "triangles": 6931,
+    "material_slots": 1,
+    "boundary_edges": 71,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "Veilbound_Shrine_Shrine_Guardian": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 35,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      2.63659,
+      2.64716,
+      2.7
+    ],
+    "bounds_min": [
+      -1.3183,
+      -1.32358,
+      0.0
+    ],
+    "bounds_max": [
+      1.3183,
+      1.32358,
+      2.7
+    ],
+    "target_triangles": 7000,
+    "budget_pass": true,
+    "atlas_baked": false,
+    "faceted_shading": true,
+    "provisional_height_m": 2.7,
+    "decimation_used": false,
+    "rigged": false,
+    "split_overshared_edges": 21,
+    "textures": [
+      "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\textures\\Shrine_Guardian\\Shrine_Guardian_00.png"
+    ]
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Shrine_Guardian_front.png",
+    "side": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Shrine_Guardian_side.png",
+    "three_quarter": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Shrine_Guardian_three_quarter.png",
+    "back": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Shrine_Guardian_back.png"
+  },
+  "limitations": [
+    "No automatic self-intersection or full UV-overlap proof; visual review required.",
+    "Height is a provisional production scale, not an existing Unity prefab measurement.",
+    "No retopology or decimation was applied; P1 generated directly at the requested low-poly budget."
+  ]
+}

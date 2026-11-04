@@ -1,0 +1,1 @@
+PASS: eight enterable low-poly ruins; player/enemy collision and traversal; all enemy families; actual Elder indoor pursuit and perimeter spawns; random destination selection; enlarged village-specific 52.5/62.5m bounds and matching Veil fog; Sanctuary restored to 42/50m; actual game camera renders.

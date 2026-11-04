@@ -1,0 +1,114 @@
+{
+  "root": "C:\\The Veilbound\\ArmourAssetProduction",
+  "model_alias": "tripo-v3.1",
+  "wire_model": "v3.1-20260211",
+  "starting_credits": 300,
+  "authorised_paid_calls": 1,
+  "prototype_estimated_credits": 40,
+  "bulk_authorised": false,
+  "slots": {
+    "Head": 0,
+    "Shoulders": 1,
+    "Chest": 2,
+    "Hands": 3,
+    "Belt": 4,
+    "Bracers": 5,
+    "Legs": 6,
+    "Feet": 7,
+    "Cape": 8
+  },
+  "tiers": [
+    {
+      "name": "Tin",
+      "runtime_item_id": 100,
+      "group": "A",
+      "status": "prototype_generated"
+    },
+    {
+      "name": "Copper",
+      "runtime_item_id": 101,
+      "group": "A",
+      "status": "prototype_generated"
+    },
+    {
+      "name": "Bronze",
+      "runtime_item_id": 102,
+      "group": "A",
+      "status": "not_generated"
+    },
+    {
+      "name": "Brass",
+      "runtime_item_id": 103,
+      "group": "A",
+      "status": "not_generated"
+    },
+    {
+      "name": "Iron",
+      "runtime_item_id": 104,
+      "group": "A",
+      "status": "not_generated"
+    },
+    {
+      "name": "Steel",
+      "runtime_item_id": 105,
+      "group": "B",
+      "status": "not_generated"
+    },
+    {
+      "name": "Hardened Steel",
+      "runtime_item_id": 106,
+      "group": "B",
+      "status": "not_generated"
+    },
+    {
+      "name": "Tungsten",
+      "runtime_item_id": 108,
+      "group": "B",
+      "status": "not_generated"
+    },
+    {
+      "name": "Titanium",
+      "runtime_item_id": 107,
+      "group": "B",
+      "status": "not_generated"
+    },
+    {
+      "name": "Veilcrystal",
+      "runtime_item_id": 109,
+      "group": "B",
+      "status": "not_generated"
+    }
+  ],
+  "model_parameters": {
+    "face_limit": 16000,
+    "generate_parts": true,
+    "texture": false,
+    "pbr": false,
+    "model_seed": 296059
+  },
+  "atlas": {
+    "tiles": 16,
+    "base_color": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\atlas\\Plate_BaseColor.png",
+    "orm": "C:\\The Veilbound\\ArmourAssetProduction\\exports\\atlas\\Plate_ORM.png",
+    "cloth_tile": 10,
+    "leather_tile": 11,
+    "trim_tile": 12,
+    "crystal_tile": 13
+  },
+  "fitting": {
+    "targets": [
+      "Male",
+      "Female"
+    ],
+    "source": "PlayerAssetProduction/models_blender",
+    "status": "draft_needs_motion_and_clipping_review"
+  },
+  "cost_estimates": {
+    "parts_multiview": 40,
+    "standard_texture_after_parts": 10,
+    "semantic_segmentation": 40,
+    "smart_segment_model": 55,
+    "pbr_convert": 5,
+    "blender_exports": 0
+  }
+}

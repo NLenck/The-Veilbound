@@ -1,0 +1,18 @@
+SEX False body tripo_node_2fd9bd72-d0b2-48cf-bb13-d07270b646bc localScale (1.00, 1.00, 1.00) lossy (1.00, 1.00, 1.00)
+BEFORE BeltTuck=0
+AFTER BeltTuck=0
+MESH Center: (0.00, -0.04, 0.92), Extents: (0.35, 0.17, 0.92) BAKED Center: (0.02, -0.10, 0.88), Extents: (0.43, 0.45, 1.01) RENDERER Center: (0.02, 0.88, 0.12), Extents: (0.43, 1.01, 0.47)
+RECALC Center: (-0.01, -0.04, 0.93), Extents: (0.36, 0.18, 0.92) ROOT (1.00, 1.00, 1.00)
+BONE 0=(0.00, 1.08, 0.03)
+BONE 4=(0.01, 1.58, 0.02)
+BONE 7=(-0.32, 0.95, -0.02)
+BONE 13=(-0.20, 0.13, 0.01)
+SEX True body tripo_node_a29ef39f-0dc2-473c-89d1-b13f758c3e17 localScale (1.00, 1.00, 1.00) lossy (1.00, 1.00, 1.00)
+BEFORE BeltTuck=0
+AFTER BeltTuck=0
+MESH Center: (0.00, 0.00, 0.86), Extents: (0.32, 0.19, 0.86) BAKED Center: (0.04, -0.02, 0.81), Extents: (0.39, 0.27, 0.93) RENDERER Center: (0.02, 0.81, 0.01), Extents: (0.41, 0.93, 0.28)
+RECALC Center: (0.01, -0.01, 0.87), Extents: (0.31, 0.20, 0.87) ROOT (1.00, 1.00, 1.00)
+BONE 0=(-0.02, 1.04, -0.03)
+BONE 4=(-0.02, 1.47, -0.05)
+BONE 7=(-0.28, 0.92, -0.09)
+BONE 13=(-0.20, 0.12, -0.05)

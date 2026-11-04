@@ -1,0 +1,614 @@
+[
+  {
+    "biome": "Town",
+    "unit": "Lobber",
+    "format": "fbx",
+    "triangles": 3902,
+    "dimensions_m": [
+      1.0808218717575073,
+      1.573972463607788,
+      2.100000009415112
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Lobber.fbx"
+  },
+  {
+    "biome": "Town",
+    "unit": "Lobber",
+    "format": "glb",
+    "triangles": 3902,
+    "dimensions_m": [
+      1.0808218717575073,
+      1.5739725828170776,
+      2.0999999046325684
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Lobber.glb"
+  },
+  {
+    "biome": "Town",
+    "unit": "Brute",
+    "format": "fbx",
+    "triangles": 6310,
+    "dimensions_m": [
+      2.2234833240509033,
+      1.765557885169983,
+      2.5999998370731063
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Brute.fbx"
+  },
+  {
+    "biome": "Town",
+    "unit": "Brute",
+    "format": "glb",
+    "triangles": 6310,
+    "dimensions_m": [
+      2.2234833240509033,
+      1.7655576467514038,
+      2.5999999046325684
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Brute.glb"
+  },
+  {
+    "biome": "Town",
+    "unit": "Ghoul",
+    "format": "fbx",
+    "triangles": 3185,
+    "dimensions_m": [
+      1.1919505596160889,
+      2.2148607969284058,
+      1.3999999481335408
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Ghoul.fbx"
+  },
+  {
+    "biome": "Town",
+    "unit": "Ghoul",
+    "format": "glb",
+    "triangles": 3185,
+    "dimensions_m": [
+      1.1919505596160889,
+      2.214860677719116,
+      1.4000000953674316
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Ghoul.glb"
+  },
+  {
+    "biome": "Town",
+    "unit": "Burster",
+    "format": "fbx",
+    "triangles": 4351,
+    "dimensions_m": [
+      1.7508807182312012,
+      0.9947163164615631,
+      2.300000210167381
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Burster.fbx"
+  },
+  {
+    "biome": "Town",
+    "unit": "Burster",
+    "format": "glb",
+    "triangles": 4351,
+    "dimensions_m": [
+      1.7508807182312012,
+      0.9947162866592407,
+      2.3000001907348633
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Burster.glb"
+  },
+  {
+    "biome": "Town",
+    "unit": "Shrieker",
+    "format": "fbx",
+    "triangles": 3074,
+    "dimensions_m": [
+      1.4681017398834229,
+      0.5726023614406586,
+      2.199999838374035
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Shrieker.fbx"
+  },
+  {
+    "biome": "Town",
+    "unit": "Shrieker",
+    "format": "glb",
+    "triangles": 3074,
+    "dimensions_m": [
+      1.4681017398834229,
+      0.5726026892662048,
+      2.1999998092651367
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Shrieker.glb"
+  },
+  {
+    "biome": "Town",
+    "unit": "Bulwark",
+    "format": "fbx",
+    "triangles": 6456,
+    "dimensions_m": [
+      1.8673189878463745,
+      1.29745614528656,
+      2.599999926599752
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Bulwark.fbx"
+  },
+  {
+    "biome": "Town",
+    "unit": "Bulwark",
+    "format": "glb",
+    "triangles": 6456,
+    "dimensions_m": [
+      1.8673189878463745,
+      1.297455906867981,
+      2.5999999046325684
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Bulwark.glb"
+  },
+  {
+    "biome": "Town",
+    "unit": "Impaler",
+    "format": "fbx",
+    "triangles": 4520,
+    "dimensions_m": [
+      1.5438356399536133,
+      1.0127204060554504,
+      2.300000251232319
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Impaler.fbx"
+  },
+  {
+    "biome": "Town",
+    "unit": "Impaler",
+    "format": "glb",
+    "triangles": 4520,
+    "dimensions_m": [
+      1.5438356399536133,
+      1.0127202272415161,
+      2.3000001907348633
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Impaler.glb"
+  },
+  {
+    "biome": "Town",
+    "unit": "Ravager",
+    "format": "fbx",
+    "triangles": 4562,
+    "dimensions_m": [
+      1.2528375387191772,
+      1.3819959163665771,
+      2.199999910620278
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Ravager.fbx"
+  },
+  {
+    "biome": "Town",
+    "unit": "Ravager",
+    "format": "glb",
+    "triangles": 4562,
+    "dimensions_m": [
+      1.2528375387191772,
+      1.3819960355758667,
+      2.1999998092651367
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Ravager.glb"
+  },
+  {
+    "biome": "Town",
+    "unit": "Conduit",
+    "format": "fbx",
+    "triangles": 6219,
+    "dimensions_m": [
+      1.4213306903839111,
+      1.4636003971099854,
+      2.69999986048472
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Conduit.fbx"
+  },
+  {
+    "biome": "Town",
+    "unit": "Conduit",
+    "format": "glb",
+    "triangles": 6219,
+    "dimensions_m": [
+      1.4213306903839111,
+      1.463600754737854,
+      2.6999998092651367
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\Conduit.glb"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Acolyte",
+    "format": "fbx",
+    "triangles": 3337,
+    "dimensions_m": [
+      1.0763208866119385,
+      1.1937376260757446,
+      2.00000008066327
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Acolyte.fbx"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Acolyte",
+    "format": "glb",
+    "triangles": 3337,
+    "dimensions_m": [
+      1.0763208866119385,
+      1.1937377452850342,
+      2.0
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Acolyte.glb"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Cinder_Priest",
+    "format": "fbx",
+    "triangles": 4464,
+    "dimensions_m": [
+      1.981408953666687,
+      1.4921718835830688,
+      2.500000156719132
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Cinder_Priest.fbx"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Cinder_Priest",
+    "format": "glb",
+    "triangles": 4464,
+    "dimensions_m": [
+      1.981408953666687,
+      1.4921722412109375,
+      2.5
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Cinder_Priest.glb"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Ash_Wraith",
+    "format": "fbx",
+    "triangles": 4460,
+    "dimensions_m": [
+      1.5618395805358887,
+      1.9039136171340942,
+      2.3000003458283373
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Ash_Wraith.fbx"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Ash_Wraith",
+    "format": "glb",
+    "triangles": 4460,
+    "dimensions_m": [
+      1.5618395805358887,
+      1.903913974761963,
+      2.3000001907348633
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Ash_Wraith.glb"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Shrine_Guardian",
+    "format": "fbx",
+    "triangles": 6931,
+    "dimensions_m": [
+      2.636594772338867,
+      2.6471619606018066,
+      2.7000000317582984
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Shrine_Guardian.fbx"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Shrine_Guardian",
+    "format": "glb",
+    "triangles": 6931,
+    "dimensions_m": [
+      2.636594772338867,
+      2.6471621990203857,
+      2.6999998092651367
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Shrine_Guardian.glb"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Blade_Sentinel",
+    "format": "fbx",
+    "triangles": 6429,
+    "dimensions_m": [
+      2.5999999046325684,
+      1.3686888217926025,
+      2.5999999207971136
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Blade_Sentinel.fbx"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Blade_Sentinel",
+    "format": "glb",
+    "triangles": 6429,
+    "dimensions_m": [
+      2.5999999046325684,
+      1.3686888217926025,
+      2.5999999046325684
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Blade_Sentinel.glb"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Ritual_Orb",
+    "format": "fbx",
+    "triangles": 3836,
+    "dimensions_m": [
+      1.7859099507331848,
+      1.666144847869873,
+      1.8000000679548904
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Ritual_Orb.fbx"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Ritual_Orb",
+    "format": "glb",
+    "triangles": 3836,
+    "dimensions_m": [
+      1.7859099507331848,
+      1.6661447286605835,
+      1.7999999523162842
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Ritual_Orb.glb"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Lamenter",
+    "format": "fbx",
+    "triangles": 4578,
+    "dimensions_m": [
+      1.6682974100112915,
+      0.8170251548290253,
+      2.5000000426431264
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Lamenter.fbx"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Lamenter",
+    "format": "glb",
+    "triangles": 4578,
+    "dimensions_m": [
+      1.6682974100112915,
+      0.8170254230499268,
+      2.5
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Lamenter.glb"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Veil_Angel",
+    "format": "fbx",
+    "triangles": 10087,
+    "dimensions_m": [
+      2.906066417694092,
+      1.2504891157150269,
+      2.9999999641319484
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Veil_Angel.fbx"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "Veil_Angel",
+    "format": "glb",
+    "triangles": 10087,
+    "dimensions_m": [
+      2.906066417694092,
+      1.2504892349243164,
+      3.0
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\Veil_Angel.glb"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "High_Priest",
+    "format": "fbx",
+    "triangles": 8049,
+    "dimensions_m": [
+      1.8962818384170532,
+      2.0724070072174072,
+      3.0000001439504445
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\High_Priest.fbx"
+  },
+  {
+    "biome": "Shrine",
+    "unit": "High_Priest",
+    "format": "glb",
+    "triangles": 8049,
+    "dimensions_m": [
+      1.8962818384170532,
+      2.0724070072174072,
+      3.0
+    ],
+    "materials": 1,
+    "missing_uv_meshes": 0,
+    "textures_resolve": true,
+    "armatures": 0,
+    "passed": true,
+    "path": "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\High_Priest.glb"
+  }
+]

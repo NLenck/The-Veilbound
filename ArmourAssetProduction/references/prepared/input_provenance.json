@@ -1,0 +1,29 @@
+{
+  "reference_mode": "Built-in imagegen; approved concept as design reference",
+  "prepared_image_size": [
+    1536,
+    1024
+  ],
+  "prototype_tiers": [
+    "Tin",
+    "Copper"
+  ],
+  "back_view_processing": "Crop same first two sets, then mirror the complete back scene to reverse world order and put cape on correct physical side. Generated front/back remain approximate.",
+  "inputs": {
+    "Group_A_back.png": {
+      "sha256": "26a3d196f110bdac031ff3646114132b56a7b2967157540c3928db6a91b95c69"
+    },
+    "Group_A_Exploded_Sheet.png": {
+      "sha256": "12216cd4c2290fe7b037642a85c8eebaf9b39b09d63de33bfd22f148b77956b1"
+    },
+    "Group_A_front.png": {
+      "sha256": "135c1a9733b78f108ed0c0c4fccf0b10eecd7fd8b7adb62c9a09625b5e78b8f5"
+    },
+    "Prototype_Tin_Copper_back.png": {
+      "sha256": "9c1c5b58af736111bfb69975a3a93efbae055529d1f3627f825bb5ea5a33d643"
+    },
+    "Prototype_Tin_Copper_front.png": {
+      "sha256": "05ac7ce72a52257c6c326bb683f64d9211208899539286ac02f504b233f20013"
+    }
+  }
+}

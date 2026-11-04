@@ -1,0 +1,17 @@
+{
+  "task_id": "c929f68b-92ec-454c-b181-94d8f6e83c55",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Impaler_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 4500
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Impaler.glb",
+  "model_sha256": "8dcaf249dba146c709e2f88ade050c0a92e94db5403213289ba98b70c79bb43a",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Town\\Impaler_hero.png"
+}

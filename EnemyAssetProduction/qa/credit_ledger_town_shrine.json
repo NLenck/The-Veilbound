@@ -1,0 +1,134 @@
+{
+  "initial_balance": 1350,
+  "hard_cap": 900,
+  "actual_total": 900,
+  "expected_remaining_balance": 450,
+  "tasks": [
+    {
+      "biome": "Town",
+      "unit": "Lobber",
+      "step": "image_to_model",
+      "task_id": "8354ca02-5e95-4f30-970a-23dd81d4b87e",
+      "credits": 50
+    },
+    {
+      "biome": "Town",
+      "unit": "Brute",
+      "step": "image_to_model",
+      "task_id": "538760b1-cd87-4d5c-b66c-5144295c9125",
+      "credits": 50
+    },
+    {
+      "biome": "Town",
+      "unit": "Ghoul",
+      "step": "image_to_model",
+      "task_id": "b8838043-9b5b-4660-8c57-e5c9bb8ce39d",
+      "credits": 50
+    },
+    {
+      "biome": "Town",
+      "unit": "Burster",
+      "step": "image_to_model",
+      "task_id": "b9d7bf4e-728c-4c3c-b1f8-6c8e2cd17bcd",
+      "credits": 50
+    },
+    {
+      "biome": "Town",
+      "unit": "Shrieker",
+      "step": "image_to_model",
+      "task_id": "747ce409-6f43-4045-96fb-41732ac8e189",
+      "credits": 50
+    },
+    {
+      "biome": "Town",
+      "unit": "Bulwark",
+      "step": "image_to_model",
+      "task_id": "8a3696cd-b938-4e6e-b261-1ab40a7bd906",
+      "credits": 50
+    },
+    {
+      "biome": "Town",
+      "unit": "Impaler",
+      "step": "image_to_model",
+      "task_id": "c929f68b-92ec-454c-b181-94d8f6e83c55",
+      "credits": 50
+    },
+    {
+      "biome": "Town",
+      "unit": "Ravager",
+      "step": "image_to_model",
+      "task_id": "47fbbece-a308-4d75-9004-2ebf869b9f3a",
+      "credits": 50
+    },
+    {
+      "biome": "Town",
+      "unit": "Conduit",
+      "step": "image_to_model",
+      "task_id": "f7b30c88-8bcf-4ec7-b293-08604f88a253",
+      "credits": 50
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Acolyte",
+      "step": "image_to_model",
+      "task_id": "f2ad3fd9-6c8d-41e8-82cc-882f80b1fc3c",
+      "credits": 50
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Cinder_Priest",
+      "step": "image_to_model",
+      "task_id": "d9752468-ff8c-425f-8963-46c5ea70876b",
+      "credits": 50
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Ash_Wraith",
+      "step": "image_to_model",
+      "task_id": "ff2255eb-3537-4d98-9b32-04c899f0cd98",
+      "credits": 50
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Shrine_Guardian",
+      "step": "image_to_model",
+      "task_id": "be7c8d1b-a74b-4a4e-99d7-962fe8435a45",
+      "credits": 50
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Blade_Sentinel",
+      "step": "image_to_model",
+      "task_id": "0b5bdd1e-76c7-4700-b0ee-585a5fb24076",
+      "credits": 50
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Ritual_Orb",
+      "step": "image_to_model",
+      "task_id": "b8d06921-d510-4885-a7b7-d38649f19409",
+      "credits": 50
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Lamenter",
+      "step": "image_to_model",
+      "task_id": "a586bea8-ff22-4c60-800a-a032dbc0fcc7",
+      "credits": 50
+    },
+    {
+      "biome": "Shrine",
+      "unit": "Veil_Angel",
+      "step": "image_to_model",
+      "task_id": "bcf559c7-8a46-402d-b9e2-df20e95b08d9",
+      "credits": 50
+    },
+    {
+      "biome": "Shrine",
+      "unit": "High_Priest",
+      "step": "image_to_model",
+      "task_id": "f0e53e5f-0998-471c-97a6-34116fa0852a",
+      "credits": 50
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "submit": false,
+  "tiers": [
+    "Steel",
+    "Hardened Steel",
+    "Tungsten",
+    "Titanium",
+    "Veilcrystal"
+  ],
+  "parameters": {
+    "face_limit": 40000,
+    "generate_parts": true,
+    "texture": false,
+    "pbr": false
+  },
+  "estimated_credits": 40,
+  "reference_ready": false,
+  "gate": "Requires user approval after prototype report; five-set generation untested."
+}

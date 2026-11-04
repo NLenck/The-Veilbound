@@ -1,0 +1,13 @@
+{
+  "task_id": "b634e884-59b5-4a00-a755-5a5c8a7f74ef",
+  "type": "multiview_to_model",
+  "model": "v3.1-20260211",
+  "actual_credits": 40,
+  "starting_balance": 300,
+  "remaining_balance": 260,
+  "frozen": 0,
+  "paid_calls": 1,
+  "bulk_paid_calls": 0,
+  "retries": 0,
+  "local_material_and_export_credits": 0
+}

@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee81883bcb2636469f447f8e8d70e9d, type: 3}
+  m_Name: Catalog
+  m_EditorClassIdentifier: Assembly-CSharp::Veilbound.ProductionModelCatalog
+  players:
+  - gender: Male
+    prefab: {fileID: 6372593910399175106, guid: c867b69e6f19b1648b449ebe739e660d, type: 3}
+    idle: {fileID: -4446561848873312927, guid: 4d7ea86eb3c72c4438f115c8639f4f61, type: 3}
+    walk: {fileID: -5420833875940879504, guid: 4d7ea86eb3c72c4438f115c8639f4f61, type: 3}
+    run: {fileID: -6752816252552266636, guid: 4d7ea86eb3c72c4438f115c8639f4f61, type: 3}
+  - gender: Female
+    prefab: {fileID: 4305289506497234554, guid: 9fa7acb5fd6d5b548a055f04206a2cf1, type: 3}
+    idle: {fileID: -5120803754273676284, guid: f21288589ed765c4c9a68b46e6cf40a6, type: 3}
+    walk: {fileID: 4559099044642919027, guid: f21288589ed765c4c9a68b46e6cf40a6, type: 3}
+    run: {fileID: -7527062708436966843, guid: f21288589ed765c4c9a68b46e6cf40a6, type: 3}
+  enemies:
+  - id: Town/Husk
+    biome: Town
+    displayName: Husk
+    motion: biped
+    kind: 0
+    prefab: {fileID: 3869041716669199386, guid: 93c50b2588ea7de478eef0a3e2021cd5, type: 3}
+    triangles: 2762
+  - id: Town/Lobber
+    biome: Town
+    displayName: Lobber
+    motion: biped
+    kind: 1
+    prefab: {fileID: 5811386802568178814, guid: 92c272900c4250b4b92c95cfdaa146d6, type: 3}
+    triangles: 3902
+  - id: Town/Brute
+    biome: Town
+    displayName: Brute
+    motion: biped
+    kind: 2
+    prefab: {fileID: 3408883547087518800, guid: a30462e1ad495314e9e59205cfaef693, type: 3}
+    triangles: 6310
+  - id: Town/Ghoul
+    biome: Town
+    displayName: Ghoul
+    motion: quadruped
+    kind: 3
+    prefab: {fileID: 7279046486016381067, guid: 62af1d1e6520d1849883249a78122c9c, type: 3}
+    triangles: 3185
+  - id: Town/Burster
+    biome: Town
+    displayName: Burster
+    motion: biped
+    kind: 4
+    prefab: {fileID: 126118455628399566, guid: 869228dd51696af47b41a485c9501a7d, type: 3}
+    triangles: 4351
+  - id: Town/Shrieker
+    biome: Town
+    displayName: Shrieker
+    motion: biped
+    kind: 0
+    prefab: {fileID: 5219170133091543364, guid: 4c7b8757a8962594c8d0e935c912d1b4, type: 3}
+    triangles: 3074
+  - id: Town/Bulwark
+    biome: Town
+    displayName: Bulwark
+    motion: biped
+    kind: 2
+    prefab: {fileID: 5787885391553518210, guid: 0053ccc2f099b164eba15300969c3547, type: 3}
+    triangles: 6456
+  - id: Town/Impaler
+    biome: Town
+    displayName: Impaler
+    motion: biped
+    kind: 3
+    prefab: {fileID: 6485655983597481539, guid: db75b873e516554488fa768c5e254f76, type: 3}
+    triangles: 4520
+  - id: Town/Ravager
+    biome: Town
+    displayName: Ravager
+    motion: biped
+    kind: 3
+    prefab: {fileID: 5723274924218877684, guid: fbfb339516d26c64cac284dc9edc94e7, type: 3}
+    triangles: 4562
+  - id: Town/Conduit
+    biome: Town
+    displayName: Conduit
+    motion: biped
+    kind: 1
+    prefab: {fileID: 6073497337807374998, guid: 24d974bc67c464e4da7153e005d07dfc, type: 3}
+    triangles: 6219
+  - id: Shrine/Acolyte
+    biome: Shrine
+    displayName: Acolyte
+    motion: biped
+    kind: 0
+    prefab: {fileID: 8692323620436900681, guid: a49a9c3e1e4e3694f8aa00bb5f2cb592, type: 3}
+    triangles: 3337
+  - id: Shrine/Cinder_Priest
+    biome: Shrine
+    displayName: Cinder Priest
+    motion: biped
+    kind: 1
+    prefab: {fileID: 4824619811187681988, guid: c78c3417666ff834cb40b854700759d6, type: 3}
+    triangles: 4464
+  - id: Shrine/Ash_Wraith
+    biome: Shrine
+    displayName: Ash Wraith
+    motion: floating
+    kind: 3
+    prefab: {fileID: 6300351156143092511, guid: 475d890bdfac5044db0089c32063d491, type: 3}
+    triangles: 4460
+  - id: Shrine/Shrine_Guardian
+    biome: Shrine
+    displayName: Shrine Guardian
+    motion: biped
+    kind: 2
+    prefab: {fileID: 1383422276373605862, guid: dbd09d0acf91e5848b355a78e6aacd07, type: 3}
+    triangles: 6931
+  - id: Shrine/Blade_Sentinel
+    biome: Shrine
+    displayName: Blade Sentinel
+    motion: biped
+    kind: 0
+    prefab: {fileID: 7614017878500380924, guid: 28eed8dfd44414a4fab92c198d1974d1, type: 3}
+    triangles: 6429
+  - id: Shrine/Ritual_Orb
+    biome: Shrine
+    displayName: Ritual Orb
+    motion: floating
+    kind: 4
+    prefab: {fileID: 5404179090425794249, guid: f5ca0684f4430254bb9b9670063eb53a, type: 3}
+    triangles: 3836
+  - id: Shrine/Lamenter
+    biome: Shrine
+    displayName: Lamenter
+    motion: floating
+    kind: 1
+    prefab: {fileID: 6473510422321585333, guid: d54c3520c4151b24180b37fd8079033b, type: 3}
+    triangles: 4578
+  - id: Shrine/Gargoyle
+    biome: Shrine
+    displayName: Gargoyle
+    motion: quadruped
+    kind: 3
+    prefab: {fileID: 928703369209979939, guid: 62a42fa73d192af48892840663f65018, type: 3}
+    triangles: 6702
+  - id: Shrine/Veil_Angel
+    biome: Shrine
+    displayName: Veil Angel
+    motion: floating
+    kind: 5
+    prefab: {fileID: 5952961150171267858, guid: de911af56ea53e64e8fce06e3bcb9814, type: 3}
+    triangles: 10087
+  - id: Shrine/High_Priest
+    biome: Shrine
+    displayName: High Priest
+    motion: biped
+    kind: 5
+    prefab: {fileID: 1759498391906278605, guid: 3d0fc9feb5b57014eb48aa803416eb1d, type: 3}
+    triangles: 8049
+  - id: Forest/Wolf
+    biome: Forest
+    displayName: Wolf
+    motion: quadruped
+    kind: 3
+    prefab: {fileID: 1736163932352832773, guid: e4b8a225a1d6d344b9fc9df371d5fc30, type: 3}
+    triangles: 3047
+  tierPrefabs:
+  - {fileID: 6372593910399175106, guid: c867b69e6f19b1648b449ebe739e660d, type: 3}
+  - {fileID: 935553460104519242, guid: 87483319fa157bc46b40576ebacf2c51, type: 3}
+  - {fileID: 4903967683816307915, guid: 64e8e2963d13d614387d62a35165bc2a, type: 3}
+  - {fileID: 5287470513189881506, guid: 0eadf2d6424c07546aa8a658164f0df7, type: 3}
+  - {fileID: 7230563126962313042, guid: 40afb8caa9870c6448f1303fa773dbff, type: 3}
+  - {fileID: 8728209507654355676, guid: f52b0bf1ed0a97c43ac9cc6f90dcba9d, type: 3}
+  - {fileID: 1477457823294053236, guid: 7020f94c538c88d4aa0888ae6e7ef6e7, type: 3}
+  - {fileID: 6198814702436812986, guid: fc3790920c3542344be8726fa19e5696, type: 3}
+  - {fileID: 7371973213857681013, guid: a30bd3ccea27e084cb9a72b76ac669c6, type: 3}
+  - {fileID: 7908800772696774502, guid: c20c415df0a6120478a68009767d67a3, type: 3}
+  - {fileID: 4305289506497234554, guid: 9fa7acb5fd6d5b548a055f04206a2cf1, type: 3}
+  - {fileID: 5588322624138976677, guid: 7d252ed4d508db14c9f4d5602639ed24, type: 3}
+  - {fileID: 319893989663729524, guid: 23d137cd4fce5934c89f7d688f76626c, type: 3}
+  - {fileID: 5166668422670791703, guid: 2c26e6e6bb20a454db50799525fcd942, type: 3}
+  - {fileID: 2593839834591731570, guid: 25de0625d2d23144d825f3c8bfa7479c, type: 3}
+  - {fileID: 5656840662099238054, guid: 38a4e3314dd6cad4186c2bbe05ac5758, type: 3}
+  - {fileID: 3991032407209951550, guid: 05a266012a32ce84e866775b74f6d36a, type: 3}
+  - {fileID: 1175370208913267365, guid: 84a15b52cc6ce3047a1b5c23597a0fdb, type: 3}
+  - {fileID: 901997126538685520, guid: 6965f5ec1c4086b409c0b004b0a7b7ac, type: 3}
+  - {fileID: 7330284459044348389, guid: 21ff472c53f576b40a9aa97ed58bdcc8, type: 3}

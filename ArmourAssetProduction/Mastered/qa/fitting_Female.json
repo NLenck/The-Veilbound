@@ -1,0 +1,1152 @@
+{
+  "variant": "Female",
+  "objects": [
+    {
+      "name": "Tin_Cape",
+      "tier": "Tin",
+      "slot": "Cape",
+      "slot_index": 8,
+      "variant": "Female",
+      "triangles": 1062,
+      "pivot": [
+        0.013741716742515564,
+        0.05841531604528427,
+        1.385650634765625
+      ],
+      "attachment_bone": "mixamorig:Spine1",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.00536343501880765,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Belt",
+      "tier": "Copper",
+      "slot": "Belt",
+      "slot_index": 4,
+      "variant": "Female",
+      "triangles": 1710,
+      "pivot": [
+        0.01584342122077942,
+        0.030924540013074875,
+        1.0373244285583496
+      ],
+      "attachment_bone": "mixamorig:Hips",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Cape",
+      "tier": "Copper",
+      "slot": "Cape",
+      "slot_index": 8,
+      "variant": "Female",
+      "triangles": 462,
+      "pivot": [
+        0.013741716742515564,
+        0.05841531604528427,
+        1.385650634765625
+      ],
+      "attachment_bone": "mixamorig:Spine1",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Belt",
+      "tier": "Tin",
+      "slot": "Belt",
+      "slot_index": 4,
+      "variant": "Female",
+      "triangles": 1380,
+      "pivot": [
+        0.01584342122077942,
+        0.030924540013074875,
+        1.0373244285583496
+      ],
+      "attachment_bone": "mixamorig:Hips",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Chest",
+      "tier": "Copper",
+      "slot": "Chest",
+      "slot_index": 2,
+      "variant": "Female",
+      "triangles": 1110,
+      "pivot": [
+        0.015360847115516663,
+        0.05119224265217781,
+        1.26708984375
+      ],
+      "attachment_bone": "mixamorig:Spine1",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Chest",
+      "tier": "Tin",
+      "slot": "Chest",
+      "slot_index": 2,
+      "variant": "Female",
+      "triangles": 1068,
+      "pivot": [
+        0.015360847115516663,
+        0.05119224265217781,
+        1.26708984375
+      ],
+      "attachment_bone": "mixamorig:Spine1",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Leg_L",
+      "tier": "Tin",
+      "slot": "Leg",
+      "slot_index": 6,
+      "variant": "Female",
+      "triangles": 424,
+      "pivot": [
+        0.150639608502388,
+        0.04765358567237854,
+        0.46966832876205444
+      ],
+      "attachment_bone": "mixamorig:LeftLeg",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Head",
+      "tier": "Copper",
+      "slot": "Head",
+      "slot_index": 0,
+      "variant": "Female",
+      "triangles": 424,
+      "pivot": [
+        0.01536085456609726,
+        0.051192205399274826,
+        1.4698240756988525
+      ],
+      "attachment_bone": "mixamorig:Head",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Leg_R",
+      "tier": "Copper",
+      "slot": "Leg",
+      "slot_index": 6,
+      "variant": "Female",
+      "triangles": 402,
+      "pivot": [
+        -0.15321479737758636,
+        0.033659230917692184,
+        0.4696682095527649
+      ],
+      "attachment_bone": "mixamorig:RightLeg",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Shoulder_L",
+      "tier": "Copper",
+      "slot": "Shoulder",
+      "slot_index": 1,
+      "variant": "Female",
+      "triangles": 402,
+      "pivot": [
+        0.15691299736499786,
+        0.06808198988437653,
+        1.3143943548202515
+      ],
+      "attachment_bone": "mixamorig:LeftArm",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Head",
+      "tier": "Tin",
+      "slot": "Head",
+      "slot_index": 0,
+      "variant": "Female",
+      "triangles": 396,
+      "pivot": [
+        0.01536085456609726,
+        0.051192205399274826,
+        1.4698240756988525
+      ],
+      "attachment_bone": "mixamorig:Head",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Foot_L",
+      "tier": "Copper",
+      "slot": "Foot",
+      "slot_index": 7,
+      "variant": "Female",
+      "triangles": 388,
+      "pivot": [
+        0.19793085753917694,
+        0.04877966642379761,
+        0.11826199293136597
+      ],
+      "attachment_bone": "mixamorig:LeftFoot",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Foot_R",
+      "tier": "Copper",
+      "slot": "Foot",
+      "slot_index": 7,
+      "variant": "Female",
+      "triangles": 386,
+      "pivot": [
+        -0.21417880058288574,
+        0.038967449218034744,
+        0.11826205253601074
+      ],
+      "attachment_bone": "mixamorig:RightFoot",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Foot_L",
+      "tier": "Tin",
+      "slot": "Foot",
+      "slot_index": 7,
+      "variant": "Female",
+      "triangles": 378,
+      "pivot": [
+        0.19793085753917694,
+        0.04877966642379761,
+        0.11826199293136597
+      ],
+      "attachment_bone": "mixamorig:LeftFoot",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Shoulder_R",
+      "tier": "Tin",
+      "slot": "Shoulder",
+      "slot_index": 1,
+      "variant": "Female",
+      "triangles": 366,
+      "pivot": [
+        -0.1269954890012741,
+        0.06808198243379593,
+        1.3143947124481201
+      ],
+      "attachment_bone": "mixamorig:RightArm",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Shoulder_L",
+      "tier": "Tin",
+      "slot": "Shoulder",
+      "slot_index": 1,
+      "variant": "Female",
+      "triangles": 364,
+      "pivot": [
+        0.15691299736499786,
+        0.06808198988437653,
+        1.3143943548202515
+      ],
+      "attachment_bone": "mixamorig:LeftArm",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Shoulder_R",
+      "tier": "Copper",
+      "slot": "Shoulder",
+      "slot_index": 1,
+      "variant": "Female",
+      "triangles": 362,
+      "pivot": [
+        -0.1269954890012741,
+        0.06808198243379593,
+        1.3143947124481201
+      ],
+      "attachment_bone": "mixamorig:RightArm",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Foot_R",
+      "tier": "Tin",
+      "slot": "Foot",
+      "slot_index": 7,
+      "variant": "Female",
+      "triangles": 332,
+      "pivot": [
+        -0.21417880058288574,
+        0.038967449218034744,
+        0.11826205253601074
+      ],
+      "attachment_bone": "mixamorig:RightFoot",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Leg_R",
+      "tier": "Tin",
+      "slot": "Leg",
+      "slot_index": 6,
+      "variant": "Female",
+      "triangles": 310,
+      "pivot": [
+        -0.15321479737758636,
+        0.033659230917692184,
+        0.4696682095527649
+      ],
+      "attachment_bone": "mixamorig:RightLeg",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Leg_L",
+      "tier": "Copper",
+      "slot": "Leg",
+      "slot_index": 6,
+      "variant": "Female",
+      "triangles": 302,
+      "pivot": [
+        0.150639608502388,
+        0.04765358567237854,
+        0.46966832876205444
+      ],
+      "attachment_bone": "mixamorig:LeftLeg",
+      "arm_fit": {},
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Bracer_L",
+      "tier": "Tin",
+      "slot": "Bracer",
+      "slot_index": 5,
+      "variant": "Female",
+      "triangles": 214,
+      "pivot": [
+        0.21723365783691406,
+        0.08979735523462296,
+        1.1116600036621094
+      ],
+      "attachment_bone": "mixamorig:LeftForeArm",
+      "arm_fit": {
+        "source_tilt_removed_deg": 5.303375940024094,
+        "target_axis": [
+          -0.40057438611984253,
+          0.22106070816516876,
+          0.889197587966919
+        ],
+        "wrist": [
+          0.29943034052848816,
+          0.04443635046482086,
+          0.9291992783546448
+        ],
+        "elbow": [
+          0.21723365783691406,
+          0.08979735523462296,
+          1.1116600036621094
+        ],
+        "longitudinal_min": -0.014027027027027026,
+        "longitudinal_max": 0.22202949041043743
+      },
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Bracer_R",
+      "tier": "Copper",
+      "slot": "Bracer",
+      "slot_index": 5,
+      "variant": "Female",
+      "triangles": 192,
+      "pivot": [
+        -0.18812017142772675,
+        0.08014605194330215,
+        1.1116602420806885
+      ],
+      "attachment_bone": "mixamorig:RightForeArm",
+      "arm_fit": {
+        "source_tilt_removed_deg": 6.386751944754367,
+        "target_axis": [
+          0.4169090986251831,
+          0.2374604493379593,
+          0.8773821592330933
+        ],
+        "wrist": [
+          -0.2748207747936249,
+          0.030763670802116394,
+          0.9291994571685791
+        ],
+        "elbow": [
+          -0.18812017142772675,
+          0.08014605194330215,
+          1.1116602420806885
+        ],
+        "longitudinal_min": -0.014027027027027026,
+        "longitudinal_max": 0.22479289442637795
+      },
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Bracer_R",
+      "tier": "Tin",
+      "slot": "Bracer",
+      "slot_index": 5,
+      "variant": "Female",
+      "triangles": 184,
+      "pivot": [
+        -0.18812017142772675,
+        0.08014605194330215,
+        1.1116602420806885
+      ],
+      "attachment_bone": "mixamorig:RightForeArm",
+      "arm_fit": {
+        "source_tilt_removed_deg": 6.463625723862861,
+        "target_axis": [
+          0.4169090986251831,
+          0.2374604493379593,
+          0.8773821592330933
+        ],
+        "wrist": [
+          -0.2748207747936249,
+          0.030763670802116394,
+          0.9291994571685791
+        ],
+        "elbow": [
+          -0.18812017142772675,
+          0.08014605194330215,
+          1.1116602420806885
+        ],
+        "longitudinal_min": -0.014027027027027026,
+        "longitudinal_max": 0.22479289442637795
+      },
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Bracer_L",
+      "tier": "Copper",
+      "slot": "Bracer",
+      "slot_index": 5,
+      "variant": "Female",
+      "triangles": 178,
+      "pivot": [
+        0.21723365783691406,
+        0.08979735523462296,
+        1.1116600036621094
+      ],
+      "attachment_bone": "mixamorig:LeftForeArm",
+      "arm_fit": {
+        "source_tilt_removed_deg": 7.948483236214245,
+        "target_axis": [
+          -0.40057438611984253,
+          0.22106070816516876,
+          0.889197587966919
+        ],
+        "wrist": [
+          0.29943034052848816,
+          0.04443635046482086,
+          0.9291992783546448
+        ],
+        "elbow": [
+          0.21723365783691406,
+          0.08979735523462296,
+          1.1116600036621094
+        ],
+        "longitudinal_min": -0.014027027027027026,
+        "longitudinal_max": 0.22202949041043743
+      },
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Hand_L",
+      "tier": "Tin",
+      "slot": "Hand",
+      "slot_index": 3,
+      "variant": "Female",
+      "triangles": 144,
+      "pivot": [
+        0.29943034052848816,
+        0.04443635046482086,
+        0.9291992783546448
+      ],
+      "attachment_bone": "mixamorig:LeftHand",
+      "arm_fit": {
+        "source_tilt_removed_deg": 6.134849445522419,
+        "target_axis": [
+          -0.057531312108039856,
+          0.344012588262558,
+          0.9372009038925171
+        ],
+        "wrist": [
+          0.29943034052848816,
+          0.04443635046482086,
+          0.9291992783546448
+        ],
+        "elbow": [
+          0.21723365783691406,
+          0.08979735523462296,
+          1.1116600036621094
+        ],
+        "longitudinal_min": -0.21557724683929133,
+        "longitudinal_max": 0.02057297297297297
+      },
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Hand_L",
+      "tier": "Copper",
+      "slot": "Hand",
+      "slot_index": 3,
+      "variant": "Female",
+      "triangles": 136,
+      "pivot": [
+        0.29943034052848816,
+        0.04443635046482086,
+        0.9291992783546448
+      ],
+      "attachment_bone": "mixamorig:LeftHand",
+      "arm_fit": {
+        "source_tilt_removed_deg": 5.485015429490474,
+        "target_axis": [
+          -0.057531312108039856,
+          0.344012588262558,
+          0.9372009038925171
+        ],
+        "wrist": [
+          0.29943034052848816,
+          0.04443635046482086,
+          0.9291992783546448
+        ],
+        "elbow": [
+          0.21723365783691406,
+          0.08979735523462296,
+          1.1116600036621094
+        ],
+        "longitudinal_min": -0.21557724683929133,
+        "longitudinal_max": 0.02057297297297297
+      },
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Hand_R",
+      "tier": "Copper",
+      "slot": "Hand",
+      "slot_index": 3,
+      "variant": "Female",
+      "triangles": 134,
+      "pivot": [
+        -0.2748207747936249,
+        0.030763670802116394,
+        0.9291994571685791
+      ],
+      "attachment_bone": "mixamorig:RightHand",
+      "arm_fit": {
+        "source_tilt_removed_deg": 8.137210754491806,
+        "target_axis": [
+          0.14869455993175507,
+          0.31597650051116943,
+          0.9370425939559937
+        ],
+        "wrist": [
+          -0.2748207747936249,
+          0.030763670802116394,
+          0.9291994571685791
+        ],
+        "elbow": [
+          -0.18812017142772675,
+          0.08014605194330215,
+          1.1116602420806885
+        ],
+        "longitudinal_min": -0.2077928951327865,
+        "longitudinal_max": 0.02057297297297297
+      },
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Hand_R",
+      "tier": "Tin",
+      "slot": "Hand",
+      "slot_index": 3,
+      "variant": "Female",
+      "triangles": 98,
+      "pivot": [
+        -0.2748207747936249,
+        0.030763670802116394,
+        0.9291994571685791
+      ],
+      "attachment_bone": "mixamorig:RightHand",
+      "arm_fit": {
+        "source_tilt_removed_deg": 5.215301077563603,
+        "target_axis": [
+          0.14869455993175507,
+          0.31597650051116943,
+          0.9370425939559937
+        ],
+        "wrist": [
+          -0.2748207747936249,
+          0.030763670802116394,
+          0.9291994571685791
+        ],
+        "elbow": [
+          -0.18812017142772675,
+          0.08014605194330215,
+          1.1116602420806885
+        ],
+        "longitudinal_min": -0.2077928951327865,
+        "longitudinal_max": 0.02057297297297297
+      },
+      "cape_surface_error_raw": 0.0,
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_UpperArm_L",
+      "tier": "Tin",
+      "slot": "UpperArm",
+      "slot_index": 1,
+      "variant": "Female",
+      "triangles": 160,
+      "pivot": [
+        0.15691299736499786,
+        0.06808198988437653,
+        1.3143943548202515
+      ],
+      "attachment_bone": "existing upper-arm / forearm skeleton",
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Elbow_L",
+      "tier": "Tin",
+      "slot": "Elbow",
+      "slot_index": 5,
+      "variant": "Female",
+      "triangles": 100,
+      "pivot": [
+        0.21723365783691406,
+        0.08979735523462296,
+        1.1116600036621094
+      ],
+      "attachment_bone": "existing upper-arm / forearm skeleton",
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_UpperArm_R",
+      "tier": "Tin",
+      "slot": "UpperArm",
+      "slot_index": 1,
+      "variant": "Female",
+      "triangles": 160,
+      "pivot": [
+        -0.1269954890012741,
+        0.06808198243379593,
+        1.3143947124481201
+      ],
+      "attachment_bone": "existing upper-arm / forearm skeleton",
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Elbow_R",
+      "tier": "Tin",
+      "slot": "Elbow",
+      "slot_index": 5,
+      "variant": "Female",
+      "triangles": 100,
+      "pivot": [
+        -0.18812017142772675,
+        0.08014605194330215,
+        1.1116602420806885
+      ],
+      "attachment_bone": "existing upper-arm / forearm skeleton",
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_UpperArm_L",
+      "tier": "Copper",
+      "slot": "UpperArm",
+      "slot_index": 1,
+      "variant": "Female",
+      "triangles": 160,
+      "pivot": [
+        0.15691299736499786,
+        0.06808198988437653,
+        1.3143943548202515
+      ],
+      "attachment_bone": "existing upper-arm / forearm skeleton",
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Elbow_L",
+      "tier": "Copper",
+      "slot": "Elbow",
+      "slot_index": 5,
+      "variant": "Female",
+      "triangles": 100,
+      "pivot": [
+        0.21723365783691406,
+        0.08979735523462296,
+        1.1116600036621094
+      ],
+      "attachment_bone": "existing upper-arm / forearm skeleton",
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_UpperArm_R",
+      "tier": "Copper",
+      "slot": "UpperArm",
+      "slot_index": 1,
+      "variant": "Female",
+      "triangles": 160,
+      "pivot": [
+        -0.1269954890012741,
+        0.06808198243379593,
+        1.3143947124481201
+      ],
+      "attachment_bone": "existing upper-arm / forearm skeleton",
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Elbow_R",
+      "tier": "Copper",
+      "slot": "Elbow",
+      "slot_index": 5,
+      "variant": "Female",
+      "triangles": 100,
+      "pivot": [
+        -0.18812017142772675,
+        0.08014605194330215,
+        1.1116602420806885
+      ],
+      "attachment_bone": "existing upper-arm / forearm skeleton",
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Thigh_R",
+      "tier": "Tin",
+      "slot": "Thigh",
+      "slot_index": 6,
+      "variant": "Female",
+      "triangles": 192,
+      "pivot": [
+        -0.08517329394817352,
+        0.01499994657933712,
+        0.8751369118690491
+      ],
+      "attachment_bone": "mixamorig:RightUpLeg",
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Tin_Thigh_L",
+      "tier": "Tin",
+      "slot": "Thigh",
+      "slot_index": 6,
+      "variant": "Female",
+      "triangles": 192,
+      "pivot": [
+        0.11090855300426483,
+        0.012908855453133583,
+        0.8751370310783386
+      ],
+      "attachment_bone": "mixamorig:LeftUpLeg",
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Thigh_R",
+      "tier": "Copper",
+      "slot": "Thigh",
+      "slot_index": 6,
+      "variant": "Female",
+      "triangles": 192,
+      "pivot": [
+        -0.08517329394817352,
+        0.01499994657933712,
+        0.8751369118690491
+      ],
+      "attachment_bone": "mixamorig:RightUpLeg",
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    },
+    {
+      "name": "Copper_Thigh_L",
+      "tier": "Copper",
+      "slot": "Thigh",
+      "slot_index": 6,
+      "variant": "Female",
+      "triangles": 192,
+      "pivot": [
+        0.11090855300426483,
+        0.012908855453133583,
+        0.8751370310783386
+      ],
+      "attachment_bone": "mixamorig:LeftUpLeg",
+      "unweighted_vertices": 0,
+      "weight_sum_errors": 0,
+      "pushed_vertices": 0,
+      "max_rest_surface_push_m": 0
+    }
+  ],
+  "motion": [
+    {
+      "tier": "Tin",
+      "variant": "Female",
+      "clip": "Idle",
+      "frame": 1,
+      "finite": true,
+      "min_height": 0.004134513437747955,
+      "max_height": 1.7514822483062744,
+      "body_penetration_samples": 684,
+      "samples": 3840,
+      "penetration_fraction": 0.178125
+    },
+    {
+      "tier": "Copper",
+      "variant": "Female",
+      "clip": "Idle",
+      "frame": 1,
+      "finite": true,
+      "min_height": 0.004134505987167358,
+      "max_height": 1.7514766454696655,
+      "body_penetration_samples": 726,
+      "samples": 3776,
+      "penetration_fraction": 0.19226694915254236
+    },
+    {
+      "tier": "Tin",
+      "variant": "Female",
+      "clip": "Walk",
+      "frame": 1,
+      "finite": true,
+      "min_height": -0.0040268003940582275,
+      "max_height": 1.7240304946899414,
+      "body_penetration_samples": 721,
+      "samples": 3840,
+      "penetration_fraction": 0.18776041666666668
+    },
+    {
+      "tier": "Copper",
+      "variant": "Female",
+      "clip": "Walk",
+      "frame": 1,
+      "finite": true,
+      "min_height": -0.00411495566368103,
+      "max_height": 1.7240638732910156,
+      "body_penetration_samples": 774,
+      "samples": 3776,
+      "penetration_fraction": 0.20497881355932204
+    },
+    {
+      "tier": "Tin",
+      "variant": "Female",
+      "clip": "Walk",
+      "frame": 7,
+      "finite": true,
+      "min_height": 0.004256971180438995,
+      "max_height": 1.7182574272155762,
+      "body_penetration_samples": 707,
+      "samples": 3840,
+      "penetration_fraction": 0.18411458333333333
+    },
+    {
+      "tier": "Copper",
+      "variant": "Female",
+      "clip": "Walk",
+      "frame": 7,
+      "finite": true,
+      "min_height": 0.004256978631019592,
+      "max_height": 1.7182670831680298,
+      "body_penetration_samples": 760,
+      "samples": 3776,
+      "penetration_fraction": 0.20127118644067796
+    },
+    {
+      "tier": "Tin",
+      "variant": "Female",
+      "clip": "Walk",
+      "frame": 14,
+      "finite": true,
+      "min_height": -0.005139432847499847,
+      "max_height": 1.6962621212005615,
+      "body_penetration_samples": 711,
+      "samples": 3840,
+      "penetration_fraction": 0.18515625
+    },
+    {
+      "tier": "Copper",
+      "variant": "Female",
+      "clip": "Walk",
+      "frame": 14,
+      "finite": true,
+      "min_height": -0.0060290321707725525,
+      "max_height": 1.6962931156158447,
+      "body_penetration_samples": 756,
+      "samples": 3776,
+      "penetration_fraction": 0.20021186440677965
+    },
+    {
+      "tier": "Tin",
+      "variant": "Female",
+      "clip": "Walk",
+      "frame": 21,
+      "finite": true,
+      "min_height": 0.0039999037981033325,
+      "max_height": 1.7183693647384644,
+      "body_penetration_samples": 705,
+      "samples": 3840,
+      "penetration_fraction": 0.18359375
+    },
+    {
+      "tier": "Copper",
+      "variant": "Female",
+      "clip": "Walk",
+      "frame": 21,
+      "finite": true,
+      "min_height": 0.003999955952167511,
+      "max_height": 1.7184065580368042,
+      "body_penetration_samples": 758,
+      "samples": 3776,
+      "penetration_fraction": 0.2007415254237288
+    },
+    {
+      "tier": "Tin",
+      "variant": "Female",
+      "clip": "Run",
+      "frame": 1,
+      "finite": true,
+      "min_height": -0.004038766026496887,
+      "max_height": 1.641730546951294,
+      "body_penetration_samples": 745,
+      "samples": 3840,
+      "penetration_fraction": 0.19401041666666666
+    },
+    {
+      "tier": "Copper",
+      "variant": "Female",
+      "clip": "Run",
+      "frame": 1,
+      "finite": true,
+      "min_height": -0.004126936197280884,
+      "max_height": 1.6418192386627197,
+      "body_penetration_samples": 801,
+      "samples": 3776,
+      "penetration_fraction": 0.2121292372881356
+    },
+    {
+      "tier": "Tin",
+      "variant": "Female",
+      "clip": "Run",
+      "frame": 5,
+      "finite": true,
+      "min_height": 0.004233814775943756,
+      "max_height": 1.6644543409347534,
+      "body_penetration_samples": 709,
+      "samples": 3840,
+      "penetration_fraction": 0.18463541666666666
+    },
+    {
+      "tier": "Copper",
+      "variant": "Female",
+      "clip": "Run",
+      "frame": 5,
+      "finite": true,
+      "min_height": 0.004233837127685547,
+      "max_height": 1.664481282234192,
+      "body_penetration_samples": 765,
+      "samples": 3776,
+      "penetration_fraction": 0.20259533898305085
+    },
+    {
+      "tier": "Tin",
+      "variant": "Female",
+      "clip": "Run",
+      "frame": 10,
+      "finite": true,
+      "min_height": 0.032135725021362305,
+      "max_height": 1.6142240762710571,
+      "body_penetration_samples": 724,
+      "samples": 3840,
+      "penetration_fraction": 0.18854166666666666
+    },
+    {
+      "tier": "Copper",
+      "variant": "Female",
+      "clip": "Run",
+      "frame": 10,
+      "finite": true,
+      "min_height": 0.0319083034992218,
+      "max_height": 1.6143033504486084,
+      "body_penetration_samples": 777,
+      "samples": 3776,
+      "penetration_fraction": 0.20577330508474576
+    },
+    {
+      "tier": "Tin",
+      "variant": "Female",
+      "clip": "Run",
+      "frame": 15,
+      "finite": true,
+      "min_height": 0.003999628126621246,
+      "max_height": 1.666715145111084,
+      "body_penetration_samples": 726,
+      "samples": 3840,
+      "penetration_fraction": 0.1890625
+    },
+    {
+      "tier": "Copper",
+      "variant": "Female",
+      "clip": "Run",
+      "frame": 15,
+      "finite": true,
+      "min_height": 0.003999657928943634,
+      "max_height": 1.6668143272399902,
+      "body_penetration_samples": 778,
+      "samples": 3776,
+      "penetration_fraction": 0.20603813559322035
+    }
+  ],
+  "status": "local master; slot-aware body masks and added upper-thigh coverage"
+}

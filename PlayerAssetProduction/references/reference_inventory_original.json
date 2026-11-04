@@ -1,0 +1,151 @@
+{
+  "source": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\.codex-remote-attachments\\01a17bd7-3920-7270-b092-0875ce03218d\\b65cb1f7-95f9-4531-a821-f7a0dde715f8\\1-2956.jpg",
+  "source_sha256": "1d2c6928a90623b9ee1c072532f9af8a176f9ff01df6ad7f946765259be1317b",
+  "crops": {
+    "Male": {
+      "front": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Male\\Male_front.png",
+        "crop": [
+          176,
+          34,
+          335,
+          423
+        ],
+        "generation_view": true
+      },
+      "left": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Male\\Male_left.png",
+        "crop": [
+          350,
+          34,
+          451,
+          423
+        ],
+        "generation_view": true
+      },
+      "back": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Male\\Male_back.png",
+        "crop": [
+          467,
+          34,
+          605,
+          423
+        ],
+        "generation_view": true
+      },
+      "right": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Male\\Male_right.png",
+        "crop": [
+          626,
+          34,
+          735,
+          423
+        ],
+        "generation_view": true
+      },
+      "head_detail": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Male\\Male_head_detail.png",
+        "crop": [
+          795,
+          58,
+          1062,
+          372
+        ],
+        "generation_view": false
+      },
+      "eye_detail": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Male\\Male_eye_detail.png",
+        "crop": [
+          1077,
+          56,
+          1256,
+          182
+        ],
+        "generation_view": false
+      },
+      "skin_detail": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Male\\Male_skin_detail.png",
+        "crop": [
+          1077,
+          214,
+          1256,
+          390
+        ],
+        "generation_view": false
+      }
+    },
+    "Female": {
+      "front": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Female\\Female_front.png",
+        "crop": [
+          170,
+          441,
+          329,
+          815
+        ],
+        "generation_view": true
+      },
+      "left": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Female\\Female_left.png",
+        "crop": [
+          352,
+          439,
+          448,
+          815
+        ],
+        "generation_view": true
+      },
+      "back": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Female\\Female_back.png",
+        "crop": [
+          466,
+          439,
+          602,
+          815
+        ],
+        "generation_view": true
+      },
+      "right": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Female\\Female_right.png",
+        "crop": [
+          630,
+          439,
+          740,
+          815
+        ],
+        "generation_view": true
+      },
+      "head_detail": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Female\\Female_head_detail.png",
+        "crop": [
+          796,
+          448,
+          1063,
+          774
+        ],
+        "generation_view": false
+      },
+      "eye_detail": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Female\\Female_eye_detail.png",
+        "crop": [
+          1077,
+          448,
+          1256,
+          610
+        ],
+        "generation_view": false
+      },
+      "skin_detail": {
+        "path": "C:\\Users\\nicho\\.codex\\.chatgpt-projects\\g-p-69858d55a73881919e10e84ceee7ffb4\\player_pipeline\\reference_crops\\Female\\Female_skin_detail.png",
+        "crop": [
+          1077,
+          617,
+          1256,
+          804
+        ],
+        "generation_view": false
+      }
+    }
+  },
+  "api_submissions": 0
+}

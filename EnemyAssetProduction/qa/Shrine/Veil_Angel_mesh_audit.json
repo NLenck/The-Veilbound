@@ -1,0 +1,101 @@
+{
+  "unit": "Veil_Angel",
+  "biome": "Shrine",
+  "source": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Veil_Angel.glb",
+  "raw": {
+    "mesh_count": 1,
+    "vertices": 14381,
+    "triangles": 10087,
+    "material_slots": 1,
+    "boundary_edges": 13897,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "tripo_node_bcf559c7-8a46-402d-b9e2-df20e95b08d9": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 2408,
+    "inconsistent_normal_edges": 1,
+    "dimensions_m": [
+      0.41602,
+      0.9668,
+      0.99805
+    ],
+    "bounds_min": [
+      -0.20801,
+      -0.4834,
+      -0.49902
+    ],
+    "bounds_max": [
+      0.20801,
+      0.4834,
+      0.49902
+    ]
+  },
+  "final": {
+    "mesh_count": 1,
+    "vertices": 5086,
+    "triangles": 10087,
+    "material_slots": 1,
+    "boundary_edges": 27,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "Veilbound_Shrine_Veil_Angel": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 18,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      2.90607,
+      1.25049,
+      3.0
+    ],
+    "bounds_min": [
+      -1.45303,
+      -0.62524,
+      0.0
+    ],
+    "bounds_max": [
+      1.45303,
+      0.62524,
+      3.0
+    ],
+    "target_triangles": 10500,
+    "budget_pass": true,
+    "atlas_baked": false,
+    "faceted_shading": true,
+    "provisional_height_m": 3.0,
+    "decimation_used": false,
+    "rigged": false,
+    "split_overshared_edges": 4,
+    "removed_debris_faces": 0,
+    "removed_debris_components": 0,
+    "textures": [
+      "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Shrine\\textures\\Veil_Angel\\Veil_Angel_00.png"
+    ]
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Veil_Angel_front.png",
+    "side": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Veil_Angel_side.png",
+    "three_quarter": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Veil_Angel_three_quarter.png",
+    "back": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Shrine\\Veil_Angel_back.png"
+  },
+  "limitations": [
+    "No automatic self-intersection or full UV-overlap proof; visual review required.",
+    "Height is a provisional production scale, not an existing Unity prefab measurement.",
+    "No retopology or decimation was applied; P1 generated directly at the requested low-poly budget."
+  ]
+}

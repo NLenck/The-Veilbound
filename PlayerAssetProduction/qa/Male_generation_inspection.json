@@ -1,0 +1,58 @@
+{
+  "source": "C:\\The Veilbound\\PlayerAssetProduction\\models_raw\\Male\\Male.glb",
+  "objects": [
+    {
+      "name": "tripo_node_2fd9bd72-d0b2-48cf-bb13-d07270b646bc",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 28311,
+      "triangles": 26800,
+      "materials": [
+        "tripo_material_2fd9bd72-d0b2-48cf-bb13-d07270b646bc"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ]
+    }
+  ],
+  "fps": 24,
+  "actions": [],
+  "images": [
+    {
+      "name": "Color_2fd9bd72-d0b2-48cf-bb13-d07270b646bc",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true,
+      "type": "IMAGE"
+    },
+    {
+      "name": "NormalGL_2fd9bd72-d0b2-48cf-bb13-d07270b646bc",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true,
+      "type": "IMAGE"
+    },
+    {
+      "name": "ORM_2fd9bd72-d0b2-48cf-bb13-d07270b646bc",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true,
+      "type": "IMAGE"
+    }
+  ]
+}

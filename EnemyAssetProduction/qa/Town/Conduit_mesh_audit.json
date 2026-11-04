@@ -1,0 +1,99 @@
+{
+  "unit": "Conduit",
+  "biome": "Town",
+  "source": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Conduit.glb",
+  "raw": {
+    "mesh_count": 1,
+    "vertices": 9290,
+    "triangles": 6219,
+    "material_slots": 1,
+    "boundary_edges": 9040,
+    "nonmanifold_edges": 3,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "tripo_node_f7b30c88-8bcf-4ec7-b293-08604f88a253": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 1669,
+    "inconsistent_normal_edges": 2,
+    "dimensions_m": [
+      0.54102,
+      0.52539,
+      0.99805
+    ],
+    "bounds_min": [
+      -0.27051,
+      -0.2627,
+      -0.49902
+    ],
+    "bounds_max": [
+      0.27051,
+      0.2627,
+      0.49902
+    ]
+  },
+  "final": {
+    "mesh_count": 1,
+    "vertices": 3440,
+    "triangles": 6219,
+    "material_slots": 1,
+    "boundary_edges": 501,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "Veilbound_Town_Conduit": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 58,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      1.42133,
+      1.4636,
+      2.7
+    ],
+    "bounds_min": [
+      -0.71067,
+      -0.7318,
+      0.0
+    ],
+    "bounds_max": [
+      0.71067,
+      0.7318,
+      2.7
+    ],
+    "target_triangles": 6500,
+    "budget_pass": true,
+    "atlas_baked": false,
+    "faceted_shading": true,
+    "provisional_height_m": 2.7,
+    "decimation_used": false,
+    "rigged": false,
+    "split_overshared_edges": 66,
+    "textures": [
+      "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\textures\\Conduit\\Conduit_00.png"
+    ]
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Conduit_front.png",
+    "side": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Conduit_side.png",
+    "three_quarter": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Conduit_three_quarter.png",
+    "back": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Conduit_back.png"
+  },
+  "limitations": [
+    "No automatic self-intersection or full UV-overlap proof; visual review required.",
+    "Height is a provisional production scale, not an existing Unity prefab measurement.",
+    "No retopology or decimation was applied; P1 generated directly at the requested low-poly budget."
+  ]
+}

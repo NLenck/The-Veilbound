@@ -1,0 +1,13 @@
+{
+    "passed": true,
+    "braziers": 6,
+    "headstones": 27,
+    "plots": 9,
+    "cathedrals": 1,
+    "cathedralBreaches": 4,
+    "renderers": 46,
+    "triangles": 16358,
+    "reachableSpawnSamples": 96,
+    "playerRadius": 42.0,
+    "spawnRadius": 50.0
+}

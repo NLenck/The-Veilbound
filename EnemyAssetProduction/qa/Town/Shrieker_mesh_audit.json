@@ -1,0 +1,99 @@
+{
+  "unit": "Shrieker",
+  "biome": "Town",
+  "source": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Town\\Shrieker.glb",
+  "raw": {
+    "mesh_count": 1,
+    "vertices": 5107,
+    "triangles": 3074,
+    "material_slots": 1,
+    "boundary_edges": 5074,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "tripo_node_747ce409-6f43-4045-96fb-41732ac8e189": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 1036,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      0.66602,
+      0.25977,
+      0.99805
+    ],
+    "bounds_min": [
+      -0.33301,
+      -0.12988,
+      -0.49902
+    ],
+    "bounds_max": [
+      0.33301,
+      0.12988,
+      0.49902
+    ]
+  },
+  "final": {
+    "mesh_count": 1,
+    "vertices": 1606,
+    "triangles": 3074,
+    "material_slots": 1,
+    "boundary_edges": 132,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "degenerate_faces": 0,
+    "uv_layers": {
+      "Veilbound_Town_Shrieker": [
+        "UVMap"
+      ]
+    },
+    "missing_uv_faces": 0,
+    "zero_uv_area_triangles": 0,
+    "nonfinite_vertices": 0,
+    "uv_out_of_range_loops": 0,
+    "connected_components": 3,
+    "inconsistent_normal_edges": 0,
+    "dimensions_m": [
+      1.4681,
+      0.5726,
+      2.2
+    ],
+    "bounds_min": [
+      -0.73405,
+      -0.2863,
+      0.0
+    ],
+    "bounds_max": [
+      0.73405,
+      0.2863,
+      2.2
+    ],
+    "target_triangles": 3200,
+    "budget_pass": true,
+    "atlas_baked": false,
+    "faceted_shading": true,
+    "provisional_height_m": 2.2,
+    "decimation_used": false,
+    "rigged": false,
+    "split_overshared_edges": 4,
+    "textures": [
+      "C:\\The Veilbound\\EnemyAssetProduction\\models_unity\\Town\\textures\\Shrieker\\Shrieker_00.png"
+    ]
+  },
+  "renders": {
+    "front": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Shrieker_front.png",
+    "side": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Shrieker_side.png",
+    "three_quarter": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Shrieker_three_quarter.png",
+    "back": "C:\\The Veilbound\\EnemyAssetProduction\\previews\\Town\\Shrieker_back.png"
+  },
+  "limitations": [
+    "No automatic self-intersection or full UV-overlap proof; visual review required.",
+    "Height is a provisional production scale, not an existing Unity prefab measurement.",
+    "No retopology or decimation was applied; P1 generated directly at the requested low-poly budget."
+  ]
+}

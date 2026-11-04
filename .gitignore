@@ -1,0 +1,56 @@
+# Unity generated folders, including isolated validation projects
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Bb]uild/
+[Bb]uilds/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Historical checkpoints and reproducible package/staging copies
+/_Archive/
+**/[Bb]ackup/
+**/[Bb]ackup-*/
+**/[Bb]ackups/
+**/revisions/
+**/unity_staging/
+*.unitypackage
+*.blend1
+*.blend2
+*.bak
+*.tmp
+
+# Local IDE / OS state
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.slnx
+*.pidb
+*.user
+*.userprefs
+*.suo
+*.log
+*.stackdump
+.DS_Store
+Thumbs.db
+Desktop.ini
+__pycache__/
+*.py[cod]
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.p12
+
+# Local diagnostic outputs and test profiles
+/logic-checks.txt
+/StarterGearUpdate/SaveRoundTrip/
+/Docs/folder-cleanup-plan.json
+/Docs/folder-cleanup-result.json

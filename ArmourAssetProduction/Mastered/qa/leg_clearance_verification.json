@@ -1,0 +1,718 @@
+[
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "belt_geometry_unchanged": true,
+    "thigh_fit": [
+      {
+        "side": "Left",
+        "upper_cuff_radius_ratio": 0.6608119085997369,
+        "lower_ring_change_m": 0.0
+      },
+      {
+        "side": "Right",
+        "upper_cuff_radius_ratio": 0.6611916660095664,
+        "lower_ring_change_m": 0.0
+      }
+    ]
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "belt_geometry_unchanged": true,
+    "thigh_fit": [
+      {
+        "side": "Left",
+        "upper_cuff_radius_ratio": 0.6608119085997369,
+        "lower_ring_change_m": 0.0
+      },
+      {
+        "side": "Right",
+        "upper_cuff_radius_ratio": 0.6611916660095664,
+        "lower_ring_change_m": 0.0
+      }
+    ]
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Idle",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.26555314660072327
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Idle",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.27438512444496155
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Idle",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2687157690525055
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Idle",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.27329394221305847
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.24861197173595428
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.21707352995872498
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.24329666793346405
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.21464622020721436
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.26069119572639465
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2626320719718933
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.26101547479629517
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2637476325035095
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.26304566860198975
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.28188204765319824
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.265490859746933
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.26990729570388794
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2415681779384613
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.26757359504699707
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.24751783907413483
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.26769158244132996
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.24585652351379395
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.21230441331863403
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.23996557295322418
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.21548417210578918
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2551722526550293
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.19317592680454254
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2608089745044708
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.19169463217258453
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.24215735495090485
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2705708146095276
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2479710429906845
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2604021430015564
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.1415831446647644
+  },
+  {
+    "variant": "Male",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2056596577167511
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.14880014955997467
+  },
+  {
+    "variant": "Male",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.20711635053157806
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "belt_geometry_unchanged": true,
+    "thigh_fit": [
+      {
+        "side": "Left",
+        "upper_cuff_radius_ratio": 0.6608851652062928,
+        "lower_ring_change_m": 0.0
+      },
+      {
+        "side": "Right",
+        "upper_cuff_radius_ratio": 0.6611413032542752,
+        "lower_ring_change_m": 0.0
+      }
+    ]
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "belt_geometry_unchanged": true,
+    "thigh_fit": [
+      {
+        "side": "Left",
+        "upper_cuff_radius_ratio": 0.6608851652062928,
+        "lower_ring_change_m": 0.0
+      },
+      {
+        "side": "Right",
+        "upper_cuff_radius_ratio": 0.6611413032542752,
+        "lower_ring_change_m": 0.0
+      }
+    ]
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Idle",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.285518616437912
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Idle",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.3035391867160797
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Idle",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.28891316056251526
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Idle",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.304321825504303
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2855721116065979
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.24183258414268494
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2797045409679413
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.24158988893032074
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2709086239337921
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.28171613812446594
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2757907509803772
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.28557246923446655
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.28101950883865356
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2857723832130432
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.28428134322166443
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.27594420313835144
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.25247088074684143
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2936088442802429
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Walk",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.25768905878067017
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Walk",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.29447224736213684
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.28469642996788025
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2316572219133377
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.28336989879608154
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.23319664597511292
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2662908434867859
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.18756155669689178
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.27195337414741516
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0.25,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.18687689304351807
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2565563917160034
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2666029930114746
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.26185333728790283
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0.5,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.2594778835773468
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.138565331697464
+  },
+  {
+    "variant": "Female",
+    "family": "Tin",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.22497576475143433
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "L",
+    "clip": "Run",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.1466374695301056
+  },
+  {
+    "variant": "Female",
+    "family": "Copper",
+    "side": "R",
+    "clip": "Run",
+    "fraction": 0.75,
+    "waist_leg_intersection_pairs": 0,
+    "nearest_leg_vertex_to_waist_m": 0.22471179068088531
+  }
+]

@@ -1,0 +1,870 @@
+[
+  {
+    "path": "Assets\\Veilbound\\Scripts\\AbilityPresentationSmoke.cs",
+    "sha256": "9bfee11752b4dd865b989e44535016fb21dbadfb9ee015d18bed09d330e7038f"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\AbilityPresentationSmoke.cs.meta",
+    "sha256": "6013d40f78a873018df855146ff2013aef6d29fe33e44c7b1a8cef8562118593"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\AbilityUpgrades.cs",
+    "sha256": "8802d1c9852d91ab5efef77477b362f8a2aa49d0f24bf92e97df05eafb65b547"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\AbilityUpgrades.cs.meta",
+    "sha256": "3cd2136e80acf45feacb4a37f0d06a56dbe1e7e3aa54baca945738d980f628ed"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\AllArmourSmoke.cs",
+    "sha256": "8d419332f26f97f31d0fd4420c9719e1b6ab96b10914cf6d5f0f48ce8bfb631b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\AllArmourSmoke.cs.meta",
+    "sha256": "55fc5865607586f50d865d69081f416168d92ecfcd4dd002a10471b37cd7ee34"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\AreaWarningSmoke.cs",
+    "sha256": "4fc3f175881ef47fd2288eada8bbd6790725a0ec4d6e8ab8d17059c7e87c1778"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\AreaWarningSmoke.cs.meta",
+    "sha256": "ab6e7fcff3319b09e6bbb2c184dd906d42790a2a5ee87cb08865579f71c2b290"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\AreaWarningVisual.cs",
+    "sha256": "cc7c86acd573907f95aeb44312d94f89219af62f546e8c88cdc86956cb387791"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\AreaWarningVisual.cs.meta",
+    "sha256": "19ef1a9b4d46ae3e8e6a3c21dffa91557ce480eeff7c96d7145f70b2611afaae"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ArenaCollision.cs",
+    "sha256": "a9a1b215093a379ec1993df2efc26d618d3c5f7aa97347ae847ebcf17d0b1d12"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ArenaCollision.cs.meta",
+    "sha256": "a96b29f9ffcc7afc3feca7afded7ca7f5c8a805d1450cb9c6454c2e78c91f583"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ArenaNavigation.cs",
+    "sha256": "2bbe577e9aa27371d925f9349c4932b205b8e0cfa1848c2f070d8a016d4ce45a"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ArenaNavigation.cs.meta",
+    "sha256": "0b03fa0f05c0ce4c65b897d8ecbfef689d1dd61dd0f6fb4e5d0b1631d2394f4b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ArmourVisuals.cs",
+    "sha256": "8c1e7b35242054a9d98630f215fceba66dcb239acb327317a2a82f7ef6fc62d5"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ArmourVisuals.cs.meta",
+    "sha256": "8d8d1674ef36d20d328892f3fdd443592b481878f39c1e5bccadf8140e22b8dc"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\BronzeHeroSmoke.cs",
+    "sha256": "a2e75e364439138f37ed91b2e4ab94d9aa210edc21c46fc70827ed7b0619122c"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\BronzeHeroSmoke.cs.meta",
+    "sha256": "6f316f8e24ea6baf81cd618659767348b842464dd8aa288e449d652ed1f94d2b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\BronzeHeroVisual.cs",
+    "sha256": "635d8069aa7962bcec915215533b31f9eb63ebb9b57e9920799314a915e21be9"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\BronzeHeroVisual.cs.meta",
+    "sha256": "6b66bfe93ff50bd8f7008ce00b73545f8bf0bc560a0d046efca779b56544df35"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CharacterRosterSmoke.cs",
+    "sha256": "6693a5f4a9a0c24ec48dc80621502ef5f35223458b562bbd95cb80a9e6ea816a"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CharacterRosterSmoke.cs.meta",
+    "sha256": "be81f1117ba313f48982c488dac1e4e118ce4f62f94eb52b99434f59aab87f1d"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CharacterRosterUI.cs",
+    "sha256": "241dd5599e9f61122e5e53a291d745478677eea15c998d54f5d1225ea6346261"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CharacterRosterUI.cs.meta",
+    "sha256": "72af9b2e69481622824ab258ea61ccf74754ad79c8e5bccfe97f26593269c5ee"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CharacterSaves.cs",
+    "sha256": "40c4ff61707052c8fb80ea36495f7ab00d34634a487e1538441900547a199b9c"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CharacterSaves.cs.meta",
+    "sha256": "b530cf0127a9f16a920f1a504d8b0851077bafbb9e662adda5eae0df5c3317e1"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CharacterSheet.cs",
+    "sha256": "1def47ed5e10ad3f6ee89e344d1f4fb3c06a1fefdd0dcca50851bf9c4fcfd3f6"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CharacterSheet.cs.meta",
+    "sha256": "1c97a6bf26fdd014591d1d4c67fdcb490901edeee03fb61fac370500c53fc96e"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CharacterValidation.cs",
+    "sha256": "a7f7361708449e1f37e3a3ef734820d44502c78469c79a91d802609b1bcc2b73"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CharacterValidation.cs.meta",
+    "sha256": "035cba3446124482cd71b50f0d8a99e39488073cd29ef4509974b17baf290ed0"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CleanHud.cs",
+    "sha256": "c2d242bc006c787ab7d982f90f30951d90071edcb0765bcecd4073b0be0d7961"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CleanHud.cs.meta",
+    "sha256": "eaea2c7bcfd5c1bd90a5998819603109ebbc0d451bba78056032937d1b523aa2"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CleanHudSmoke.cs",
+    "sha256": "a5e4cb653281a5233a365da71235738b2d41552a52dc57555abe53e6e805b2e3"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CleanHudSmoke.cs.meta",
+    "sha256": "9e2bc138b0be032b29a590e8998a73e7c92244da9824a7ff32d0883d03337f6c"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CombatInterfaceSmoke.cs",
+    "sha256": "eb438086e7fb2a6da7682af435669a3f646cdca9ef3a48470b6ece34e1eb1e3b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CombatInterfaceSmoke.cs.meta",
+    "sha256": "711ff1c647832f5f986a0b31a82ab7a601352202552d84d47df8e99161b3f71a"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CombatReadouts.cs",
+    "sha256": "f96687006e2b653af5facdd5bc0489335f65875117bb190ef76ddbebfaedbcad"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\CombatReadouts.cs.meta",
+    "sha256": "995112a449278bf7d155140bee622950a917a047fe460e18cb5096289c1ff2e3"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EconomyBalanceSmoke.cs",
+    "sha256": "004c73b864a32e4686db3cddd4ce253cdfad1e96aa1c2f35952549bf3a26bad5"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EconomyBalanceSmoke.cs.meta",
+    "sha256": "4004f85b038ae188dc68b690b787a47898fdb2496697d9de3e32e01cfdf4ac0a"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EnemyCombat.cs",
+    "sha256": "1eb287f394ee2c7ce658ff2754532536c8356fd40fd96632aa8ff2a59438baa3"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EnemyCombat.cs.meta",
+    "sha256": "3caad5f3bfd5236d2b087d44ea483e5b066f46177159dfee413036f7c8e8291a"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EnemyGroundSlam.cs",
+    "sha256": "9554b1d6e04f3abc030ed379e988cd33263f91d4f1acea8eb8fddf2d0c44affc"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EnemyGroundSlam.cs.meta",
+    "sha256": "c722789c5beab8245fb04125e194ce51c706eca5e64596f784406eb622183f9c"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EnemyStyleSmoke.cs",
+    "sha256": "4ebadc5cbd9335a7c3ae42534e73cdee528b9762e5c7d34dfd819272a6fde9c4"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EnemyStyleSmoke.cs.meta",
+    "sha256": "ba227e085125f8fb2a807df513de91ef7cf73cfe29681c281e2aad11deba10e9"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EnemyTypes.cs",
+    "sha256": "f3bb84e7aabc58b07ac2559abfc83dc30177817debb2d79e232e8071f56c00cb"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EnemyTypes.cs.meta",
+    "sha256": "e599a04230ca48ec8c63984db509d8d4c46b6b8b8319318089e3306372022047"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\Equipment.cs",
+    "sha256": "c40af119ebb5661c816d0a17950adbd2022270fb8fb136db1c82e7a983faf50c"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\Equipment.cs.meta",
+    "sha256": "8a14d8920a9cb2cf436a33c73b4c0c93c35cb274f60f1e20a4334bfd36102560"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EquipmentPaperDoll.cs",
+    "sha256": "5807d89e83138038a811469bcdfa8585acc5bb9765a4e202efb4b5a43596472b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EquipmentPaperDoll.cs.meta",
+    "sha256": "6046c73f8e7f18e5a20e28da57830ac6aec5569f48d70c009fe1a483c0c1483c"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EquipmentPaperDollSmoke.cs",
+    "sha256": "f35bc8d16be846f95b5b6acd83e2800a846995592d6b06d8d5b236bd7d1385a6"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EquipmentPaperDollSmoke.cs.meta",
+    "sha256": "0ef35b8759766d7cacb65c4e1db271bc6c1148f4420f7b97b0ce0cc6c67197b5"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EquipmentUI.cs",
+    "sha256": "82c1bfebc49481905ae9a9fbabf2626bb11a8e7d0e07454d4e113c2ead9a210b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\EquipmentUI.cs.meta",
+    "sha256": "4ccbc97b0a76b2d619a750cbddb95f55cfc0a3622f8b7d9b039c9e93db2d24c3"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ExpeditionLoadoutSmoke.cs",
+    "sha256": "3ad11ccb4d4de058ee229cba5738a6bdc39eaba6d1675baf96c269d81afb6a60"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ExpeditionLoadoutSmoke.cs.meta",
+    "sha256": "85108460a7c12baa555a1bef747fbf929caf20f7e5b5538486d5a6737797de6a"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ExpeditionMaps.cs",
+    "sha256": "5cacf2fe15c4cbf56b452805fc9ddc2a384d1deba22d0d41dca878ce4b8fb19f"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ExpeditionMaps.cs.meta",
+    "sha256": "a43ea4c0aaa570bbab634cc32c9650dc76322153eb4148a1331f3305e1f099e6"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ExpeditionSetup.cs",
+    "sha256": "5b08b8bba5df3c3e3a6d9bf01ebbf48ef4c527bcdfaa1f7b1f6f749a475c9cd4"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ExpeditionSetup.cs.meta",
+    "sha256": "947c61bd979655b17c5e4f3610e642b1c3f295004f2eb75a75354460dd91587f"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GamePreferences.cs",
+    "sha256": "1d37cd5242813db5d6231b8a10d944ee354034ff944db634f869853c2af01489"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GamePreferences.cs.meta",
+    "sha256": "b49ebb5f30097c4ed1e6377b836f8e42e456dddb6ee5b757b45c77d344a9a01f"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GameSettingsSmoke.cs",
+    "sha256": "a7a735a0eb5a8fbc1bc1e81c703a1fa6d28380fb0ad2128de14060dad0b96a73"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GameSettingsSmoke.cs.meta",
+    "sha256": "f6bb43f4ef31986009e12913cb359c958d345d778ec8393b89c64c127ffe6765"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GameSettingsUI.cs",
+    "sha256": "0aad1a258b7aa9b36fa85a0788a20151685303c9155af8d1018344a61c910166"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GameSettingsUI.cs.meta",
+    "sha256": "f2908355451b7a992683c947511d7afe7eb7426333d08ec97f59bf82d988a005"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GameUI.cs",
+    "sha256": "79da62f615cdfbbd915195085ef888bf8b13cceb0b3038f1e8a12918ed01ba98"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GameUI.cs.meta",
+    "sha256": "6f81cef07cffa738fe9bfe6b2091ffc54151e12f63d4e639281ae10a350cf276"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GearRolls.cs",
+    "sha256": "94aa50b372836d427cafd494244938146977beadba8a5ed6cd4ae5d8316e7ed9"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GearRolls.cs.meta",
+    "sha256": "a391dc3b9963f517005e258f26b8c934983468f22555ea18082c34cf5d54fa1e"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GearRollSmoke.cs",
+    "sha256": "a21777e0b2dc85844aeb707f4075da1a25ee311389c9495b8a40de81f07f6cd8"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GearRollSmoke.cs.meta",
+    "sha256": "9395f59422351cbee124bde0c8eebe4da4755b103644557d8621e4b3377dd89c"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GearRollUI.cs",
+    "sha256": "cd6809feab87d95f02dbc0f3a8a118a435b98eaac213fba2330b120512b97c0b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GearRollUI.cs.meta",
+    "sha256": "88f29e30acbcad203d471e272423d5bd5d1139d06158c83bcaffdc156ea179f4"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GhoulRig.cs",
+    "sha256": "b89c10733af0acb1158ddd9ba581e31ef1019c9b63ce922d3690ed5561f392bf"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GhoulRig.cs.meta",
+    "sha256": "159ae3ff8343736d2f51200838fb94bf3074f7dbd6ae28c0147894da08e9c4cd"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GroundSlamSmoke.cs",
+    "sha256": "ce43e32c34af270c0698a6b61d3c3ef63a26838c6cc2df4c7067c9b1148359d7"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\GroundSlamSmoke.cs.meta",
+    "sha256": "d82d998ad2c8ee7d039e2f5b5a66c2440b2f6bfa1342b15cf09acb1332a46b10"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HasteRules.cs",
+    "sha256": "5ebf62b8292ce5b8ca2eab36e4badfc3d670c5279103ad70c490d1da20a69797"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HasteRules.cs.meta",
+    "sha256": "21658c4eedb7a1fe3666d3f3593c7edec641a711975c44b0ec3df361bc26f4ed"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HeroArt.cs",
+    "sha256": "dfe5b9a4b7c5eab3355983b83f5e00e93736ab4e4c1db77aef6a046a55eab0f1"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HeroArt.cs.meta",
+    "sha256": "4bd1bdcf23071f8546fbf1d855b1ded3227c7cc8c839f2e59c788ecb2b7c6e23"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HeroBodyMesh.cs",
+    "sha256": "4f271b52efce913ae69b466a6699518356bf197b727cc19c213150256452380e"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HeroBodyMesh.cs.meta",
+    "sha256": "6dc873f4ee842ef70a4a2ccb3bd7c6f616c0bf18f413252d62dd0951065dcf64"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HeroRig.cs",
+    "sha256": "14ebd0abd6f44c9de55f9f422033cfa88972acef795dd426b23392db79131132"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HeroRig.cs.meta",
+    "sha256": "3ca76b55f5b38850b5704f2d643fc3a5e5f6ec121970ef5eefea22a02afcb1cd"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HudStyle.cs",
+    "sha256": "f0e068243664fe5f403d0fc7fceb8b047ca9a92b6c82311d9481cca614dbb1be"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HudStyle.cs.meta",
+    "sha256": "4c3cc244bcb7bf561542e3898926f3c4b26cd9cec8d90ba87b3d1d83d52977c3"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HudStyleSmoke.cs",
+    "sha256": "f1d60ed3cf822cd2fbfdac457b7b2ae164d569932c175f800369f82c7d17173f"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HudStyleSmoke.cs.meta",
+    "sha256": "a09228f10c204d6a6a4dc6d2751d18c10e7b315320e2ee5f485776fd0c6680a8"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HuskRig.cs",
+    "sha256": "e9eedf33001071e5ff05ed78f332218685d3cca339f1d12ebff31785df423d0c"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\HuskRig.cs.meta",
+    "sha256": "1bc6b1e007dbd11e512622bacc1ce9e08220a794e6b8c346721ed56db5687dbb"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\Industry.cs",
+    "sha256": "4094cade03e72bd4c92a469ca111e57b4cab27afbbd59fbbb702e2b66d90b679"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\Industry.cs.meta",
+    "sha256": "8fe8341c3e7d52b8703fae3dcb722aad011ff44acca0608d702c18d2004cc58a"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\IndustryUI.cs",
+    "sha256": "04a9601afc0184e763c69aa3910f55223f4c4d8cf457d8219a11edf0de2086b1"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\IndustryUI.cs.meta",
+    "sha256": "683af9bd11e38a1c0ba492f4f0637b192058889c15ef648c44e0c242a12c0b7e"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\LoadoutInventory.cs",
+    "sha256": "4d7c690aa0519e6a8c286109341273619be4397f40a93e21f423aae2c0c5199d"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\LoadoutInventory.cs.meta",
+    "sha256": "eeb0c52cbe56dac9f3b2379c5f4370491bc475fe4638daf7a836281baf8d4caf"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\MenuCombatInputSmoke.cs",
+    "sha256": "d78aaac4e02300e62d769516f60f5d1da0d7bb33a4b76f52cdcabe03f47b9ccc"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\MenuCombatInputSmoke.cs.meta",
+    "sha256": "a6450ed89f85c8bf34b69cad28755bdd3d96fff5ce7a9fdd10256b3d7fb88d4e"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\MetalAppearance.cs",
+    "sha256": "e3543142b8b92dac492ccfd67f5c13f91a959903205dbda01f23648c06670948"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\MetalAppearance.cs.meta",
+    "sha256": "fdafdee0d83286c61aaea1aac55a825bc7707b5158dfd10efa79c4e82ca0610b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\MetalProgression.cs",
+    "sha256": "b3a5fb51ba374d77494ed30044e29ea2607b2b57eb523e2d1e0578b49117142c"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\MetalProgression.cs.meta",
+    "sha256": "6a6c84b88c463c9cfc44efd2447e3404098a02211c69a8da82eec778ccc14569"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\MetalProgressionSmoke.cs",
+    "sha256": "e8b986181c8620cc94ffcc1c42935cb6c299340b1608f0d60a3a1465661b836d"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\MetalProgressionSmoke.cs.meta",
+    "sha256": "04113cd87039be4f6781b6a812c3e6f477dd644ee5d33de5159ec01afde67f3f"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\MonsterFamilySmoke.cs",
+    "sha256": "9a2c1258b72005c2717b0ed5b900bb6cdc105ed33d6519cbd06232e4da64557c"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\MonsterFamilySmoke.cs.meta",
+    "sha256": "3b913a3f3266e81f7f955f9c89957006e2cf5b7066d5ba2d5d73fb9398baa130"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\MonsterVisual.cs",
+    "sha256": "11adc32e45e39156fbab0bccbb734f1c322d4c4dbea819c73a6cda3b99217541"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\MonsterVisual.cs.meta",
+    "sha256": "3004ec5af1118703e38575037c25251aebb8d3e32dea2a6cdbd2120f84020188"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\PlayerAbilityPresentation.cs",
+    "sha256": "6d4f158c30d1b79002a4ffbb11948192f0e128b8cef3fe1b17fd811504ebf5ed"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\PlayerAbilityPresentation.cs.meta",
+    "sha256": "6bf4a5b747561f1bcd6ac2fb6094a527e075d37ef472c047aa0f0f635a11712b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\Progression.cs",
+    "sha256": "c0d0ded20d5ce23366341e8c1b2526636f35f4498401dd1ad99e82942ef9d32b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\Progression.cs.meta",
+    "sha256": "4b6d2548af7b9941a6f6d1dfd15a8e312eadaaaece0da8e8ed30818295b55639"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RageAbilityKit.cs",
+    "sha256": "1802535bce11f1424a068a7f8fe9788c6be7bfae59ee228ad1ca43a09313ec38"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RageAbilityKit.cs.meta",
+    "sha256": "77f5c0bb13e47a579a0ba1e97274d07482414c0479b659b7270c1e7f9e14a96a"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RageHud.cs",
+    "sha256": "0186f73700d32ad18f3467b9ea068e6e8d44ed936c9b7108f97f0be94f57b148"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RageHud.cs.meta",
+    "sha256": "758e8436fb06f95b6a13a99c986dafd1f33ae27cdb50c173de32b350b7413d6c"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RageKitHud.cs",
+    "sha256": "ff2098a88c533dde5feaaa47db5a27c826d0a85c7c31010eca664859f0ace93a"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RageKitHud.cs.meta",
+    "sha256": "2bc6c00924efe1a2dda09096151ffc39e79faff32b3c0be960c01aa4e69ca542"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RageKitSmoke.cs",
+    "sha256": "27b145fe5cce9a700a789b3704296e309b08c84ec24c4371a12fbe3868b0f511"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RageKitSmoke.cs.meta",
+    "sha256": "f715759e3903c7a7516238d4df689094545ee0b59de18ea034556928d35fec05"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RageVirtue.cs",
+    "sha256": "9125d22472a78bce661c45d228a536d0288a121781ef7e061ec489b54ee0b0ac"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RageVirtue.cs.meta",
+    "sha256": "eaf42e80079f3d94e8e6ba9f95724fae628ddd3ecb6aaffe6ea78c20f3226589"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RageVirtueSmoke.cs",
+    "sha256": "3680641a5d05ab79a1e0c9628d64022c20878589b9b81eb370b1c7a772e44135"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RageVirtueSmoke.cs.meta",
+    "sha256": "f92a00c1803b9a28819fcd25261f99cf7158961cca04d8540523d4b7e83c2854"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RandomMapSmoke.cs",
+    "sha256": "6661706b87439aa37e9de9f58858aaf59a59ab7ff060e39091a4d35cacee9b5f"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RandomMapSmoke.cs.meta",
+    "sha256": "f430bc45c2de7360b3db0ba6f5db9ac3dba82d68c9c33ad4a1972e59c6eda076"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ResourceControllerNavigation.cs",
+    "sha256": "1a069d776365e9fb29a400f6822c64840904938682d4b7d8bc86e448d4f8bb37"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ResourceControllerNavigation.cs.meta",
+    "sha256": "70d7e7c6863c9964b6d881d121929cb833545e3489baa859ca2fc5706e73ee9b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ResourceTopBar.cs",
+    "sha256": "f9dc5aea15d586b52b7c48f91eccce9ad93ff89fc73ab1a8be0a268bb441eece"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ResourceTopBar.cs.meta",
+    "sha256": "1b5feee0d6aee9faffd621cf8e67dffa0804fb5008931a4748118d37164e441e"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ResourceTopBarSmoke.cs",
+    "sha256": "e47249c50017714086a4c27d3f6b305458ad397d29944e013914d252d1c95f72"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\ResourceTopBarSmoke.cs.meta",
+    "sha256": "5b0e56ebaa3b779a2ab00392cd4c726096e3e51073eb36dabaaac225a577e049"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RoundedArt.cs",
+    "sha256": "2e63e5e48d840ff34b7456eba716ec4aa2e91767a09c356a4b0b87a5121ce4ed"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RoundedArt.cs.meta",
+    "sha256": "815bf632f9ba1afb3eaabc1f4d4dccff227f6cd4cd4dc61b4eee203ce43f59d2"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RuinedTownArena.cs",
+    "sha256": "661c96a1e3e4832ebc2ce0e81561126f992db01b8e55d73fe983adc50a91c4f3"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RuinedTownArena.cs.meta",
+    "sha256": "dd9d0569afcd9ac55892cc07985d057324cd97ce4dfb3b76b63a798c011461d2"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RuinedTownSmoke.cs",
+    "sha256": "d973c16f6d6c89329a6c2adccfadc56b36b4e4ca8877b2ea4d180cb383379c76"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\RuinedTownSmoke.cs.meta",
+    "sha256": "321910bc20f2b562023d80c2daa0d7d76e6dd728224e1a8171ca59ba26799884"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SanctuaryArena.cs",
+    "sha256": "4b8f30cbea2ba3b3aabc8373f15ed6bab705ff44445f827a48d7113f2afe1b49"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SanctuaryArena.cs.meta",
+    "sha256": "c816f6a2d3a2d916303a93e1cc67bedb50aa67c09757cb72ad87fc8f9d46ab57"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SanctuaryArenaSmoke.cs",
+    "sha256": "5e11c4506892dda7c6d2a7e65c6410453fe3b5d2dfdda1d5ea25b101d6bf61b4"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SanctuaryArenaSmoke.cs.meta",
+    "sha256": "968eff8ae93c771d52017646314f5a80f44668cc8d229be3b9fd11c6e3edbee6"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SanctuaryCityDetails.cs",
+    "sha256": "a0c99ba3d2b4b8d9c4a2254650c093cf4555f53f4bbec00bc32a1b7af6bec4cf"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SanctuaryCityDetails.cs.meta",
+    "sha256": "43f9803eb6ecbe19e44b8abcd8b1a6270e23a09db71966bf2af9b8d629a6c1bd"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SanctuaryCitySmoke.cs",
+    "sha256": "b5be07e39fed4e4ad5b9a6baa594f6c5539ae1166e864098ef7a0e365fd2897c"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SanctuaryCitySmoke.cs.meta",
+    "sha256": "6a16b5f73f325a723e575d00e14ceb7a4f105605f12988ea8b91fccef4605009"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SanctuaryCityUI.cs",
+    "sha256": "53ecedc0c97cf08350c1f44cfa637ee4906191643bd380cd6b1e52778ecdb6f5"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SanctuaryCityUI.cs.meta",
+    "sha256": "e5d877e64ddee356461b40736d7a495e7cf1e77bece33146959009e737d3fb80"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SanctuaryKnightSmoke.cs",
+    "sha256": "207e92819688cd886119ed77a133d70193803b090375120271dcbe11da7ae34d"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SanctuaryKnightSmoke.cs.meta",
+    "sha256": "3690e697f05469d1a9b5cc7486483921bfdf23df3f4352dffa130abfd3b1ac15"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SettingsNavigation.cs",
+    "sha256": "37dfb3b5255370093e73c43d7bf6203f010be992dc739832cd4766c22935882b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SettingsNavigation.cs.meta",
+    "sha256": "a73b20b9f65b7a597566107538a6a8e6b9af6c0fd8b8c7196d6828757f22f460"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SettingsNavigationSmoke.cs",
+    "sha256": "1345c5b2d4c3d527871dbb4c4e243834c4204fd38de582e4cab6f1874554cc27"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SettingsNavigationSmoke.cs.meta",
+    "sha256": "aa55774b2698b5d1de3cb6d83c4159333fba7fbea369b6495377c9bd9bb49caa"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SmokeTest.cs",
+    "sha256": "11917a59d40c7feb49b19682c6089a8a0bdfef0024a8a5d86082778a819151fa"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SmokeTest.cs.meta",
+    "sha256": "73dd3bf2501d928d6f64f4b00e5cd27f5dc68a0390e566d3423b9a1f50cfaa28"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SpinningWeapons.cs",
+    "sha256": "99ca88226b5943fcb1ff239911fc74584f56304fd1d88c04901b6a6ed640d00c"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\SpinningWeapons.cs.meta",
+    "sha256": "53d46d20cd5ca807e3e0c86263d914ee174928d741ecee56162db117eae8d777"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\TownInterior.cs",
+    "sha256": "548f6c87053945f7668d0445daa0b896f86b586af6745734e9d88539daa31e24"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\TownInterior.cs.meta",
+    "sha256": "dbb742a634cc4eeeb8713f86120291f3a19ca38fc7523eec8f98633f3158574d"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\UpgradeCards.cs",
+    "sha256": "ed41a43bd2289b572974eb64c5d90d5f22433e8cc2f3905fb05383d8ff5c0c5f"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\UpgradeCards.cs.meta",
+    "sha256": "13885486fb7b1f2f92bf108c7b041f98f3b85ce4bf74cf7e8d758fe952038eab"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\UpgradeCardSmoke.cs",
+    "sha256": "ee0720b1a1620826e5c4b9e03c3cc1b288ed2fe7119364e26d776fbbcdde27c4"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\UpgradeCardSmoke.cs.meta",
+    "sha256": "8384123ec3e76da105cf0d925cc9e99d6860e8374cc9fd890b08f3fc2ea1a9b6"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\UpgradeRarity.cs",
+    "sha256": "6a0daa61e3164287631e86559c117b71107319d7be2f9a8ee756a99e8dd3252b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\UpgradeRarity.cs.meta",
+    "sha256": "2447c37bc5a9f98d14d9b214f60acefa67b22b16c8049c868b5d568a2c370062"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\VeilBoundary.cs",
+    "sha256": "36147c0adfe2b75a230309f0b73178962d2a3dd5e81245c3a19ab9e400e929ae"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\VeilBoundary.cs.meta",
+    "sha256": "ba586e7aa05a8428e6d72eccd9ba477bc10c1fe97037314cb6660fb0914c177b"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\VeilFogEffect.cs",
+    "sha256": "86e47dca076a8d35b674bb77774f17284f0ffb59bd67bb4c9a1c1060a53644d3"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\VeilFogEffect.cs.meta",
+    "sha256": "2b42089dad97cb15baa0bcdfdf2c799290a6a2624477b10c996e207d07bdd7e0"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\VeilGame.cs",
+    "sha256": "9369e606c60e58c5f4a7d6025d165c61c8db8048ccd431f41b6682ef3d02a883"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\VeilGame.cs.meta",
+    "sha256": "53c81ce16bb553bb22da524f0c271fcaaca7b181529cc992a1e5ee5331614fae"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\WorldArt.cs",
+    "sha256": "dbe6d6702688b2ccbe8a5e934d2dabdfccb862488d435dd649a40ec8f1f7d021"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scripts\\WorldArt.cs.meta",
+    "sha256": "22473d91cc27931390c4d4430545d62cc980fe3943ed1b3aec02954397bcea61"
+  },
+  {
+    "path": "Assets\\Veilbound\\Editor\\BronzeKnightImport.cs",
+    "sha256": "8963dab615ecb5441384e78234394e8c2d9c8cad50225f54c90aad515a0eb41f"
+  },
+  {
+    "path": "Assets\\Veilbound\\Editor\\BronzeKnightImport.cs.meta",
+    "sha256": "4f73fb62cbe8a321898f38288fd8c15b205af36b071e0d3ecb97e7a016e966cf"
+  },
+  {
+    "path": "Assets\\Veilbound\\Editor\\MonsterFamilyImport.cs",
+    "sha256": "d48f3fda2aaf02187726e1e49c78067b5db8e71dc56c290ee458f0c74864f99d"
+  },
+  {
+    "path": "Assets\\Veilbound\\Editor\\MonsterFamilyImport.cs.meta",
+    "sha256": "6178b56da2948ae276b97329edc734e195cdf5b8fde95cc6bc1eb0ec7ed7bac0"
+  },
+  {
+    "path": "Assets\\Veilbound\\Editor\\PrototypeBuild.cs",
+    "sha256": "0775d580cc26d4c08134b7dc4d89414bd30c1d747b2b55572ff55961799cacb9"
+  },
+  {
+    "path": "Assets\\Veilbound\\Editor\\PrototypeBuild.cs.meta",
+    "sha256": "816b50372f1f68a3354ea174a83265492e1a05d965b9926077541a6ebab2409f"
+  },
+  {
+    "path": "Assets\\Veilbound\\Editor\\SanctuaryCityImport.cs",
+    "sha256": "c3f8a74181858d7c91f8a1289e35b2b567b44e3caf8bb27b56c06033a1ebfe8f"
+  },
+  {
+    "path": "Assets\\Veilbound\\Editor\\SanctuaryCityImport.cs.meta",
+    "sha256": "c5e3de5da65917a8f45aeb55a63e825292a654a60edbaba6508f27f640b61989"
+  },
+  {
+    "path": "Assets\\Veilbound\\Editor\\UpgradeCardImport.cs",
+    "sha256": "da69af7f24ec64cfb8f8c7e0cf35c2af9f974a2515ea4427189cdfa7d2a61138"
+  },
+  {
+    "path": "Assets\\Veilbound\\Editor\\UpgradeCardImport.cs.meta",
+    "sha256": "c8516b615145c5b1beb3a7cfbf295083d8be415bad9817165fa2e4853d242db5"
+  },
+  {
+    "path": "Assets\\Veilbound\\Editor\\UpgradeValidation.cs",
+    "sha256": "fbdcba7b30fa6f0aac8c3a1bc5a3cfc2c78165a441e07696f82cf700647089da"
+  },
+  {
+    "path": "Assets\\Veilbound\\Editor\\UpgradeValidation.cs.meta",
+    "sha256": "ec756807b20e38540ed6f5da6d5e4c5f411ef43291cc4ccf8e947246cc001fe3"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scenes\\HollowCourt.unity",
+    "sha256": "043b5affa508f7077aac8ba4d691233b95d95a2e2a4dfd93036ba7486220c1be"
+  },
+  {
+    "path": "Assets\\Veilbound\\Scenes\\HollowCourt.unity.meta",
+    "sha256": "84de093397c3e208928e012020f44f41bbd8774dcadeee059c88de0aaa4813e8"
+  },
+  {
+    "path": "Packages\\manifest.json",
+    "sha256": "5f9aaadb50e4cea20a53cacb60a0545c6af968c0b0c48ab43448acf6fdfe73ee"
+  },
+  {
+    "path": "Packages\\packages-lock.json",
+    "sha256": "7a384f8cbf4d42474bfcddcb45242ccccbe287b0c983122ff02765ada2b57dd7"
+  },
+  {
+    "path": "ProjectSettings\\AudioManager.asset",
+    "sha256": "9543c41dbfc7d3951217c4dd9481ed026eb8e529b85ecf4463969a0fea747729"
+  },
+  {
+    "path": "ProjectSettings\\ClusterInputManager.asset",
+    "sha256": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623"
+  },
+  {
+    "path": "ProjectSettings\\DynamicsManager.asset",
+    "sha256": "cb2aaed73306e32df3e8200c74fa0efda690d3c6f68dff45dfeeeb5739128a1d"
+  },
+  {
+    "path": "ProjectSettings\\EditorBuildSettings.asset",
+    "sha256": "bfa604bd234d12e88d2641fb36876f9a5eb3f083a6ab57dca942b52380391a66"
+  },
+  {
+    "path": "ProjectSettings\\EditorSettings.asset",
+    "sha256": "4a87c54b3541c7bd242aad68c3fc28661083db1117ec56149694ee592156415e"
+  },
+  {
+    "path": "ProjectSettings\\GraphicsSettings.asset",
+    "sha256": "40de98f4d46d02fb08e268ad3a722a00eed7289f4ef6d2e759984b1b4a85d2af"
+  },
+  {
+    "path": "ProjectSettings\\InputManager.asset",
+    "sha256": "d0f454ddb880912abcae92e3e12957a7446786ba89e24937e019ff3bbc0d4300"
+  },
+  {
+    "path": "ProjectSettings\\MemorySettings.asset",
+    "sha256": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd"
+  },
+  {
+    "path": "ProjectSettings\\MultiplayerManager.asset",
+    "sha256": "ce4075d7a7dd8ac7ffe55de2427692c63f90dae398208bd80cec0f27cbe09f4b"
+  },
+  {
+    "path": "ProjectSettings\\NavMeshAreas.asset",
+    "sha256": "7ebbf8f53b8033104e1878b95ca07a28d0954092d81c220f14196a42f651e658"
+  },
+  {
+    "path": "ProjectSettings\\Physics2DSettings.asset",
+    "sha256": "1cfc0c8fbceec604fd7cd2a06c04ff05dddee6335b75c92b0f5715ad80ba9490"
+  },
+  {
+    "path": "ProjectSettings\\PresetManager.asset",
+    "sha256": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c"
+  },
+  {
+    "path": "ProjectSettings\\ProjectSettings.asset",
+    "sha256": "2d8a39c091c945e625bd89507687e470f538d06a64665eef45453fc1a2e4e515"
+  },
+  {
+    "path": "ProjectSettings\\ProjectVersion.txt",
+    "sha256": "ee06b66c6e48dc22fe4771812f37f3817b17f9459d44b61202d45e2a44ea3509"
+  },
+  {
+    "path": "ProjectSettings\\QualitySettings.asset",
+    "sha256": "8c081d1f051f937049cdb461a1aa7534887d7345a3e65ad1c18f2414074a4af7"
+  },
+  {
+    "path": "ProjectSettings\\SceneTemplateSettings.json",
+    "sha256": "bb9098b3bfcde78d93e264b96f7b77b5430e64e8c57a7aad7f5a5d9c3945e16a"
+  },
+  {
+    "path": "ProjectSettings\\TagManager.asset",
+    "sha256": "da4b5eefc927f8b91bcf9e56a186d2b852f49d9cbe91d466638d26c79d6a83ce"
+  },
+  {
+    "path": "ProjectSettings\\TimeManager.asset",
+    "sha256": "3396f52fdc16d445024e01d7a2d99db6f0a37569d1d73c0302e9ffb857d90287"
+  },
+  {
+    "path": "ProjectSettings\\UnityConnectSettings.asset",
+    "sha256": "11251dae0356b6f43dd2c67bb511f6b7ecda4e5de425186bba3297e6f3dc1c6f"
+  },
+  {
+    "path": "ProjectSettings\\VersionControlSettings.asset",
+    "sha256": "e199cdfa6a8f2bf33cfd47e549198f13e3eb2a5099e908fdb4e0f14d939ccc6b"
+  },
+  {
+    "path": "ProjectSettings\\VFXManager.asset",
+    "sha256": "2973a6af930e142f62cde00076beda8a3cc3a66d9bfcde7a58ba7d4be2251c26"
+  },
+  {
+    "path": "README.md",
+    "sha256": "85c6556b6a4fe0e53278fa4b994851625c5b5466071738fe291684820cf7381f"
+  },
+  {
+    "path": "Docs/Validation.md",
+    "sha256": "ab0546e0f310a41ef5b3f69f2a6cb1439b22794d84bba8ba951bff5f0f1a9db6"
+  }
+]

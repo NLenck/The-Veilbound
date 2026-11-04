@@ -1,0 +1,16 @@
+{
+  "paid_generation_calls": 1,
+  "task_id": "4876aff4-f009-48f9-869b-1f8d4656a9f3",
+  "endpoint": "/v3/generation/image-to-model",
+  "model": "v3.1-20260211",
+  "face_limit": 30000,
+  "generate_parts": true,
+  "texture": false,
+  "pbr": false,
+  "balance_before": 260,
+  "credits_spent": 40,
+  "balance_after": 220,
+  "frozen": 0,
+  "additional_paid_tasks": 0,
+  "raw_sha256": "336f8e0032645082265bd2d8d0b43f437b82d2b9a6ea334b85df8f1db97cafbf"
+}

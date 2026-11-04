@@ -1,0 +1,192 @@
+{
+    "passed": true,
+    "enemyModels": 21,
+    "playerModels": 2,
+    "tierPrefabs": 20,
+    "checks": [
+        {
+            "id": "Male",
+            "triangles": 30352,
+            "bones": 52,
+            "materials": 3,
+            "passed": true,
+            "motion": "Generic idle/walk/run + two hand IK"
+        },
+        {
+            "id": "Female",
+            "triangles": 27084,
+            "bones": 52,
+            "materials": 3,
+            "passed": true,
+            "motion": "Generic idle/walk/run + two hand IK"
+        },
+        {
+            "id": "Town/Husk",
+            "triangles": 2762,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Town/Lobber",
+            "triangles": 3902,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Town/Brute",
+            "triangles": 6310,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Town/Ghoul",
+            "triangles": 3185,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "quadruped"
+        },
+        {
+            "id": "Town/Burster",
+            "triangles": 4351,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Town/Shrieker",
+            "triangles": 3074,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Town/Bulwark",
+            "triangles": 6456,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Town/Impaler",
+            "triangles": 4520,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Town/Ravager",
+            "triangles": 4562,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Town/Conduit",
+            "triangles": 6219,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Shrine/Acolyte",
+            "triangles": 3197,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Shrine/Cinder_Priest",
+            "triangles": 4464,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Shrine/Ash_Wraith",
+            "triangles": 4460,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "floating"
+        },
+        {
+            "id": "Shrine/Shrine_Guardian",
+            "triangles": 6931,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Shrine/Blade_Sentinel",
+            "triangles": 6429,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Shrine/Ritual_Orb",
+            "triangles": 3836,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "floating"
+        },
+        {
+            "id": "Shrine/Lamenter",
+            "triangles": 4578,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "floating"
+        },
+        {
+            "id": "Shrine/Gargoyle",
+            "triangles": 6702,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "quadruped"
+        },
+        {
+            "id": "Shrine/Veil_Angel",
+            "triangles": 10087,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "floating"
+        },
+        {
+            "id": "Shrine/High_Priest",
+            "triangles": 8049,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "biped"
+        },
+        {
+            "id": "Forest/Wolf",
+            "triangles": 3047,
+            "bones": 17,
+            "materials": 1,
+            "passed": true,
+            "motion": "quadruped"
+        }
+    ]
+}

@@ -1,0 +1,768 @@
+{
+  "objects": [
+    {
+      "candidate": "Candidate_000",
+      "name": "Tin_Cape",
+      "tier": "Tin",
+      "slot": "Cape",
+      "slot_index": 8,
+      "side": "",
+      "triangles": 1772,
+      "source": "tripo_part_2",
+      "centre": [
+        -0.0224984809756279,
+        -0.09075472876429558,
+        -0.01230718195438385
+      ],
+      "dimensions": [
+        0.11724475026130676,
+        0.1475660279393196,
+        0.5476451218128204
+      ],
+      "cape_max_surface_deviation_raw_units": 0.011083240620791912,
+      "cape_reduction_accepted": false,
+      "export_triangles": 1772
+    },
+    {
+      "candidate": "Candidate_001",
+      "name": "Copper_Belt",
+      "tier": "Copper",
+      "slot": "Belt",
+      "slot_index": 4,
+      "side": "",
+      "triangles": 1710,
+      "source": "tripo_part_0",
+      "centre": [
+        -0.012065272778272629,
+        0.18373653292655945,
+        -0.041500337421894073
+      ],
+      "dimensions": [
+        0.14763637632131577,
+        0.20572978258132935,
+        0.22072292864322662
+      ],
+      "export_triangles": 1710
+    },
+    {
+      "candidate": "Candidate_002",
+      "name": "Copper_Cape",
+      "tier": "Copper",
+      "slot": "Cape",
+      "slot_index": 8,
+      "side": "",
+      "triangles": 1542,
+      "source": "tripo_part_5",
+      "centre": [
+        -0.02214769460260868,
+        0.42763128876686096,
+        -0.010565429925918579
+      ],
+      "dimensions": [
+        0.11714322492480278,
+        0.14473742246627808,
+        0.5418577790260315
+      ],
+      "cape_max_surface_deviation_raw_units": 0.005865957587957382,
+      "cape_reduction_accepted": true,
+      "export_triangles": 462
+    },
+    {
+      "candidate": "Candidate_003",
+      "name": "Tin_Belt",
+      "tier": "Tin",
+      "slot": "Belt",
+      "slot_index": 4,
+      "side": "",
+      "triangles": 1380,
+      "source": "tripo_part_1",
+      "centre": [
+        -0.012324323877692223,
+        -0.33824941515922546,
+        -0.04159953445196152
+      ],
+      "dimensions": [
+        0.14640768244862556,
+        0.20511585474014282,
+        0.22105474770069122
+      ],
+      "export_triangles": 1380
+    },
+    {
+      "candidate": "Candidate_004",
+      "name": "Copper_Chest",
+      "tier": "Copper",
+      "slot": "Chest",
+      "slot_index": 2,
+      "side": "",
+      "triangles": 1110,
+      "source": "tripo_part_12",
+      "centre": [
+        -0.01274312287569046,
+        0.18307936191558838,
+        0.15861178934574127
+      ],
+      "dimensions": [
+        0.15735678374767303,
+        0.13761794567108154,
+        0.15089553594589233
+      ],
+      "export_triangles": 1110
+    },
+    {
+      "candidate": "Candidate_005",
+      "name": "Tin_Chest",
+      "tier": "Tin",
+      "slot": "Chest",
+      "slot_index": 2,
+      "side": "",
+      "triangles": 1068,
+      "source": "tripo_part_13",
+      "centre": [
+        -0.012808427214622498,
+        -0.33669593930244446,
+        0.15874649584293365
+      ],
+      "dimensions": [
+        0.15785859525203705,
+        0.1384933590888977,
+        0.1512361466884613
+      ],
+      "export_triangles": 1068
+    },
+    {
+      "candidate": "Candidate_006",
+      "name": "Tin_Leg_L",
+      "tier": "Tin",
+      "slot": "Leg",
+      "slot_index": 6,
+      "side": "L",
+      "triangles": 424,
+      "source": "tripo_part_4",
+      "centre": [
+        -0.015624962747097015,
+        -0.2715180069208145,
+        -0.21104944497346878
+      ],
+      "dimensions": [
+        0.09757469594478607,
+        0.07127490639686584,
+        0.2005564421415329
+      ],
+      "export_triangles": 424
+    },
+    {
+      "candidate": "Candidate_007",
+      "name": "Copper_Head",
+      "tier": "Copper",
+      "slot": "Head",
+      "slot_index": 0,
+      "side": "",
+      "triangles": 424,
+      "source": "tripo_part_8",
+      "centre": [
+        -0.008323276415467262,
+        0.18033023923635483,
+        0.3258584439754486
+      ],
+      "dimensions": [
+        0.13200139626860619,
+        0.08616022765636444,
+        0.14879214763641357
+      ],
+      "export_triangles": 424
+    },
+    {
+      "candidate": "Candidate_008",
+      "name": "Copper_Leg_R",
+      "tier": "Copper",
+      "slot": "Leg",
+      "slot_index": 6,
+      "side": "R",
+      "triangles": 402,
+      "source": "tripo_part_3",
+      "centre": [
+        -0.01568162813782692,
+        0.11548123136162758,
+        -0.21237267181277275
+      ],
+      "dimensions": [
+        0.09742353111505508,
+        0.07278036326169968,
+        0.20013288408517838
+      ],
+      "export_triangles": 402
+    },
+    {
+      "candidate": "Candidate_009",
+      "name": "Copper_Shoulder_L",
+      "tier": "Copper",
+      "slot": "Shoulder",
+      "slot_index": 1,
+      "side": "L",
+      "triangles": 402,
+      "source": "tripo_part_7",
+      "centre": [
+        -0.016004104167222977,
+        0.2878359630703926,
+        0.2055547907948494
+      ],
+      "dimensions": [
+        0.13266325742006302,
+        0.09665273129940033,
+        0.14009259641170502
+      ],
+      "export_triangles": 402
+    },
+    {
+      "candidate": "Candidate_010",
+      "name": "Tin_Head",
+      "tier": "Tin",
+      "slot": "Head",
+      "slot_index": 0,
+      "side": "",
+      "triangles": 396,
+      "source": "tripo_part_9",
+      "centre": [
+        -0.008486682549118996,
+        -0.3331841677427292,
+        0.32570116221904755
+      ],
+      "dimensions": [
+        0.13169493898749352,
+        0.08582958579063416,
+        0.14943894743919373
+      ],
+      "export_triangles": 396
+    },
+    {
+      "candidate": "Candidate_011",
+      "name": "Copper_Foot_L",
+      "tier": "Copper",
+      "slot": "Foot",
+      "slot_index": 7,
+      "side": "L",
+      "triangles": 388,
+      "source": "tripo_part_14",
+      "centre": [
+        0.006730861961841583,
+        0.267937108874321,
+        -0.36162009835243225
+      ],
+      "dimensions": [
+        0.1698383092880249,
+        0.07308098673820496,
+        0.07726782560348511
+      ],
+      "export_triangles": 388
+    },
+    {
+      "candidate": "Candidate_012",
+      "name": "Copper_Foot_R",
+      "tier": "Copper",
+      "slot": "Foot",
+      "slot_index": 7,
+      "side": "R",
+      "triangles": 386,
+      "source": "tripo_part_15",
+      "centre": [
+        0.006898779422044754,
+        0.0994782317429781,
+        -0.36140505969524384
+      ],
+      "dimensions": [
+        0.16967789083719254,
+        0.07435479387640953,
+        0.07741120457649231
+      ],
+      "export_triangles": 386
+    },
+    {
+      "candidate": "Candidate_013",
+      "name": "Tin_Foot_L",
+      "tier": "Tin",
+      "slot": "Foot",
+      "slot_index": 7,
+      "side": "L",
+      "triangles": 378,
+      "source": "tripo_part_16",
+      "centre": [
+        0.006651353091001511,
+        -0.25576329231262207,
+        -0.36153271794319153
+      ],
+      "dimensions": [
+        0.16958420723676682,
+        0.07486116886138916,
+        0.07763880491256714
+      ],
+      "export_triangles": 378
+    },
+    {
+      "candidate": "Candidate_014",
+      "name": "Tin_Shoulder_R",
+      "tier": "Tin",
+      "slot": "Shoulder",
+      "slot_index": 1,
+      "side": "R",
+      "triangles": 366,
+      "source": "tripo_part_6",
+      "centre": [
+        -0.01670008711516857,
+        -0.44378796219825745,
+        0.20435594022274017
+      ],
+      "dimensions": [
+        0.1235286332666874,
+        0.09256589412689209,
+        0.13434091210365295
+      ],
+      "export_triangles": 366
+    },
+    {
+      "candidate": "Candidate_015",
+      "name": "Tin_Shoulder_L",
+      "tier": "Tin",
+      "slot": "Shoulder",
+      "slot_index": 1,
+      "side": "L",
+      "triangles": 364,
+      "source": "tripo_part_17",
+      "centre": [
+        -0.01577862724661827,
+        -0.22798144072294235,
+        0.2035372331738472
+      ],
+      "dimensions": [
+        0.12352649122476578,
+        0.09168882668018341,
+        0.13586603105068207
+      ],
+      "export_triangles": 364
+    },
+    {
+      "candidate": "Candidate_016",
+      "name": "Copper_Shoulder_R",
+      "tier": "Copper",
+      "slot": "Shoulder",
+      "slot_index": 1,
+      "side": "R",
+      "triangles": 362,
+      "source": "tripo_part_18",
+      "centre": [
+        -0.016386419534683228,
+        0.0768989659845829,
+        0.20588423311710358
+      ],
+      "dimensions": [
+        0.13249430060386658,
+        0.09596256166696548,
+        0.14003148674964905
+      ],
+      "export_triangles": 362
+    },
+    {
+      "candidate": "Candidate_017",
+      "name": "Tin_Foot_R",
+      "tier": "Tin",
+      "slot": "Foot",
+      "slot_index": 7,
+      "side": "R",
+      "triangles": 332,
+      "source": "tripo_part_19",
+      "centre": [
+        0.006774581968784332,
+        -0.4214569926261902,
+        -0.3619385212659836
+      ],
+      "dimensions": [
+        0.16966098546981812,
+        0.07364624738693237,
+        0.07696422934532166
+      ],
+      "export_triangles": 332
+    },
+    {
+      "candidate": "Candidate_018",
+      "name": "Tin_Leg_R",
+      "tier": "Tin",
+      "slot": "Leg",
+      "slot_index": 6,
+      "side": "R",
+      "triangles": 310,
+      "source": "tripo_part_20",
+      "centre": [
+        -0.015545420348644257,
+        -0.4054163843393326,
+        -0.21063261851668358
+      ],
+      "dimensions": [
+        0.09746558964252472,
+        0.07235011458396912,
+        0.20201963931322098
+      ],
+      "export_triangles": 310
+    },
+    {
+      "candidate": "Candidate_019",
+      "name": "Copper_Leg_L",
+      "tier": "Copper",
+      "slot": "Leg",
+      "slot_index": 6,
+      "side": "L",
+      "triangles": 302,
+      "source": "tripo_part_21",
+      "centre": [
+        -0.015764039009809494,
+        0.2520611509680748,
+        -0.21158606186509132
+      ],
+      "dimensions": [
+        0.09768607467412949,
+        0.07175077497959137,
+        0.20105313509702682
+      ],
+      "export_triangles": 302
+    },
+    {
+      "candidate": "Candidate_020",
+      "name": "Tin_Bracer_L",
+      "tier": "Tin",
+      "slot": "Bracer",
+      "slot_index": 5,
+      "side": "L",
+      "triangles": 214,
+      "source": "tripo_part_22",
+      "centre": [
+        -0.015340547077357769,
+        -0.20588766038417816,
+        0.05752016790211201
+      ],
+      "dimensions": [
+        0.06638331152498722,
+        0.06547892093658447,
+        0.11026642844080925
+      ],
+      "export_triangles": 214
+    },
+    {
+      "candidate": "Candidate_021",
+      "name": "Copper_Bracer_R",
+      "tier": "Copper",
+      "slot": "Bracer",
+      "slot_index": 5,
+      "side": "R",
+      "triangles": 192,
+      "source": "tripo_part_23",
+      "centre": [
+        -0.014312401413917542,
+        0.050738006830215454,
+        0.057563452050089836
+      ],
+      "dimensions": [
+        0.06550680845975876,
+        0.06668934226036072,
+        0.10925044491887093
+      ],
+      "export_triangles": 192
+    },
+    {
+      "candidate": "Candidate_022",
+      "name": "Tin_Bracer_R",
+      "tier": "Tin",
+      "slot": "Bracer",
+      "slot_index": 5,
+      "side": "R",
+      "triangles": 184,
+      "source": "tripo_part_24",
+      "centre": [
+        -0.014834110625088215,
+        -0.4650740623474121,
+        0.0577376913279295
+      ],
+      "dimensions": [
+        0.06294584833085537,
+        0.06448227167129517,
+        0.10904065147042274
+      ],
+      "export_triangles": 184
+    },
+    {
+      "candidate": "Candidate_023",
+      "name": "Copper_Bracer_L",
+      "tier": "Copper",
+      "slot": "Bracer",
+      "slot_index": 5,
+      "side": "L",
+      "triangles": 178,
+      "source": "tripo_part_25",
+      "centre": [
+        -0.014967689290642738,
+        0.3113674372434616,
+        0.057610101997852325
+      ],
+      "dimensions": [
+        0.06476863101124763,
+        0.0645117461681366,
+        0.1097390204668045
+      ],
+      "export_triangles": 178
+    },
+    {
+      "candidate": "Candidate_024",
+      "name": "Tin_Hand_L",
+      "tier": "Tin",
+      "slot": "Hand",
+      "slot_index": 3,
+      "side": "L",
+      "triangles": 144,
+      "source": "tripo_part_10",
+      "centre": [
+        -0.009036927483975887,
+        -0.1963658258318901,
+        -0.03506666608154774
+      ],
+      "dimensions": [
+        0.05454019643366337,
+        0.04418782889842987,
+        0.072360809892416
+      ],
+      "export_triangles": 144
+    },
+    {
+      "candidate": "Candidate_025",
+      "name": "Copper_Hand_L",
+      "tier": "Copper",
+      "slot": "Hand",
+      "slot_index": 3,
+      "side": "L",
+      "triangles": 136,
+      "source": "tripo_part_11",
+      "centre": [
+        -0.008948729373514652,
+        0.32342399656772614,
+        -0.035251496359705925
+      ],
+      "dimensions": [
+        0.055494172498583794,
+        0.043907612562179565,
+        0.0732574500143528
+      ],
+      "export_triangles": 136
+    },
+    {
+      "candidate": "Candidate_026",
+      "name": "Copper_Hand_R",
+      "tier": "Copper",
+      "slot": "Hand",
+      "slot_index": 3,
+      "side": "R",
+      "triangles": 134,
+      "source": "tripo_part_26",
+      "centre": [
+        -0.009015648625791073,
+        0.04095460381358862,
+        -0.03467107377946377
+      ],
+      "dimensions": [
+        0.05465850420296192,
+        0.044714437797665596,
+        0.07203612104058266
+      ],
+      "export_triangles": 134
+    },
+    {
+      "candidate": "Candidate_027",
+      "name": "Tin_Hand_R",
+      "tier": "Tin",
+      "slot": "Hand",
+      "slot_index": 3,
+      "side": "R",
+      "triangles": 98,
+      "source": "tripo_part_27",
+      "centre": [
+        -0.00949980691075325,
+        -0.47800958156585693,
+        -0.035168664529919624
+      ],
+      "dimensions": [
+        0.05371134728193283,
+        0.04398083686828613,
+        0.0731293223798275
+      ],
+      "export_triangles": 98
+    }
+  ],
+  "slots": [
+    {
+      "tier": "Tin",
+      "slot": "Head",
+      "expected_objects": 1,
+      "actual_objects": 1,
+      "triangles": 396,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Tin",
+      "slot": "Shoulder",
+      "expected_objects": 2,
+      "actual_objects": 2,
+      "triangles": 730,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Tin",
+      "slot": "Chest",
+      "expected_objects": 1,
+      "actual_objects": 1,
+      "triangles": 1068,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Tin",
+      "slot": "Bracer",
+      "expected_objects": 2,
+      "actual_objects": 2,
+      "triangles": 398,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Tin",
+      "slot": "Hand",
+      "expected_objects": 2,
+      "actual_objects": 2,
+      "triangles": 242,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Tin",
+      "slot": "Belt",
+      "expected_objects": 1,
+      "actual_objects": 1,
+      "triangles": 1380,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Tin",
+      "slot": "Leg",
+      "expected_objects": 2,
+      "actual_objects": 2,
+      "triangles": 734,
+      "separable": true,
+      "coverage_note": "Knee/shin only; upper-thigh coverage missing from reference/generated legs."
+    },
+    {
+      "tier": "Tin",
+      "slot": "Foot",
+      "expected_objects": 2,
+      "actual_objects": 2,
+      "triangles": 710,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Tin",
+      "slot": "Cape",
+      "expected_objects": 1,
+      "actual_objects": 1,
+      "triangles": 1772,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Copper",
+      "slot": "Head",
+      "expected_objects": 1,
+      "actual_objects": 1,
+      "triangles": 424,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Copper",
+      "slot": "Shoulder",
+      "expected_objects": 2,
+      "actual_objects": 2,
+      "triangles": 764,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Copper",
+      "slot": "Chest",
+      "expected_objects": 1,
+      "actual_objects": 1,
+      "triangles": 1110,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Copper",
+      "slot": "Bracer",
+      "expected_objects": 2,
+      "actual_objects": 2,
+      "triangles": 370,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Copper",
+      "slot": "Hand",
+      "expected_objects": 2,
+      "actual_objects": 2,
+      "triangles": 270,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Copper",
+      "slot": "Belt",
+      "expected_objects": 1,
+      "actual_objects": 1,
+      "triangles": 1710,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Copper",
+      "slot": "Leg",
+      "expected_objects": 2,
+      "actual_objects": 2,
+      "triangles": 704,
+      "separable": true,
+      "coverage_note": "Knee/shin only; upper-thigh coverage missing from reference/generated legs."
+    },
+    {
+      "tier": "Copper",
+      "slot": "Foot",
+      "expected_objects": 2,
+      "actual_objects": 2,
+      "triangles": 774,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    },
+    {
+      "tier": "Copper",
+      "slot": "Cape",
+      "expected_objects": 1,
+      "actual_objects": 1,
+      "triangles": 1542,
+      "separable": true,
+      "coverage_note": "Independent component; fitting and motion acceptance separate."
+    }
+  ],
+  "unknown": [],
+  "set_centres_raw_y": [
+    -0.3331841677427292,
+    0.18033023923635483
+  ],
+  "complete_slots": 18,
+  "total_slots": 18,
+  "bulk_gate": "two-set separation passed; five-set scalability and fitting acceptance unproven"
+}

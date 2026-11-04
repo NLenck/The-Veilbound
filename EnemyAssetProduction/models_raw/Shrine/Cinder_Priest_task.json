@@ -1,0 +1,17 @@
+{
+  "task_id": "d9752468-ff8c-425f-8963-46c5ea70876b",
+  "type": "image_to_model",
+  "status": "success",
+  "credits_consumed": 50,
+  "model": "P1-20260311",
+  "parameters": {
+    "input": "<upload:C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Cinder_Priest_hero.png>",
+    "model": "P1-20260311",
+    "texture": true,
+    "pbr": false,
+    "face_limit": 4500
+  },
+  "local_original_glb": "C:\\The Veilbound\\EnemyAssetProduction\\models_raw\\Shrine\\Cinder_Priest.glb",
+  "model_sha256": "423c6fd861b9bcf367565b6ae0bbd50d5e1cb596b53d28ff74aeab83b783df44",
+  "hero_crop": "C:\\The Veilbound\\EnemyAssetProduction\\inputs\\Shrine\\Cinder_Priest_hero.png"
+}
