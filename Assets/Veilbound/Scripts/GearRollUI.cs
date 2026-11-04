@@ -42,9 +42,8 @@ namespace Veilbound {
   void GearComparisonCard(Rect r,CraftedGear item,string heading) {
    GUI.Label(new Rect(r.x,r.y,r.width,23),heading,CardStyle(12,hudLight,bold:true));if(item==null){GUI.Label(new Rect(r.x,r.y+40,r.width,28),"No item selected",CardStyle(18,muted));return;}
    Color colour=EquipmentColour(item);GUI.Label(new Rect(r.x,r.y+30,r.width,28),EquipmentTypeLabel(item)+"  /  #"+item.id,CardStyle(18,colour,bold:true));GUI.Label(new Rect(r.x,r.y+61,r.width,27),GearRollRules.BaseName(item),CardStyle(18,parchment,bold:true));
-   int metal=item.slot==9?item.item:Metals.Index(item.item);float armour=metal>=0&&item.slot!=9?Metals.Armour(item.slot,metal):item.slot==9?0:LightGear.Armour(item.slot,Gear.Material(item.item),Gear.Tier(item.item));
-   float mass=item.slot==9&&item.item<0?1.8f:metal>=0?(item.slot==9?4.5f*Metals.All[WeaponRules.Material(metal)].weight:Metals.Mass(item.slot,metal)):LightGear.Mass(item.slot,Gear.Material(item.item),Gear.Tier(item.item));
-   string line=item.slot==9?WeaponRules.Damage(item.item).ToString("0.#")+" base damage":armour.ToString("0.#")+" armour";
+   var metrics=GearItemMetrics.From(item);float armour=metrics.armour,mass=metrics.mass;
+   string line=item.slot==9?metrics.damage.ToString("0.#")+" base damage":armour.ToString("0.#")+" armour";
    GUI.Label(new Rect(r.x,r.y+94,r.width,23),line+"  /  "+mass.ToString("0.##")+" kg",CardStyle(14,muted));
    GUI.Label(new Rect(r.x,r.y+136,r.width,53),(item.slot<9?LightGear.Traits(item.slot,item.item):"")+"\nEnchant this item at the Mystic.",CardStyle(14,muted));
    if(item.enchantments!=null)for(int i=0;i<item.enchantments.Length;i++){var a=item.enchantments[i];GUI.Label(new Rect(r.x,r.y+205+i*21,r.width,21),"Enchant: "+MysticRules.StatText(a.stat,a.value),CardStyle(12,hudGold));}

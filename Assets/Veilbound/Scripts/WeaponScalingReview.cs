@@ -1,10 +1,10 @@
-﻿using System;using System.IO;using System.Linq;using System.Collections;using System.Collections.Generic;using UnityEngine;
+using System;using System.IO;using System.Linq;using System.Collections;using System.Collections.Generic;using UnityEngine;
 namespace Veilbound {
  public partial class VeilGame {
   [Serializable]class WeaponAbilityAudit{public bool passed;public int profiles,damageChecks,cooldownChecks,timerChecks;public bool rageRegression,kitRegression,resourceRegression,saveRoundtrip;}
   IEnumerator WeaponScalingReview(){
    var reviewRandom=criticalRandom;criticalRandom=new NonCriticalReviewRandom();try{
-   yield return null;combatReviewFreeze=true;city=FreshCharacterTown();var audit=new WeaponAbilityAudit();
+   yield return null;combatReviewFreeze=true;city=FreshCharacterTown();city.InitializeWoodenStarter();var audit=new WeaponAbilityAudit();
    foreach(int id in Enumerable.Range(-1,12)){
     city.equippedMetalWeapon=id<0?-2:id;RebuildHero();StartRun();
     Require(Mathf.Abs(Damage-city.WeaponDamage)<.001f,"Clean ability basis equals weapon damage");float beforeSmith=Damage;city.blacksmith=9;Require(Damage==beforeSmith,"Workshop level does not add hidden flat damage");city.blacksmith=0;
@@ -23,7 +23,7 @@ namespace Veilbound {
    // Test the existing ability kit, status effects, bleed accounting and Fury as regressions.
    CheckRageAbilityKit();audit.kitRegression=true;CheckRageVirtue();audit.rageRegression=true;
    city.mine=7;city.EnsureIndustry();CheckResourceTopBar();audit.resourceRegression=true;
-   city.blacksmith=9;city.EnsureIndustry();Debug.Log("WEAPON_QA_REQUIRED_RESEARCH "+city.CraftResearchRequirement(9,"weapons"));city.EnsureResearch();city.researchRanks[LibraryResearch.Index("weapons")]=10;for(int i=0;i<5;i++)city.AddResource(4,i,100);city.metalBars[9]=city.metalBars[10]=8;
+   city.blacksmith=9;city.EnsureIndustry();Debug.Log("WEAPON_QA_REQUIRED_RESEARCH "+city.CraftResearchRequirement(9,"weapons"));city.EnsureResearch();city.researchRanks[LibraryResearch.Index("weapons")]=10;for(int i=0;i<5;i++)city.AddResource(4,i,100);foreach(int item in new[]{9,10})foreach(var resource in city.WeaponRecipe(item))city.AddResource(resource.family,resource.index,resource.amount);
    Require(city.CraftMetalWeapon(9,out _)&&city.EquipRoll(city.lastCraftedRollId),"Light Veil craft and equip in player");int light=city.lastCraftedRollId;Require(city.CraftMetalWeapon(10,out _)&&city.EquipRoll(city.lastCraftedRollId),"Heavy Veil craft and equip in player");int heavy=city.lastCraftedRollId;
    var store=new CharacterSaveStore(Path.Combine(Application.persistentDataPath,"weapon-scaling-qa",Guid.NewGuid().ToString("N")));var roster=store.LoadRoster();var character=SavedCharacter.From("Weapon scaling QA",city);store.Save(character,city,roster);store.Load(character.id,out _,out var loaded);Require(loaded.WeaponDamage==150&&loaded.WeaponInterval==2.72f&&loaded.FindRoll(light)!=null&&loaded.FindRoll(heavy)!=null,"Both distinct profiles survive real player save reload");audit.saveRoundtrip=true;
    audit.passed=true;string output=Path.Combine(Application.dataPath,"..","Smoke","WeaponScaling");Directory.CreateDirectory(output);File.WriteAllText(Path.Combine(output,"validation.json"),JsonUtility.ToJson(audit,true));Debug.Log("VEILBOUND_WEAPON_SCALING_RUNTIME_PASS "+JsonUtility.ToJson(audit));Application.Quit(0);

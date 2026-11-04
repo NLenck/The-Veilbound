@@ -1,8 +1,8 @@
-﻿using System;using UnityEngine;
+using System;using UnityEngine;
 namespace Veilbound {
  public struct WorkshopStat {public string label,value;public WorkshopStat(string label,string value){this.label=label;this.value=value;}}
  public sealed class EquipmentRecipeEntry {
-  public ArmourDefinition armourDefinition;public string name,requirement,traits;public int row,column,slot,item,material,tier,queueKind,queueIndex;public double essence;public ResourceCost[] ingredients;public WorkshopStat[] stats;public Color tint;public bool hasVariant;
+  public WeaponDefinition weaponDefinition;public ArmourDefinition armourDefinition;public string name,requirement,traits;public int row,column,slot,item,material,tier,queueKind,queueIndex;public double essence;public ResourceCost[] ingredients;public WorkshopStat[] stats;public Color tint;public bool hasVariant;
  }
  public sealed class CraftingRecipeSet {
   readonly Settlement city;public readonly EquipmentRecipeKind Kind;
@@ -24,7 +24,12 @@ namespace Veilbound {
     entry.stats=new[]{new WorkshopStat("ARMOUR",definition.Armour.ToString("0.##")),new WorkshopStat("WEIGHT",definition.Weight.ToString("0.##")+" kg")};
     entry.tint=Light?LightGear.Colour(Material,row+1):Metals.All[row].color;entry.queueKind=Light?5:3;entry.queueIndex=Light?Material:row;
    }
-   else {int item=row==9&&heavy?10:row;entry.item=item;entry.name=WeaponRules.Name(item);entry.requirement=city.SmithRequirement(item,"weapons");entry.ingredients=city.WeaponRecipe(item);entry.stats=new[]{new WorkshopStat("DAMAGE",WeaponRules.Damage(item).ToString("0.##")),new WorkshopStat("ATTACK INTERVAL",WeaponRules.Interval(item).ToString("0.00")+" s"),new WorkshopStat("BASE DPS",(WeaponRules.Damage(item)/WeaponRules.Interval(item)).ToString("0.0")),new WorkshopStat("WEIGHT",(4.5f*Metals.All[WeaponRules.Material(item)].weight).ToString("0.##")+" kg")};entry.tint=Metals.All[row].color;entry.hasVariant=row==9;entry.queueKind=4;entry.queueIndex=item;}
+   else {
+    int item=row==9&&heavy?10:row;var weapon=WeaponCatalog.Find(item);entry.weaponDefinition=weapon;
+    entry.item=weapon.ItemId;entry.name=weapon.Name;entry.requirement=city.SmithRequirement(item,"weapons");entry.ingredients=weapon.Recipe.CopyResources();
+    entry.stats=new[]{new WorkshopStat("DAMAGE",weapon.Damage.ToString("0.##")),new WorkshopStat("ATTACK INTERVAL",weapon.AttackInterval.ToString("0.00")+" s"),new WorkshopStat("BASE DPS",weapon.DamagePerSecond.ToString("0.0")),new WorkshopStat("WEIGHT",weapon.Weight.ToString("0.##")+" kg")};
+    entry.tint=Metals.All[weapon.MaterialIndex].color;entry.hasVariant=row==9;entry.queueKind=4;entry.queueIndex=weapon.ItemId;
+   }
    return entry;
   }
   public bool Affordable(EquipmentRecipeEntry entry)=>city.HasRecipe(entry.ingredients)&&city.essence+1e-9>=entry.essence;

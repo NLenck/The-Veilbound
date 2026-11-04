@@ -20,9 +20,9 @@ namespace Veilbound {
   public static string Label(string stat){if(stat=="wisdom")return "Experience gain";if(stat=="attackspeed")return "Attack speed";int i=Array.IndexOf(Stats,stat);return i>=0?Labels[i]:stat;}
   public static string Amount(string stat,float value,bool sign=true)=>(sign&&value>=0?"+":"")+value.ToString("0.###")+(stat=="vitality"?" health":stat=="regen"?" / sec":"%");
   public static string Summary(CraftedGear gear)=>MysticRules.EnchantmentSummary(gear);
-  public static string BaseName(CraftedGear gear)=>gear.slot==9?WeaponRules.Name(gear.item):gear.ArmourDefinition?.Name??Gear.Name(gear.item);
+  public static string BaseName(CraftedGear gear)=>gear.slot==9?WeaponCatalog.ResolveLegacy(gear.item).Name:gear.ArmourDefinition?.Name??Gear.Name(gear.item);
   public static UpgradeRarity MaterialGrade(int slot,int item){
-   if(slot==9)return item<0?UpgradeRarity.Common:Metals.All[WeaponRules.Material(item)].rarity;
+   if(slot==9)return WeaponCatalog.ResolveLegacy(item).Grade;
    return UpgradeRarity.Common;
   }
   public static CraftedGear Roll(int slot,int item,int id,System.Random random) {
@@ -49,7 +49,7 @@ namespace Veilbound {
   public CraftedGear FindRoll(int id){EnsureGearRolls();return craftedGear.Find(g=>g.id==id);}
   public CraftedGear EquippedRoll(int slot)=>Loadout.Equipped(slot);
   [NonSerialized] EquipmentLoadout equipmentLoadout;
-  public EquipmentLoadout Loadout {get{EnsureGearRolls();if(equipmentLoadout==null)equipmentLoadout=new EquipmentLoadout();equipmentLoadout.Bind(equippedGear,equippedRollIds,craftedGear,WeaponItemIndex,IsWoodenSword?1.8f:4.5f*Metals.All[WeaponMetalIndex].weight);return equipmentLoadout;}}
+  public EquipmentLoadout Loadout {get{EnsureGearRolls();if(equipmentLoadout==null)equipmentLoadout=new EquipmentLoadout();equipmentLoadout.Bind(equippedGear,equippedRollIds,craftedGear,WeaponItemIndex,EquippedWeaponDefinition.Weight);return equipmentLoadout;}}
   public float GearBonus(string stat)=>Loadout.Bonus(stat);
   public CraftedGear RecordCraft(int slot,int item) {
    EnsureGearRolls();var g=GearRollRules.Roll(slot,item,nextGearRollId++,null);craftedGear.Add(g);lastCraftedRollId=g.id;
