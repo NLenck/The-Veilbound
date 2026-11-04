@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 namespace Veilbound {
@@ -17,10 +17,10 @@ namespace Veilbound {
   float RageFill=>Mathf.Clamp01(rage/RageMaximum);
   float RageDamageMultiplier=>RageActive?1+RageDamageBonus:1;
   float GlobalHasteRating=>build.PassivePercent("haste")+city.GearBonus("haste")+(RageActive?RageAttackBonus*100:0)+hymnHaste;
-  float AttackRate=>1/(1-HasteRules.Reduction(GlobalHasteRating));
+  float AttackRate=>(1+city.GearBonus("attackspeed")*.01f)/(1-HasteRules.Reduction(GlobalHasteRating));
   float SkillHasteRating(string id)=>GlobalHasteRating+(id=="rage"?0:build.Attribute(id,"haste")*UpgradeStep(id,"haste"));
   float WeaponCooldownMultiplier=>WeaponRules.CooldownMultiplier(city.WeaponInterval);
-  float SkillAttackRate(string id)=>1/(WeaponCooldownMultiplier*(1-HasteRules.Reduction(SkillHasteRating(id))));
+  float SkillAttackRate(string id)=>(1+city.GearBonus("attackspeed")*.01f)/(WeaponCooldownMultiplier*(1-HasteRules.Reduction(SkillHasteRating(id))));
   string RageBinding=>gamepadCombat?PadLabel(ControlAction.Virtue):KeyLabel(ControlAction.Virtue);
   void ResetRage(){rage=0;rageRemaining=0;rageWindowDuration=6;ResetVirtueAbilities();}
   void GainRage(float actualDamage,bool dealt){if(city.virtue!=Virtue.Rage||RageActive||state!=ScreenState.Expedition||actualDamage<=0)return;rage=Mathf.Clamp(rage+actualDamage*(dealt?.02f:.10f),0,RageMaximum);}

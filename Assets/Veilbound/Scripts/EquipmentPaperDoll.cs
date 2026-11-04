@@ -57,11 +57,11 @@ namespace Veilbound {
   }
   Vector2 PaperAnchorScreen(int slot) {var p=equipmentCamera.WorldToViewportPoint(PaperAnchorWorld(slot));var r=PortraitRect;return new Vector2(r.x+p.x*r.width,r.y+(1-p.y)*r.height);}
   void DrawPaperSlot(int slot) {
-   Rect r=PaperSlotRect(slot);bool active=gearSlot==slot;bool left=r.x<800;int item=slot<9?city.Item(slot):1;var rolled=slot<10?city.EquippedRoll(slot):null;Color accent=rolled!=null?Rarities.Colour(rolled.rarity):active?hudLight:item>0?hudGold:new Color(.27f,.29f,.27f);
+   Rect r=PaperSlotRect(slot);bool active=gearSlot==slot;bool left=r.x<800;int item=slot<9?city.Item(slot):1;var rolled=slot<10?city.EquippedRoll(slot):null;Color accent=rolled!=null?EquipmentColour(rolled):active?hudLight:item>0?hudGold:new Color(.27f,.29f,.27f);
    HudFrame(r,active);CardOutline(r,accent,active?2:1);Rect icon=new Rect(left?r.x+7:r.xMax-59,r.y+7,52,52);Box(icon,new Color(.018f,.022f,.022f));
    if(slot!=10&&item>0&&equipmentIcons[slot])GUI.DrawTexture(icon,equipmentIcons[slot]);else GUI.Label(icon,slot==10?"2H":"—",CardStyle(19,muted,TextAnchor.MiddleCenter,true));CardOutline(icon,accent);
    float textX=left?r.x+73:r.x+13;GUI.Label(new Rect(textX,r.y+10,225,23),PaperSlotName(slot).ToUpperInvariant(),CardStyle(13,active?hudLight:parchment,bold:true));
-   string detail=slot<9?Gear.Name(item):slot==9?SwordName(city.equippedSword):"Occupied by greatsword";if(rolled!=null&&!rolled.inherited)detail=rolled.rarity+" · "+detail;GUI.Label(new Rect(textX,r.y+35,225,23),detail,CardStyle(12,muted));
+   string detail=slot<9?Gear.Name(item):slot==9?SwordName(city.equippedSword):"Occupied by greatsword";if(rolled!=null&&rolled.slot==9&&!rolled.inherited)detail=rolled.rarity+" · "+detail;GUI.Label(new Rect(textX,r.y+35,225,23),detail,CardStyle(12,muted));
    int index=buttons.Count;buttons.Add(()=>SelectPaperSlot(slot));RegisterMenuFocus(r,index,PaperSlotName(slot),true);
    if(Event.current.type==EventType.MouseDown&&Event.current.button==0&&r.Contains(Event.current.mousePosition)){SelectPaperSlot(slot);Event.current.Use();}
 

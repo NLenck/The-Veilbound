@@ -5,7 +5,7 @@ namespace Veilbound {
   public static GearItemMetrics From(CraftedGear item){
    if(item==null)return new GearItemMetrics();
    if(item.slot==9)return new GearItemMetrics{damage=WeaponRules.Damage(item.item),interval=WeaponRules.Interval(item.item),mass=item.item<0?1.8f:4.5f*Metals.All[WeaponRules.Material(item.item)].weight};
-   int metal=Metals.Index(item.item);return new GearItemMetrics{armour=metal>=0?Metals.Armour(item.slot,metal):LightGear.Armour(item.slot,Gear.Material(item.item),Gear.Tier(item.item)),mass=metal>=0?Metals.Mass(item.slot,metal):LightGear.Mass(item.slot,Gear.Material(item.item),Gear.Tier(item.item))};
+   var definition=item.ArmourDefinition;return new GearItemMetrics{armour=definition?.Armour??0,mass=definition?.Weight??0};
   }
  }
  public struct GearStatChange {
@@ -20,11 +20,11 @@ namespace Veilbound {
   public readonly CraftedGear selected,equipped;public readonly GearStatChange[] primary,bonuses;
   public bool AlreadyEquipped=>selected!=null&&selected.id==equipped?.id;
   public bool HasChanges {get{foreach(var p in primary)if(p.Changed)return true;return bonuses.Length>0;}}
-  public static float Bonus(CraftedGear item,string stat)=>GearRollRules.Value(item,stat)+(item!=null&&item.slot<9?LightGear.Bonus(item.slot,item.item,stat):0);
-  public GearComparisonData(CraftedGear selected,CraftedGear equipped){
+  public static float Bonus(CraftedGear item,string stat)=>GearRollRules.Value(item,stat);
+  public GearComparisonData(CraftedGear selected,CraftedGear equipped,EquipmentLoadout loadout=null){
    this.selected=selected;this.equipped=equipped;if(selected==null){primary=bonuses=new GearStatChange[0];return;}var a=GearItemMetrics.From(equipped);var b=GearItemMetrics.From(selected);
    primary=selected.slot==9?new[]{new GearStatChange("damage","BASE HIT DAMAGE","",a.damage,b.damage),new GearStatChange("interval","BASE ATTACK INTERVAL","sec",a.interval,b.interval,true),new GearStatChange("dps","BASE DPS","",a.Dps,b.Dps),new GearStatChange("mass","WEIGHT","kg",a.mass,b.mass,true)}:new[]{new GearStatChange("armour","ARMOUR","",a.armour,b.armour),new GearStatChange("mass","WEIGHT","kg",a.mass,b.mass,true)};
-   var changes=new List<GearStatChange>();foreach(string stat in new[]{"power","crit","critdamage","speed","haste","vitality","area","regen","wisdom"}){var change=new GearStatChange(stat,stat=="haste"?"Haste rating":GearRollRules.Label(stat),stat=="haste"?"rating":stat=="vitality"?"health":stat=="regen"?"/ sec":"%",Bonus(equipped,stat),Bonus(selected,stat));if(change.Changed)changes.Add(change);}bonuses=changes.ToArray();
+   var changes=new List<GearStatChange>();foreach(string stat in new[]{"power","crit","critdamage","speed","haste","vitality","area","regen","wisdom","attackspeed"}){var change=new GearStatChange(stat,stat=="haste"?"Haste rating":GearRollRules.Label(stat),stat=="haste"?"rating":stat=="vitality"?"health":stat=="regen"?"/ sec":"%",loadout==null?Bonus(equipped,stat):loadout.Bonus(stat),loadout==null?Bonus(selected,stat):loadout.Bonus(stat,selected));if(change.Changed)changes.Add(change);}bonuses=changes.ToArray();
   }
  }
 }

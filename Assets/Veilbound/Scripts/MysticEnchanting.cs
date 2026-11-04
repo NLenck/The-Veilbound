@@ -5,15 +5,15 @@ namespace Veilbound {
   public static readonly string[] Categories={"Offense","Defense","Utility"};
   public static readonly string[][] CategoryStats={new[]{"crit","critdamage","power"},new[]{"vitality","regen"},new[]{"speed","haste","area"}};
   public static string Feature(int level)=>level==1?"One random enchantment per item":level==2?"Two enchantments per item":level==3?"Target offense, defense or utility":"Choose a specific stat";
-  public static float Strength(CraftedGear item,string stat){int i=Array.IndexOf(GearRollRules.Stats,stat);return i<0?0:GearRollRules.Values[i][(int)item.rarity]*GearRollRules.Scale(item.slot)*.5f;}
-  public static double Cost(CraftedGear item,int mode,int slot)=>Math.Ceiling(10*((int)item.rarity+1)*(slot==1?1.5:1)*(mode==2?3:mode==1?2:1));
+  public static float Strength(CraftedGear item,string stat){int i=Array.IndexOf(GearRollRules.Stats,stat);return i<0?0:GearRollRules.Values[i][EnchantmentRules.PowerBand(item)]*GearRollRules.Scale(item.slot)*.5f;}
+  public static double Cost(CraftedGear item,int mode,int slot)=>Math.Ceiling(10*(EnchantmentRules.PowerBand(item)+1)*(slot==1?1.5:1)*(mode==2?3:mode==1?2:1));
   public static string StatText(string stat,float value)=>"+"+value.ToString("0.###")+(stat=="vitality"?" Maximum health":stat=="regen"?" Health / sec":"% "+GearRollRules.Label(stat));
   public static string EnchantmentSummary(CraftedGear item){if(item?.enchantments==null||item.enchantments.Length==0)return "No enchantments";var text=new List<string>();foreach(var a in item.enchantments)text.Add(StatText(a.stat,a.value));return string.Join(" / ",text);}
  }
  public partial class Settlement {
   public int mysticLevel;
   [NonSerialized] System.Random enchantRandom;
-  public int ItemEnchantmentLimit=>mysticLevel>=2?2:mysticLevel>=1?1:0;
+  public int ItemEnchantmentLimit=>EnchantmentRules.SlotLimit(mysticLevel);
   public int EnchantmentCount(CraftedGear item)=>item?.enchantments==null?0:item.enchantments.Length;
   List<string> EnchantmentPool(CraftedGear item,int mode,int category,string stat,int target){
    var pool=new List<string>();if(mode==2){if(Array.IndexOf(GearRollRules.Stats,stat)>=0)pool.Add(stat);}else if(mode==1){if(category>=0&&category<MysticRules.Categories.Length)pool.AddRange(MysticRules.CategoryStats[category]);}else pool.AddRange(GearRollRules.Stats);

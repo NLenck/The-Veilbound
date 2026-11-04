@@ -1,0 +1,1 @@
+PASS: exact leather attack rate and movement; actual cloth XP pickup and area; cumulative heavy health/regeneration; set bonuses independent from the two Mystic slots; real combat regeneration; save-compatible domain validation; inventory/Mystic/comparison captures; existing Mystic regression checks.

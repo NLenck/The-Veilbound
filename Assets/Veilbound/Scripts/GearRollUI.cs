@@ -21,9 +21,9 @@ namespace Veilbound {
    var chosen=city.FindRoll(gearBagSelected);if(chosen!=null&&chosen.slot!=gearBagSlot)chosen=null;var equipped=city.EquippedRoll(gearBagSlot);
    HudFrame(new Rect(30,230,655,574));GUI.Label(new Rect(54,244,590,24),items.Count+" OWNED  /  PAGE "+(gearBagPage+1)+" OF "+pages,CardStyle(13,hudLight,bold:true));
    for(int row=0;row<8;row++){int index=gearBagPage*8+row;if(index>=items.Count)break;var item=items[index];float y=281+row*62;Rect r=new Rect(49,y,617,55);bool selected=gearBagSelected==item.id;
-    Box(r,selected?new Color(.11f,.105f,.085f):new Color(.035f,.043f,.044f));CardOutline(r,selected?hudLight:Rarities.Colour(item.rarity));
+    Box(r,selected?new Color(.11f,.105f,.085f):new Color(.035f,.043f,.044f));CardOutline(r,selected?hudLight:EquipmentColour(item));
     string title=(equipped?.id==item.id?"[E] ":"")+GearRollRules.BaseName(item)+"  #"+item.id;
-    GUI.Label(new Rect(r.x+12,r.y+6,r.width-24,24),title,CardStyle(15,Rarities.Colour(item.rarity),bold:true));GUI.Label(new Rect(r.x+12,r.y+32,r.width-24,18),GearRollRules.Summary(item),CardStyle(11,muted));
+    GUI.Label(new Rect(r.x+12,r.y+6,r.width-24,24),title,CardStyle(15,EquipmentColour(item),bold:true));GUI.Label(new Rect(r.x+12,r.y+32,r.width-24,18),GearRollRules.Summary(item),CardStyle(11,muted));
     int id=item.id;buttons.Add(()=>gearBagSelected=id);if(Event.current.type==EventType.MouseDown&&Event.current.button==0&&r.Contains(Event.current.mousePosition)){gearBagSelected=id;Event.current.Use();}
    }
    Button(54,751,150,34,"PREVIOUS",()=>{gearBagPage--;selection=0;},gearBagPage>0);Button(510,751,150,34,"NEXT",()=>{gearBagPage++;selection=0;},gearBagPage<pages-1);
@@ -32,16 +32,16 @@ namespace Veilbound {
    GUI.Label(new Rect(739,548,780,24),"BONUS CHANGE IF EQUIPPED",CardStyle(15,hudLight,bold:true));
    var comparisonStats=new[]{"crit","speed","critdamage","power","vitality","haste","area","regen","wisdom"};
    for(int i=0;i<comparisonStats.Length;i++){
-    string stat=comparisonStats[i];float delta=GearRollRules.Value(chosen,stat)+(chosen!=null&&chosen.slot<9?LightGear.Bonus(chosen.slot,chosen.item,stat):0)-GearRollRules.Value(equipped,stat)-(equipped!=null&&equipped.slot<9?LightGear.Bonus(equipped.slot,equipped.item,stat):0);float x=739+(i%2)*410,y=575+(i/2)*28;
+    string stat=comparisonStats[i];float delta=chosen==null?0:city.Loadout.Bonus(stat,chosen)-city.Loadout.Bonus(stat);float x=739+(i%2)*410,y=575+(i/2)*28;
     GUI.Label(new Rect(x,y,245,25),GearRollRules.Label(stat),CardStyle(14,muted));GUI.Label(new Rect(x+235,y,145,25),GearRollRules.Amount(stat,delta),CardStyle(15,Mathf.Abs(delta)<.00001f?muted:delta>0?new Color(.47f,.83f,.54f):new Color(.96f,.40f,.33f),TextAnchor.UpperRight));
    }
-   Button(739,725,386,49,equipped?.id==chosen?.id?"EQUIPPED":"EQUIP SELECTED",()=>{if(chosen!=null&&city.EquipRoll(chosen.id)){notice=chosen.rarity+" "+GearRollRules.BaseName(chosen)+" #"+chosen.id+" equipped.";RefreshMetalGear();}},chosen!=null&&equipped?.id!=chosen.id);
+   Button(739,725,386,49,equipped?.id==chosen?.id?"EQUIPPED":"EQUIP SELECTED",()=>{if(chosen!=null&&city.EquipRoll(chosen.id)){notice=(chosen.slot==9?chosen.rarity+" ":"")+GearRollRules.BaseName(chosen)+" #"+chosen.id+" equipped.";RefreshMetalGear();}},chosen!=null&&equipped?.id!=chosen.id);
    Button(1150,725,392,49,"KEEP CURRENT GEAR",CloseGearBag);Button(1150,780,392,22,city.mysticLevel>0?"ENCHANT SELECTED AT MYSTIC":"BUILD THE MYSTIC TO ENCHANT",()=>{if(chosen!=null)OpenMystic(chosen.id,true);},chosen!=null&&city.mysticLevel>0);
    GUI.Label(new Rect(54,829,1490,25),"Crafted gear has no random stat bonuses. Add enchantments at the Mystic; material determines base stats.",CardStyle(14,muted));GUI.Label(new Rect(54,869,1490,22),notice,CardStyle(12,hudLight));
   }
   void GearComparisonCard(Rect r,CraftedGear item,string heading) {
    GUI.Label(new Rect(r.x,r.y,r.width,23),heading,CardStyle(12,hudLight,bold:true));if(item==null){GUI.Label(new Rect(r.x,r.y+40,r.width,28),"No item selected",CardStyle(18,muted));return;}
-   Color colour=Rarities.Colour(item.rarity);GUI.Label(new Rect(r.x,r.y+30,r.width,28),"Material grade: "+item.rarity+"  /  #"+item.id,CardStyle(18,colour,bold:true));GUI.Label(new Rect(r.x,r.y+61,r.width,27),GearRollRules.BaseName(item),CardStyle(18,parchment,bold:true));
+   Color colour=EquipmentColour(item);GUI.Label(new Rect(r.x,r.y+30,r.width,28),EquipmentTypeLabel(item)+"  /  #"+item.id,CardStyle(18,colour,bold:true));GUI.Label(new Rect(r.x,r.y+61,r.width,27),GearRollRules.BaseName(item),CardStyle(18,parchment,bold:true));
    int metal=item.slot==9?item.item:Metals.Index(item.item);float armour=metal>=0&&item.slot!=9?Metals.Armour(item.slot,metal):item.slot==9?0:LightGear.Armour(item.slot,Gear.Material(item.item),Gear.Tier(item.item));
    float mass=item.slot==9&&item.item<0?1.8f:metal>=0?(item.slot==9?4.5f*Metals.All[WeaponRules.Material(metal)].weight:Metals.Mass(item.slot,metal)):LightGear.Mass(item.slot,Gear.Material(item.item),Gear.Tier(item.item));
    string line=item.slot==9?WeaponRules.Damage(item.item).ToString("0.#")+" base damage":armour.ToString("0.#")+" armour";
@@ -52,7 +52,7 @@ namespace Veilbound {
   void GearRollBalancePanel() {
    HudFrame(new Rect(30,230,1540,574));GUI.Label(new Rect(54,248,1490,29),"ENCHANTMENT VALUES / "+(GearRollRules.Major(gearBagSlot)?"FULL STRENGTH":"HALF STRENGTH"),CardStyle(21,parchment,bold:true));
    GUI.Label(new Rect(54,291,1490,25),"Mystic level 1: one enchantment. Level 2: two. Level 3: choose a category. Level 4: choose a stat.",CardStyle(14,muted));
-   GUI.Label(new Rect(54,338,300,25),"STAT / DRAW WEIGHT",CardStyle(13,hudLight,bold:true));for(int r=0;r<5;r++)GUI.Label(new Rect(405+r*225,338,205,25),((UpgradeRarity)r).ToString(),CardStyle(15,Rarities.Colour((UpgradeRarity)r),bold:true));
+   GUI.Label(new Rect(54,338,300,25),"STAT / DRAW WEIGHT",CardStyle(13,hudLight,bold:true));for(int r=0;r<5;r++)GUI.Label(new Rect(405+r*225,338,205,25),new[]{"Tier 1–4","Tier 5–6","Tier 7","Tier 8–9","Tier 10"}[r],CardStyle(15,parchment,bold:true));
    for(int i=0;i<GearRollRules.Stats.Length;i++){float y=389+i*43;string stat=GearRollRules.Stats[i];GUI.Label(new Rect(54,y,320,26),GearRollRules.Labels[i]+"  /  "+GearRollRules.Weights[i],CardStyle(15,parchment));for(int r=0;r<5;r++)GUI.Label(new Rect(405+r*225,y,205,26),GearRollRules.Amount(stat,GearRollRules.Values[i][r]*GearRollRules.Scale(gearBagSlot)*.5f),CardStyle(16,muted));}
    GUI.Label(new Rect(54,829,1490,26),"These values apply only to Mystic enchantments. Crafting adds no random stat bonuses.",CardStyle(14,muted));
   }

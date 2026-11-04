@@ -46,9 +46,9 @@ Each workshop level unlocks the corresponding crafting tier. Gear consumes iron,
 
 ## Equipment
 
-Nine independent slots: **helm, shoulders, chest, gloves, belt, bracers, legs, boots and cape**. Choose a material and slot, craft, cycle through owned pieces, or remove the item. Eight body slots support cloth, leather and plate at two tiers; capes are cloth. The cape starts unequipped. The base shirt/trousers/shoes are part of the underlying character.
+Nine independent slots: **helm, shoulders, chest, gloves, belt, bracers, legs, boots and cape**. Choose a material and slot, craft, cycle through owned pieces, or remove the item. Eight body slots support cloth, leather and plate across ten material tiers; capes are cloth. The cape starts unequipped. The base shirt/trousers/shoes are part of the underlying character.
 
-Armour is separate geometry over the connected skinned body: hollow chest shells, shoulder plates, cuffs, gloves, leg guards and boots. It follows the skeleton instead of replacing the body's colour. Cloth grants experience gain; leather balances health/protection; plate adds more health/protection and some weight. Cloth colour applies to cloth equipment.
+Armour is separate geometry over the connected skinned body: hollow chest shells, shoulder plates, cuffs, gloves, leg guards and boots. It follows the skeleton instead of replacing the body's colour. Each piece provides armour and weight. Four/eight pieces of one type activate cumulative set bonuses: heavy regeneration/health, leather movement/attack speed, and cloth area/XP. Set bonuses are separate from the Mystic’s one enchantment slot at level 1 and two at level 2. Armour has no rarity. See [Equipment model and armour sets](Docs/EquipmentArchitecture.md). Cloth colour applies to cloth equipment.
 
 The greatsword remains a separate weapon slot. Reaping Circle and Oathblades use its equipped model. There are four automatic ability slots, including cleave, plus passives. Runs provide three rerolls, two banishes and one lock.
 
