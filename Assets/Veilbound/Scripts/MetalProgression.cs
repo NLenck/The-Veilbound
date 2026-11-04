@@ -50,8 +50,8 @@ namespace Veilbound {
   public int WeaponItemIndex=>IsWoodenSword?-1:equippedMetalWeapon>=0&&equippedMetalWeapon<WeaponRules.Count?equippedMetalWeapon:WeaponMetalIndex;
   public float WeaponDamage=>WeaponRules.Damage(WeaponItemIndex);
   public string WeaponName=>WeaponRules.Name(WeaponItemIndex);
-  public float EquipmentArmour {get{EnsureGear();float n=0;for(int s=0;s<9;s++){int item=equippedGear[s],m=Metals.Index(item);n+=m>=0?Metals.Armour(s,m):LightGear.Armour(s,Gear.Material(item),Gear.Tier(item));}return n;}}
-  public float EquipmentMass {get{EnsureGear();float n=IsWoodenSword?1.8f:4.5f*Metals.All[WeaponMetalIndex].weight;for(int s=0;s<9;s++){int item=equippedGear[s],m=Metals.Index(item);if(m>=0)n+=Metals.Mass(s,m);else if(item>0)n+=LightGear.Mass(s,Gear.Material(item),Gear.Tier(item));}return n;}}
+  public float EquipmentArmour=>Loadout.Armour;
+  public float EquipmentMass=>Loadout.Weight;
   public ResourceCost[] BarRecipe(int metal) {
    switch(metal){case 0:return new[]{new ResourceCost(0,0,1)};case 1:return new[]{new ResourceCost(0,1,1)};
     case 2:return new[]{new ResourceCost(3,1,2),new ResourceCost(3,0,1)};case 3:return new[]{new ResourceCost(3,1,2),new ResourceCost(0,2,1)};
@@ -59,7 +59,7 @@ namespace Veilbound {
     case 6:return new[]{new ResourceCost(3,5,2),new ResourceCost(0,4,1)};case 7:return new[]{new ResourceCost(0,5,2),new ResourceCost(0,4,1)};
     case 8:return new[]{new ResourceCost(0,6,2),new ResourceCost(0,4,2)};case 9:return new[]{new ResourceCost(0,7,2),new ResourceCost(3,7,1),new ResourceCost(0,4,2)};default:return new[]{new ResourceCost(0,7,2),new ResourceCost(3,8,1),new ResourceCost(0,4,2)};}
   }
-  public ResourceCost[] PlateRecipe(int slot,int metal)=>GearCraftCosts.Armour(slot,3,metal+1,metal);
+  public ResourceCost[] PlateRecipe(int slot,int metal)=>ArmourCatalog.Find(slot,Metals.Item(metal)).Recipe.CopyResources();
   public ResourceCost[] WeaponRecipe(int metal)=>GearCraftCosts.Weapon(metal);
   public bool PayRecipe(ResourceCost[] costs,int count,out string message) {
    EnsureIndustry();EnsureGear();if(count<1){message="Invalid batch size.";return false;}
@@ -73,7 +73,7 @@ namespace Veilbound {
    if(blacksmith<Metals.All[metal].unlock){message="Requires Blacksmith level "+Metals.All[metal].unlock+".";return false;}
    message=CraftResearchRequirement(metal,"plate");if(message!="")return false;
    if(!PayRecipe(PlateRecipe(slot,metal),1,out message))return false;
-   ownedPlate[slot*10+metal]=true;var roll=RecordCraft(slot,Metals.Item(metal));message=roll.rarity+" "+Metals.All[metal].name+" "+Gear.Slots[slot]+" #"+roll.id+" crafted. Compare it in your bag.";return true;
+   ownedPlate[slot*10+metal]=true;var roll=RecordCraft(slot,Metals.Item(metal));message=Metals.All[metal].name+" "+Gear.Slots[slot]+" #"+roll.id+" crafted. Compare it in your bag.";return true;
   }
   public bool CraftMetalWeapon(int metal,out string message) {
    EnsureGearRolls();if(metal<0||metal>=WeaponRules.Count){message="Invalid material.";return false;}

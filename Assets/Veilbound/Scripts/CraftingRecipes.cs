@@ -2,7 +2,7 @@
 namespace Veilbound {
  public struct WorkshopStat {public string label,value;public WorkshopStat(string label,string value){this.label=label;this.value=value;}}
  public sealed class EquipmentRecipeEntry {
-  public string name,requirement,traits;public int row,column,slot,item,material,tier,queueKind,queueIndex;public double essence;public ResourceCost[] ingredients;public WorkshopStat[] stats;public Color tint;public bool hasVariant;
+  public ArmourDefinition armourDefinition;public string name,requirement,traits;public int row,column,slot,item,material,tier,queueKind,queueIndex;public double essence;public ResourceCost[] ingredients;public WorkshopStat[] stats;public Color tint;public bool hasVariant;
  }
  public sealed class CraftingRecipeSet {
   readonly Settlement city;public readonly EquipmentRecipeKind Kind;
@@ -15,8 +15,15 @@ namespace Veilbound {
   public string RowName(int row)=>Light?"T"+(row+1)+" / "+Settlement.ProcessedNames[Material==1?1:0][LightGear.FabricIndex(row+1)].Replace(" cloth","").Replace(" leather","")+(row%2==1?" +":""):Metals.All[row].name;
   public EquipmentRecipeEntry Entry(int row,int column,bool heavy=false){
    row=Mathf.Clamp(row,0,Rows-1);column=Mathf.Clamp(column,0,Columns-1);var entry=new EquipmentRecipeEntry{row=row,column=column,slot=Kind==EquipmentRecipeKind.Weapon?9:column,tier=row+1,material=Light?Material:3,traits=""};
-   if(Light){entry.item=LightGear.Item(Material,row+1);entry.name=LightGear.Name(Material,row+1)+" "+Gear.Slots[column];entry.requirement=city.LightGearRequirement(column,Material,row+1);entry.ingredients=city.LightGearRecipe(column,Material,row+1);entry.essence=city.LightGearEssence(column,Material,row+1);entry.traits=LightGear.Traits(column,entry.item);entry.stats=new[]{new WorkshopStat("ARMOUR",LightGear.Armour(column,Material,row+1).ToString("0.##")),new WorkshopStat("WEIGHT",LightGear.Mass(column,Material,row+1).ToString("0.##")+" kg")};entry.tint=Color.Lerp(LightGear.Colour(Material,row+1),Color.white,.45f);entry.queueKind=5;entry.queueIndex=Material;}
-   else if(Kind==EquipmentRecipeKind.Plate){entry.item=Metals.Item(row);entry.name=Metals.All[row].name+" "+Gear.Slots[column];entry.requirement=city.SmithRequirement(row,"plate");entry.ingredients=city.PlateRecipe(column,row);entry.stats=new[]{new WorkshopStat("ARMOUR",Metals.Armour(column,row).ToString("0.##")),new WorkshopStat("WEIGHT",Metals.Mass(column,row).ToString("0.##")+" kg")};entry.tint=Metals.All[row].color;entry.queueKind=3;entry.queueIndex=row;}
+   if(Light||Kind==EquipmentRecipeKind.Plate){
+    entry.item=Light?LightGear.Item(Material,row+1):Metals.Item(row);
+    var definition=ArmourCatalog.Find(column,entry.item);entry.armourDefinition=definition;
+    entry.name=definition.Name;entry.requirement=Light?city.LightGearRequirement(column,Material,row+1):city.SmithRequirement(row,"plate");
+    entry.ingredients=definition.Recipe.CopyResources();entry.essence=definition.Recipe.Essence;
+    entry.traits=definition.CountsForSet?ArmourSetBonuses.Description(definition.Type):"Cape: does not count toward armour sets";
+    entry.stats=new[]{new WorkshopStat("ARMOUR",definition.Armour.ToString("0.##")),new WorkshopStat("WEIGHT",definition.Weight.ToString("0.##")+" kg")};
+    entry.tint=Light?LightGear.Colour(Material,row+1):Metals.All[row].color;entry.queueKind=Light?5:3;entry.queueIndex=Light?Material:row;
+   }
    else {int item=row==9&&heavy?10:row;entry.item=item;entry.name=WeaponRules.Name(item);entry.requirement=city.SmithRequirement(item,"weapons");entry.ingredients=city.WeaponRecipe(item);entry.stats=new[]{new WorkshopStat("DAMAGE",WeaponRules.Damage(item).ToString("0.##")),new WorkshopStat("ATTACK INTERVAL",WeaponRules.Interval(item).ToString("0.00")+" s"),new WorkshopStat("BASE DPS",(WeaponRules.Damage(item)/WeaponRules.Interval(item)).ToString("0.0")),new WorkshopStat("WEIGHT",(4.5f*Metals.All[WeaponRules.Material(item)].weight).ToString("0.##")+" kg")};entry.tint=Metals.All[row].color;entry.hasVariant=row==9;entry.queueKind=4;entry.queueIndex=item;}
    return entry;
   }

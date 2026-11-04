@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 namespace Veilbound {
  public partial class VeilGame {
   int loadoutInventoryPage;bool smithArmourPage;
   readonly Dictionary<string,RenderTexture> loadoutItemIcons=new Dictionary<string,RenderTexture>();
-  List<CraftedGear> LoadoutItems(int slot){city.EnsureGearRolls();var list=city.craftedGear.FindAll(g=>g.slot==slot);list.Sort((a,b)=>a.rarity!=b.rarity?b.rarity.CompareTo(a.rarity):b.id.CompareTo(a.id));return list;}
+  List<CraftedGear> LoadoutItems(int slot){city.EnsureGearRolls();var list=city.craftedGear.FindAll(g=>g.slot==slot);list.Sort((a,b)=>a.slot==9&&a.rarity!=b.rarity?b.rarity.CompareTo(a.rarity):b.id.CompareTo(a.id));return list;}
   void OpenSlotCrafting(){if(gearSlot<9&&gearMaterial<3){if(gearSlot==8)gearMaterial=1;OpenClothier(gearMaterial+1);return;}tab=2;sanctuaryWorkshopOpen=true;industryPage=1;smithArmourPage=gearSlot<9;if(gearSlot==10)gearSlot=9;if(gearSlot==8)gearMaterial=1;if(gearMaterial==3){smithSlot=Mathf.Clamp(gearSlot,0,7);smithMetal=selectedMetal;SetSmithPage(gearSlot<8?1:2);}selection=0;}
   void LoadoutInventoryStrip() {
    Rect panel=new Rect(30,718,1540,160);HudFrame(panel);var list=LoadoutItems(gearSlot);int pages=Math.Max(1,(list.Count+15)/16);loadoutInventoryPage=Mathf.Clamp(loadoutInventoryPage,0,pages-1);
@@ -14,7 +14,7 @@ namespace Veilbound {
    Button(1260,731,105,31,"Previous",()=>loadoutInventoryPage--,loadoutInventoryPage>0);GUI.Label(new Rect(1371,737,55,22),(loadoutInventoryPage+1)+" / "+pages,CardStyle(12,muted,TextAnchor.MiddleCenter));Button(1435,731,105,31,"Next",()=>loadoutInventoryPage++,loadoutInventoryPage<pages-1);
    if(list.Count==0){GUI.Label(new Rect(54,786,1460,55),gearSlot==10?"The greatsword occupies both hands. Select Main Hand to change it.":"No owned gear for this slot yet. Craft a piece at its workshop.",CardStyle(17,muted));return;}
    CraftedGear hover=null;Rect hoverRect=new Rect();var equipped=city.EquippedRoll(gearSlot);
-   for(int i=0;i<16;i++){int index=loadoutInventoryPage*16+i;if(index>=list.Count)break;var item=list[index];Rect r=new Rect(54+i*92,777,72,72);Color rarity=Rarities.Colour(item.rarity);Box(r,new Color(.023f,.029f,.031f));var icon=InventoryItemIcon(item);if(icon)GUI.DrawTexture(new Rect(r.x+4,r.y+4,64,64),icon);CardOutline(r,rarity,2);
+   for(int i=0;i<16;i++){int index=loadoutInventoryPage*16+i;if(index>=list.Count)break;var item=list[index];Rect r=new Rect(54+i*92,777,72,72);Color rarity=EquipmentColour(item);Box(r,new Color(.023f,.029f,.031f));var icon=InventoryItemIcon(item);if(icon)GUI.DrawTexture(new Rect(r.x+4,r.y+4,64,64),icon);CardOutline(r,rarity,2);
     if(equipped?.id==item.id){Box(new Rect(r.xMax-21,r.y-2,23,20),new Color(.06f,.07f,.06f));CardOutline(new Rect(r.xMax-21,r.y-2,23,20),rarity);GUI.Label(new Rect(r.xMax-21,r.y-2,23,20),"E",CardStyle(12,parchment,TextAnchor.MiddleCenter,true));}
     GUI.Label(new Rect(r.x-5,r.yMax+3,r.width+10,19),"#"+item.id,CardStyle(10,muted,TextAnchor.UpperCenter));int id=item.id;int button=buttons.Count;buttons.Add(()=>OpenGearBag(item.slot,id));if(selection==button)CardOutline(new Rect(r.x-3,r.y-3,r.width+6,r.height+6),parchment);
     if(r.Contains(Event.current.mousePosition)){hover=item;hoverRect=r;if(Event.current.type==EventType.MouseDown&&Event.current.button==0){OpenGearBag(item.slot,item.id);Event.current.Use();}}

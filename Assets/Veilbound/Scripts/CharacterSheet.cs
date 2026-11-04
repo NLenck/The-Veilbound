@@ -44,7 +44,7 @@ namespace Veilbound {
    StatRow(185,258,"All ability damage",$"+{(Damage/Mathf.Max(1,city.WeaponDamage)-1)*100:0.#}%",$"Weapon base {city.WeaponDamage:0.#}   /   Scaled base {Damage:0.#}");
    StatRow(185,327,"Critical chance",CritChance.ToString("P1"),$"5% base / +{build.PassivePercent("crit"):0.#}% passive / +{city.GearBonus("crit"):0.#}% gear / Capped at 100%");
    StatRow(185,396,"Critical damage",CritMultiplier.ToString("P1"),$"{CritMultiplier:0.##}x normal damage on a critical hit");
-   StatRow(185,465,"Haste",$"{GlobalHasteRating:0.#}% rating",$"{HasteRules.Reduction(GlobalHasteRating)*100:0.#}% effective cooldown reduction / ability Haste adds before diminishing returns"+(RageActive?" / FURY":""));
+   StatRow(185,465,"Haste",$"{GlobalHasteRating:0.#}% rating",$"{HasteRules.Reduction(GlobalHasteRating)*100:0.#}% effective cooldown reduction / ability Haste adds before diminishing returns"+" / +"+city.GearBonus("attackspeed").ToString("0.#")+"% set attack speed"+(RageActive?" / FURY":""));
    StatRow(185,534,"Area",$"+{(AreaMultiplier-1)*100:0.#}%",$"{AreaMultiplier:0.##}x radius and projectile size");
    StatRow(185,603,"Movement speed",$"{Speed:0.##} m/s",$"{city.EquipmentMass:0.#} kg gear   /   30 kg allowance   /   -{(1-city.GearSpeed)*100:0.#}% weight penalty   /   +{build.PassivePercent("speed"):0.#}% passive   /   +{city.GearBonus("speed"):0.#}% gear");
    StatRow(185,672,"Luck",build.Luck.ToString("0.#"),"Increases the odds of higher-rarity offers");

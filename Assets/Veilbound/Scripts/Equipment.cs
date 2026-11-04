@@ -35,7 +35,7 @@ namespace Veilbound
         public double StoneRate=>StoneDaily[Mathf.Clamp(quarry,0,10)]*PassiveProductionMultiplier*Productivity/CityHoursPerDay;
         public double ClothRate=>ProductionRate(2,0);
         public double LeatherRate=>ProductionRate(1,0);
-        public float GearHealth=>EquipmentArmour*.15f;
+        public float GearHealth=>0; // Armour grants protection; maximum health comes from sets and enchantments.
         public float Protection=>EquipmentArmour/(EquipmentArmour+1200);
         public float GearSpeed=>1-Mathf.Min(.75f,Mathf.Max(0,EquipmentMass-30f)*.0025f);
         public float GearExperience=>1+GearBonus("wisdom")*.01f;

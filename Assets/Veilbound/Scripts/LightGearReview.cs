@@ -20,15 +20,15 @@ namespace Veilbound {public partial class VeilGame {
   foreach(int material in new[]{1,2})foreach(int tier in new[]{1,10}){
    var c=LightSample();float bareMass=c.EquipmentMass;LightSuit(c,material,tier);float p=(tier-1)/9f;
    LightCheck(Mathf.Abs(c.EquipmentMass-bareMass-(material==2?Mathf.Lerp(2,4,p):Mathf.Lerp(.5f,1,p)))<.001f,"Complete light armour has the stated low weight");
-   LightCheck(Mathf.Abs(c.GearBonus(material==2?"speed":"area")-Mathf.Lerp(2,5,p))<.001f,"Complete set utility bonus stays within the low balance budget");
-   LightCheck(Mathf.Abs(material==2?c.GearBonus("haste")-Mathf.Lerp(2,5,p):(c.GearExperience-1)*100-Mathf.Lerp(5,10,p))<.001f,"Haste and experience use exact whole-set budget");
+   LightCheck(Mathf.Abs(c.GearBonus(material==2?"speed":"area")-(material==2?5:15))<.001f,"Complete set utility bonus stays within the low balance budget");
+   LightCheck(Mathf.Abs(material==2?c.GearBonus("attackspeed")-10:(c.GearExperience-1)*100-50)<.001f,"Haste and experience use exact whole-set budget");
    LightCheck(c.EquipmentArmour>0&&c.Protection<(material==2?.23f:.09f),"Armour protection remains well below plate");
   }
   city=LightSample();LightSuit(city,2,10);build=new RunBuild();float haste=GlobalHasteRating,rate=AbilityCooldown("cleave"),speed=Speed;
-  LightCheck(Mathf.Abs(haste-5)<.001f&&speed>6.4f&&rate<2,"Leather movement and Haste actually apply in combat");
-  city=LightSample();LightSuit(city,1,10);build=new RunBuild();LightCheck(Mathf.Abs(AreaMultiplier-1.05f)<.001f&&Mathf.Abs(city.GearExperience-1.1f)<.001f,"Cloth area and XP actually apply in combat");
-  var enchant=city.EquippedRoll(2);enchant.enchantments=new[]{new GearAffix{stat="area",value=2}};LightCheck(Mathf.Abs(AreaMultiplier-1.07f)<.001f,"Material bonuses add to real enchantments without replacing them");
-  city.EquipRoll(city.RecordCraft(2,LightGear.Item(2,10)).id);LightCheck(city.GearBonus("haste")>0&&city.GearBonus("area")<5&&city.GearExperience<1.1f,"Mixed sets contribute per equipped piece");
+  LightCheck(Mathf.Abs(haste)<.001f&&city.GearBonus("attackspeed")==10&&speed>6.4f&&rate<2,"Leather movement and Haste actually apply in combat");
+  city=LightSample();LightSuit(city,1,10);build=new RunBuild();LightCheck(Mathf.Abs(AreaMultiplier-1.15f)<.001f&&Mathf.Abs(city.GearExperience-1.5f)<.001f,"Cloth area and XP actually apply in combat");
+  var enchant=city.EquippedRoll(2);enchant.enchantments=new[]{new GearAffix{stat="area",value=2}};LightCheck(Mathf.Abs(AreaMultiplier-1.17f)<.001f,"Material bonuses add to real enchantments without replacing them");
+  city.EquipRoll(city.RecordCraft(2,LightGear.Item(2,10)).id);LightCheck(city.GearBonus("attackspeed")==0&&city.GearBonus("area")==15&&city.GearExperience==1,"Breaking eight cloth pieces loses XP while retaining the four-piece area bonus");
   foreach(int material in new[]{1,2}){
    var c=LightSample();LightCheck(c.QueueSettlementJob(5,"",material,3,2,10,out _),"Late-tier recipe can be queued explicitly");c.mine=c.blacksmith=10;c.Tick(60*2000,1);LightCheck(c.settlementQueue.Count==0&&c.craftedGear.FindAll(g=>g.slot==3&&g.item==LightGear.Item(material,10)).Count==2,"Queue gathers/processes the correct high-tier materials and crafts an exact-tier batch");
    LightCheck(c.ResourceTotal(4)+c.ResourceTotal(5)<1e-6,"Automatic late-tier production avoids unused finished-material surplus");
