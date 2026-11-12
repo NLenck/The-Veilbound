@@ -60,10 +60,13 @@ namespace Veilbound {
    for(int i=0;i<10;i++){float y=470+i*23;ExpeditionText(1216,y,260,23,ExpeditionModifiers.Names[i],12,muted);ExpeditionText(1473,y,73,23,RunModifierSummary(i),14,Mathf.Abs(RunModifierFactor(i)-1)>.0001f?hudLight:muted,TextAnchor.UpperRight);}
    ExpeditionText(1216,704,330,19,"Totals = Veil Depth base × selected modifiers",11,hudLight);
    ExpeditionText(1216,724,330,18,"Elite health also includes Enemy Health",10,muted);
-   ExpeditionText(32,764,550,42,"STANDARD EXPEDITION · 15 MINUTES",18,hudLight,TextAnchor.MiddleLeft,true);
+   ExpeditionText(32,759,900,29,"EXPEDITION BRIEFING",18,hudLight,TextAnchor.MiddleLeft,true);
+   ExpeditionText(32,792,918,22,"Level up to unlock or upgrade abilities. Collect gold relics for passives. Abilities ascend at rank 7.",15);
+   ExpeditionText(32,816,918,22,$"Defeat all three Aberrations to win. They arrive at {BossMilestone(1)/60:0}, {BossMilestone(2)/60:0}, and {BossMilestone(3)/60:0} minutes.",15);
+   ExpeditionText(32,840,918,22,"Each Aberration kill banks Veil Essence. You keep it if you die or retreat.",15);
    ExpeditionActionButton(new Rect(970,764,200,42),"CLEAR RANKS",()=>{for(int i=0;i<10;i++)city.expeditionRanks[i]=0;tier=1;Save();});
    ExpeditionActionButton(new Rect(1194,764,378,58),"START EXPEDITION",StartRun,21);
-   ExpeditionText(30,840,1260,30,notice,13,muted);
+   ExpeditionText(970,834,602,32,notice,13,muted);
    ExpeditionText(30,872,1530,22,"Random destination · Loadout locks when the expedition begins",12,muted);
    GUI.matrix=expeditionMatrix;
   }
